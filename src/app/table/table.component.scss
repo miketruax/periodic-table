@@ -1,0 +1,159 @@
+$size-lg: 60px;
+$size-md: 50px;
+$size-sm: 40px;
+
+.table div{
+  transition-duration: 200ms;
+}
+.alkali-metal{
+  background: red;
+}
+.alkaline-earth-metal{
+  background: orange;
+}
+.lanthanide{
+  background: pink;
+}
+.actinide{
+  background: purple;
+}
+.transition-metal{
+  background: salmon;
+}
+.post-transition-metal{
+  background: gray;
+}
+.metalloid{
+  background: brown;
+}
+
+.polyatomic{
+  background: teal;
+}
+
+.other{
+  background: yellow;
+}
+
+.noble-gas{
+  background: turquoise;
+}
+
+.halogen{
+  background-color: lightblue;
+}
+
+.unknown{
+  background: white;
+}
+
+.row{
+  margin: auto;
+  width: $size-lg*18;
+}
+
+
+.box{
+  border-radius: 3px;
+  width: $size-lg;
+  height: $size-lg;
+  float: left;
+}
+
+.element{
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.table{
+  float: none !important;
+  margin: auto;
+  max-width: 1120px !important;
+  min-width: 1120px !important;
+  margin-top: 10px !important;
+}
+
+#H{
+  margin-right: $size-lg * 16 !important;
+}
+
+#H, #Li, #Na, #K, #Rb, #Cs, #Fr{
+  clear: left;
+}
+
+
+#Be, #Mg{
+  margin-right: $size-lg * 10;
+}
+
+#Ba, #Ra{
+  margin-right: $size-lg;
+}
+
+#La, #Ce, #Pr, #Nd, #Pm, #Sm, #Eu, #Gd, #Tb, #Dy, #Ho, #Er, #Tm, #Yb, #Lu{
+  margin-top: $size-lg;
+}
+
+#La, #Ac{
+  margin-left: ($size-lg*3)
+}
+
+
+
+@media(max-width: 1310px){
+  .table{
+    min-width: 955px !important;
+    width: 955px !important;
+  }
+  .box{
+    width: $size-md;
+    height: $size-md;
+  }
+  #H{
+    margin-right: $size-md * 16 !important;
+  }
+  #Be, #Mg{
+    margin-right: $size-md * 10;
+  }
+
+  #Ba, #Ra{
+    margin-right: $size-md;
+  }
+
+  #La, #Ce, #Pr, #Nd, #Pm, #Sm, #Eu, #Gd, #Tb, #Dy, #Ho, #Er, #Tm, #Yb, #Lu{
+    margin-top: $size-md;
+  }
+
+  #La, #Ac{
+    margin-left: ($size-md*3)
+  }
+}
+
+@media(max-width: 950px){
+  .table{
+    min-width: 775px !important;
+    width: 775px !important;
+  }
+  .box{
+    width: $size-sm;
+    height: $size-sm;
+  }
+  #H{
+    margin-right: $size-sm * 16 !important;
+  }
+  #Be, #Mg{
+    margin-right: $size-sm * 10;
+  }
+
+  #Ba, #Ra{
+    margin-right: $size-sm;
+  }
+
+  #La, #Ce, #Pr, #Nd, #Pm, #Sm, #Eu, #Gd, #Tb, #Dy, #Ho, #Er, #Tm, #Yb, #Lu{
+    margin-top: $size-sm;
+  }
+
+  #La, #Ac{
+    margin-left: ($size-sm*3)
+  }
+}

@@ -1,0 +1,12 @@
+<div class="col-xs-10 col-xs-offset-1">
+  <input  class="col-xs-12" type="range" min=1667 max=2017 [(ngModel)]="year"/>
+  <h4 class="col-xs-12 text-center">{{year}}</h4>
+</div>
+
+
+<div class="table col-xs-12">
+    <div *ngFor="let e of elements; let i = $index" id="{{e.symbol}}" [style.visibility]="e.discoveryYear > year ? 'hidden' :'visible'"
+         ngClass="{{e.type}}" class="box element">
+      <element-component [year]="currentYear" (more) ="showMore($event)" [element]="e"></element-component>
+    </div>
+</div>
