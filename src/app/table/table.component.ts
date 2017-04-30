@@ -11,10 +11,10 @@ export class TableComponent {
   selectedElement: Object;
   year: number = 2017;
   constructor(){
-    this.elements = require('../../assets/elements.json');
+    this.elements = require('../../assets/elem_v3.json');
   }
   seeAll(){
-    this.year = 1667;
+    this.year = -3000;
     this.counter = setInterval( ()=>{
       this.year = this.year+1;
       if(this.year == 2017){
@@ -25,7 +25,8 @@ export class TableComponent {
   changeYear(){
     clearInterval(this.counter);
   }
-  showMore(v:number){
-    this.selectedElement = this.elements[v];
+  showMore(e:Object){
+    this.selectedElement = e;
+    console.log(e);
   }
 }

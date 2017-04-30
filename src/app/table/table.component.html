@@ -1,17 +1,15 @@
 <div class="col-xs-10 col-xs-offset-1">
-  <input (click)="changeYear()" class="col-xs-12" type="range" min=1667 max=2017 [(ngModel)]="year"/>
+  <input (click)="changeYear()" class="col-xs-12" type="range" min=-3000 max=2017 [(ngModel)]="year"/>
   <h4 class="col-xs-12 text-center">{{year}}</h4>
 </div>
 <button (click)="seeAll()">See them all</button>
 
 
 <div class="table col-xs-12">
-    <div *ngFor="let e of elements; let i = $index" id="{{e.symbol}}"
-         ngClass="{{e.type}} {{e.discoveryYear > year? 'undiscovered' : 'discovered'}}" class="box element">
-      <div class="element-container"  (click)="showMore(e.number)">
-        <p class='element-symbol text-center'>{{e.symbol}}</p>
-        <p class='element-number text-center'>{{e.number}}</p>
-        <p class='element-weight text-center'>{{e.weight}}</p>
-      </div>
+    <div *ngFor="let e of elements;" id="{{e['Basic Elemental Properties'].symbol}}" (click)="showMore(e)"
+         ngClass="{{e.type}} {{e.discoveryYear > year? 'undiscovered' : 'discovered'}}" class="element">
+        <p class='element-symbol text-center'>{{e['Basic Elemental Properties'].symbol}}</p>
+        <p class='element-number text-center'>{{e['Basic Elemental Properties']['atomic number']}}</p>
+        <p class='element-weight text-center'>{{e['Basic Elemental Properties']['atomic mass'] | atomicMass}}</p>
     </div>
 </div>

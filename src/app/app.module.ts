@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import {TableComponent} from "./table/table.component";
+import {AtomicMass} from "./pipes/atomicMass.pipe";
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableComponent
+    TableComponent,
+    AtomicMass
   ],
   imports: [
     BrowserModule,
