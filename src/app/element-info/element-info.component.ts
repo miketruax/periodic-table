@@ -5,8 +5,9 @@ import {Component, Input, Output, EventEmitter} from '@angular/core';
   templateUrl: './element-info.component.html',
   styleUrls: ['./element-info.component.scss']
 })
-export class ElementComponent {
-
-  @Input() selectedElement: Object;
+export class ElementInfoComponent {
+  @Input() element: Object;
+  @Input() moreInfo: Object;
+  @Output() showMore = new EventEmitter();
 
 }

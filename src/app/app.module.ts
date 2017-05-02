@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import {TableComponent} from "./table/table.component";
 import {AtomicMass} from "./pipes/atomicMass.pipe";
+import {ElementInfoComponent} from "./element-info/element-info.component";
+import {ElementType} from "./pipes/elementType.pipe";
 
 @NgModule({
   declarations: [
     AppComponent,
     TableComponent,
-    AtomicMass
+    ElementInfoComponent,
+    AtomicMass,
+    ElementType
   ],
   imports: [
     BrowserModule,

@@ -13,3 +13,5 @@
         <p class='element-weight text-center'>{{e.basicProps['atomic mass'] | atomicMass}}</p>
     </div>
 </div>
+
+<element-info-component (showMore)="showMore($event)" [moreInfo]="moreInfo" [element]="selectedElement"></element-info-component>

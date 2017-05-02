@@ -6,9 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./table.component.scss']
 })
 export class TableComponent {
+  moreInfo: boolean = false;
   counter: any;
   elements: Object[];
-  selectedElement: Object;
+  selectedElement: Object = {};
   year: number = 2017;
   constructor(){
     this.elements = require('../../assets/elem_v3.json');
@@ -26,7 +27,7 @@ export class TableComponent {
     clearInterval(this.counter);
   }
   showMore(e:Object){
+    this.moreInfo = !this.moreInfo;
     this.selectedElement = e;
-    console.log(e);
   }
 }

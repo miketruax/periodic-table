@@ -1,10 +1,10 @@
 [{
-  "basicProps  ": {
+  "basicProps": {
     "symbol": "H",
     "atomic number": "1",
     "atomic mass": "1.00794 u  (unified atomic mass units)"
   },
-  "thermoProps ": {
+  "thermoProps": {
     "phase at STP": "gas",
     "melting point": "-259.14 °C  (rank: 101st)",
     "boiling point": "-252.87 °C  (rank: 93rd)"
@@ -45,7 +45,7 @@
     ]
   },
   "discoveryYear": 1766,
-  "type": "other",
+  "type": "Diatomic-Nonmetal",
   "name": "Hydrogen",
   "electron": {
     "configuration": "1s1",
@@ -53,12 +53,12 @@
   }
 },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "He",
       "atomic number": "2",
       "atomic mass": "4.002602 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "gas",
       "boiling point": "-268.93 °C  (rank: 94th)"
     },
@@ -96,7 +96,7 @@
       ]
     },
     "discoveryYear": 1895,
-    "type": "noble-gas",
+    "type": "Noble-Gas",
     "name": "Helium",
     "electron": {
       "configuration": "1s2",
@@ -104,12 +104,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Li",
       "atomic number": "3",
       "atomic mass": "6.941 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "180.54 °C  (rank: 80th)",
       "boiling point": "1342 °C  (rank: 66th)"
@@ -117,7 +117,7 @@
     "materialProps": {
       "density": "0.535 g/cm^3  (rank: 85th)",
       "Mohs hardness": "0.6  (between talc and gypsum)",
-      "Young's modulus": "4.9 GPa  (rank: 61st)",
+      "Youngs modulus": "4.9 GPa  (rank: 61st)",
       "sound speed": "6000 m/s  (rank: 5th)",
       "thermal expansion": "4.6×10^-5 K^(-1)  (rank: 4th)",
       "thermal conductivity": "85 W/(m K)  (rank: 23rd)"
@@ -154,7 +154,7 @@
       ]
     },
     "discoveryYear": 1817,
-    "type": "alkali-metal",
+    "type": "Alkali-Metal",
     "name": "Lithium",
     "electron": {
       "configuration": "[He]2s1",
@@ -162,12 +162,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Be",
       "atomic number": "4",
       "atomic mass": "9.012182 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1287 °C  (rank: 38th)",
       "boiling point": "2470 °C  (rank: 49th)"
@@ -175,7 +175,7 @@
     "materialProps": {
       "density": "1.848 g/cm^3  (rank: 78th)",
       "Mohs hardness": "5.5  (between apatite and microcline)",
-      "Young's modulus": "287 GPa  (rank: 6th)",
+      "Youngs modulus": "287 GPa  (rank: 6th)",
       "tensile yield strength": "240 MPa  (rank: 5th)",
       "sound speed": "13000 m/s  (rank: 3rd)",
       "thermal expansion": "1.13×10^-5 K^(-1)  (rank: 32nd)",
@@ -211,7 +211,7 @@
       ]
     },
     "discoveryYear": 1797,
-    "type": "alkaline-earth-metal",
+    "type": "Alkaline-Earth-Metal",
     "name": "Beryllium",
     "electron": {
       "configuration": "[He]2s2",
@@ -219,12 +219,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "B",
       "atomic number": "5",
       "atomic mass": "10.811 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "2075 °C  (rank: 12th)",
       "boiling point": "4000 °C  (rank: 14th)"
@@ -268,7 +268,7 @@
       ]
     },
     "discoveryYear": 1808,
-    "type": "metalloid",
+    "type": "Metalloid",
     "name": "Boron",
     "electron": {
       "configuration": "[He]2s22p1",
@@ -276,12 +276,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "C",
       "atomic number": "6",
       "atomic mass": "12.0107 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": [
         "[5,6]-fullerene-C70 280 °C",
@@ -293,8 +293,8 @@
     },
     "materialProps": {
       "density": [
-        "buckminsterfullerene 1.65 g/cm^3",
-        "diamond 3.5 g/cm^3"
+        "buckminsterfullerene 1.65 g/cm^3 ",
+        " diamond 3.5 g/cm^3"
       ],
       "Mohs hardness": "0.5  (between talc and gypsum)",
       "sound speed": "18350 m/s  (rank: 1st)",
@@ -334,7 +334,7 @@
       ]
     },
     "discoveryYear": -10000,
-    "type": "other",
+    "type": "Polyatomic",
     "name": "Carbon",
     "electron": {
       "configuration": "[He]2s22p2",
@@ -342,12 +342,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "N",
       "atomic number": "7",
       "atomic mass": "14.0067 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "gas",
       "melting point": "-210.1 °C  (rank: 97th)",
       "boiling point": "-195.79 °C  (rank: 91st)"
@@ -388,7 +388,7 @@
       ]
     },
     "discoveryYear": 1772,
-    "type": "other",
+    "type": "Diatomic-Nonmetal",
     "name": "Nitrogen",
     "electron": {
       "configuration": "[He]2s22p3",
@@ -396,12 +396,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "O",
       "atomic number": "8",
       "atomic mass": "15.9994 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "gas",
       "melting point": "-218.3 °C  (rank: 98th)",
       "boiling point": "-182.9 °C  (rank: 88th)"
@@ -441,7 +441,7 @@
       ]
     },
     "discoveryYear": 1774,
-    "type": "other",
+    "type": "Diatomic-Nonmetal",
     "name": "Oxygen",
     "electron": {
       "configuration": "[He]2s22p4",
@@ -449,12 +449,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "F",
       "atomic number": "9",
       "atomic mass": "18.9984032 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "gas",
       "melting point": "-219.6 °C  (rank: 99th)",
       "boiling point": "-188.12 °C  (rank: 90th)"
@@ -490,7 +490,7 @@
       ]
     },
     "discoveryYear": 1886,
-    "type": "halogen",
+    "type": "Diatomic-Nonmetal",
     "name": "Fluorine",
     "electron": {
       "configuration": "[He]2s22p5",
@@ -498,12 +498,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ne",
       "atomic number": "10",
       "atomic mass": "20.1791 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "gas",
       "melting point": "-248.59 °C  (rank: 100th)",
       "boiling point": "-246.08 °C  (rank: 92nd)"
@@ -541,7 +541,7 @@
       ]
     },
     "discoveryYear": 1898,
-    "type": "noble-gas",
+    "type": "Noble-Gas",
     "name": "Neon",
     "electron": {
       "configuration": "[He]2s22p6",
@@ -549,12 +549,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Na",
       "atomic number": "11",
       "atomic mass": "22.98976928 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "97.72 °C  (rank: 84th)",
       "boiling point": "883 °C  (rank: 72nd)"
@@ -562,7 +562,7 @@
     "materialProps": {
       "density": "0.968 g/cm^3  (rank: 83rd)",
       "Mohs hardness": "0.5  (between talc and gypsum)",
-      "Young's modulus": "10 GPa  (rank: 57th)",
+      "Youngs modulus": "10 GPa  (rank: 57th)",
       "sound speed": "3200 m/s  (rank: 31st)",
       "thermal expansion": "7.1×10^-5 K^(-1)  (rank: 3rd)",
       "thermal conductivity": "140 W/(m K)  (rank: 12th)"
@@ -596,7 +596,7 @@
       ]
     },
     "discoveryYear": 1807,
-    "type": "alkali-metal",
+    "type": "Alkali-Metal",
     "name": "Sodium",
     "electron": {
       "configuration": "[Ne]3s1",
@@ -604,12 +604,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Mg",
       "atomic number": "12",
       "atomic mass": "24.305 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "650 °C  (rank: 66th)",
       "boiling point": "1090 °C  (rank: 68th)"
@@ -617,7 +617,7 @@
     "materialProps": {
       "density": "1.738 g/cm^3  (rank: 80th)",
       "Mohs hardness": "2.5  (between gypsum and calcite)",
-      "Young's modulus": "45 GPa  (rank: 44th)",
+      "Youngs modulus": "45 GPa  (rank: 44th)",
       "sound speed": "4602 m/s  (rank: 19th)",
       "thermal expansion": "2.5×10^-5 K^(-1)  (rank: 12th)",
       "thermal conductivity": "160 W/(m K)  (rank: 8th)"
@@ -653,7 +653,7 @@
       ]
     },
     "discoveryYear": 1755,
-    "type": "alkaline-earth-metal",
+    "type": "Alkaline-Earth-Metal",
     "name": "Magnesium",
     "electron": {
       "configuration": "[Ne]3s2",
@@ -661,12 +661,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Al",
       "atomic number": "13",
       "atomic mass": "26.9815386 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "660.32 °C  (rank: 65th)",
       "boiling point": "2519 °C  (rank: 48th)"
@@ -674,7 +674,7 @@
     "materialProps": {
       "density": "2.7 g/cm^3  (rank: 71st)",
       "Mohs hardness": "2.75  (between calcite and gypsum)",
-      "Young's modulus": "70 GPa  (rank: 29th)",
+      "Youngs modulus": "70 GPa  (rank: 29th)",
       "sound speed": "5100 m/s  (rank: 11th)",
       "thermal expansion": "2.31×10^-5 K^(-1)  (rank: 13th)",
       "thermal conductivity": "235 W/(m K)  (rank: 4th)"
@@ -709,7 +709,7 @@
       ]
     },
     "discoveryYear": 1825,
-    "type": "post-transition-metal",
+    "type": "Post-Transition-Metal",
     "name": "Aluminum",
     "electron": {
       "configuration": "[Ne]3s23p1",
@@ -717,12 +717,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Si",
       "atomic number": "14",
       "atomic mass": "28.0855 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1414 °C  (rank: 33rd)",
       "boiling point": "2900 °C  (rank: 35th)"
@@ -730,7 +730,7 @@
     "materialProps": {
       "density": "2.33 g/cm^3  (rank: 74th)",
       "Mohs hardness": "6.5  (between microcline and quartz)",
-      "Young's modulus": "47 GPa  (rank: 42nd)",
+      "Youngs modulus": "47 GPa  (rank: 42nd)",
       "sound speed": "2200 m/s  (rank: 51st)",
       "thermal expansion": "2.6×10^-6 K^(-1)  (rank: 64th)",
       "thermal conductivity": "150 W/(m K)  (rank: 9th)"
@@ -766,7 +766,7 @@
       ]
     },
     "discoveryYear": 1824,
-    "type": "metalloid",
+    "type": "Metalloid",
     "name": "Silicon",
     "electron": {
       "configuration": "[Ne]3s23p2",
@@ -774,23 +774,23 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "P",
       "atomic number": "15",
       "atomic mass": "30.973762 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": [
-        "white phosphorus 44.15 °C",
-        "black phosphorus 610 °C"
+        "white phosphorus 44.15 °C ",
+        " black phosphorus 610 °C"
       ],
       "boiling point": "white phosphorus 280.5 °C"
     },
     "materialProps": {
       "density": [
-        "white phosphorus 1.823 g/cm^3",
-        "black phosphorus 2.69 g/cm^3"
+        "white phosphorus 1.823 g/cm^3 ",
+        " black phosphorus 2.69 g/cm^3"
       ],
       "thermal conductivity": "0.236 W/(m K)  (rank: 81st)"
     },
@@ -824,7 +824,7 @@
       ]
     },
     "discoveryYear": 1669,
-    "type": "other",
+    "type": "Polyatomic",
     "name": "Phosphorous",
     "electron": {
       "configuration": "[Ne]3s23p3",
@@ -832,23 +832,23 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "S",
       "atomic number": "16",
       "atomic mass": "32.065 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": [
-        "mixed sulfur 112.8 °C",
-        "mixed sulfur 444.7 °C"
+        "mixed sulfur 112.8 °C ",
+        " mixed sulfur 444.7 °C"
       ],
       "boiling point": "monoclinic sulfur 444.6 °C"
     },
     "materialProps": {
       "density": [
-        "monoclinic sulfur 2 g/cm^3",
-        "rhombic sulfur 2.07 g/cm^3"
+        "monoclinic sulfur 2 g/cm^3 ",
+        " rhombic sulfur 2.07 g/cm^3"
       ],
       "Mohs hardness": "2  (≈ gypsum)",
       "thermal conductivity": "0.205 W/(m K)  (rank: 82nd)"
@@ -885,7 +885,7 @@
       ]
     },
     "discoveryYear": -500,
-    "type": "other",
+    "type": "Polyatomic",
     "name": "Sulfur",
     "electron": {
       "configuration": "[Ne]3s23p4",
@@ -893,12 +893,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Cl",
       "atomic number": "17",
       "atomic mass": "35.453 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "gas",
       "melting point": "-101.5 °C  (rank: 93rd)",
       "boiling point": "-34.04 °C  (rank: 84th)"
@@ -941,7 +941,7 @@
       ]
     },
     "discoveryYear": 1774,
-    "type": "halogen",
+    "type": "Diatomic-Nonmetal",
     "name": "Chlorine",
     "electron": {
       "configuration": "[Ne]3s23p5",
@@ -949,12 +949,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ar",
       "atomic number": "18",
       "atomic mass": "39.948 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "gas",
       "melting point": "-189.3 °C  (rank: 96th)",
       "boiling point": "-185.8 °C  (rank: 89th)"
@@ -992,7 +992,7 @@
       ]
     },
     "discoveryYear": 1894,
-    "type": "noble-gas",
+    "type": "Noble-Gas",
     "name": "Argon",
     "electron": {
       "configuration": "[Ne]3s23p6",
@@ -1000,12 +1000,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "K",
       "atomic number": "19",
       "atomic mass": "39.0983 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "63.38 °C  (rank: 85th)",
       "boiling point": "759 °C  (rank: 74th)"
@@ -1048,7 +1048,7 @@
       ]
     },
     "discoveryYear": 1807,
-    "type": "alkali-metal",
+    "type": "Alkali-Metal",
     "name": "Potassium",
     "electron": {
       "configuration": "[Ar]4s1",
@@ -1056,12 +1056,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ca",
       "atomic number": "20",
       "atomic mass": "40.078 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "842 °C  (rank: 55th)",
       "boiling point": "1484 °C  (rank: 63rd)"
@@ -1069,7 +1069,7 @@
     "materialProps": {
       "density": "1.55 g/cm^3  (rank: 81st)",
       "Mohs hardness": "1.75  (between gypsum and talc)",
-      "Young's modulus": "20 GPa  (rank: 52nd)",
+      "Youngs modulus": "20 GPa  (rank: 52nd)",
       "sound speed": "3810 m/s  (rank: 22nd)",
       "thermal expansion": "2.23×10^-5 K^(-1)  (rank: 15th)",
       "thermal conductivity": "200 W/(m K)  (rank: 5th)"
@@ -1105,7 +1105,7 @@
       ]
     },
     "discoveryYear": 1808,
-    "type": "alkaline-earth-metal",
+    "type": "Alkaline-Earth-Metal",
     "name": "Calcium",
     "electron": {
       "configuration": "[Ar]4s2",
@@ -1113,19 +1113,19 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Sc",
       "atomic number": "21",
       "atomic mass": "44.955912 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1541 °C  (rank: 25th)",
       "boiling point": "2830 °C  (rank: 41st)"
     },
     "materialProps": {
       "density": "2.985 g/cm^3  (rank: 70th)",
-      "Young's modulus": "74 GPa  (rank: 27th)",
+      "Youngs modulus": "74 GPa  (rank: 27th)",
       "tensile yield strength": "173 MPa  (rank: 10th)",
       "thermal expansion": "1.02×10^-5 K^(-1)  (rank: 39th)",
       "thermal conductivity": "16 W/(m K)  (rank: 56th)"
@@ -1153,7 +1153,7 @@
     },
     "nuclearProps": {},
     "discoveryYear": 1879,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Scandium",
     "electron": {
       "configuration": "[Ar]3d14s2",
@@ -1161,12 +1161,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ti",
       "atomic number": "22",
       "atomic mass": "47.867 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1668 °C  (rank: 19th)",
       "boiling point": "3287 °C  (rank: 26th)"
@@ -1174,7 +1174,7 @@
     "materialProps": {
       "density": "4.507 g/cm^3  (rank: 66th)",
       "Mohs hardness": "6  (≈ microcline)",
-      "Young's modulus": "116 GPa  (rank: 19th)",
+      "Youngs modulus": "116 GPa  (rank: 19th)",
       "tensile yield strength": "140 MPa  (rank: 14th)",
       "sound speed": "4140 m/s  (rank: 21st)",
       "thermal expansion": "8.6×10^-6 K^(-1)  (rank: 45th)",
@@ -1197,7 +1197,7 @@
     "abundances": {},
     "nuclearProps": {},
     "discoveryYear": 1791,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Titanium",
     "electron": {
       "configuration": "[Ar]3d24s2",
@@ -1205,12 +1205,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "V",
       "atomic number": "23",
       "atomic mass": "50.9415 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1910 °C  (rank: 14th)",
       "boiling point": "3407 °C  (rank: 21st)"
@@ -1218,7 +1218,7 @@
     "materialProps": {
       "density": "6.11 g/cm^3  (rank: 58th)",
       "Mohs hardness": "7  (≈ quartz)",
-      "Young's modulus": "128 GPa  (rank: 17th)",
+      "Youngs modulus": "128 GPa  (rank: 17th)",
       "sound speed": "4560 m/s  (rank: 20th)",
       "thermal expansion": "8.4×10^-6 K^(-1)  (rank: 46th)",
       "thermal conductivity": "31 W/(m K)  (rank: 43rd)"
@@ -1253,7 +1253,7 @@
       ]
     },
     "discoveryYear": 1801,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Vanadium",
     "electron": {
       "configuration": "[Ar]3d34s2",
@@ -1261,12 +1261,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Cr",
       "atomic number": "24",
       "atomic mass": "51.9961 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1907 °C  (rank: 15th)",
       "boiling point": "2671 °C  (rank: 44th)"
@@ -1274,7 +1274,7 @@
     "materialProps": {
       "density": "7.19 g/cm^3  (rank: 48th)",
       "Mohs hardness": "8.5  (between topaz and corundum)",
-      "Young's modulus": "279 GPa  (rank: 7th)",
+      "Youngs modulus": "279 GPa  (rank: 7th)",
       "sound speed": "5940 m/s  (rank: 7th)",
       "thermal expansion": "4.9×10^-6 K^(-1)  (rank: 61st)",
       "thermal conductivity": "94 W/(m K)  (rank: 20th)"
@@ -1295,7 +1295,7 @@
     "abundances": {},
     "nuclearProps": {},
     "discoveryYear": 1797,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Chromium",
     "electron": {
       "configuration": "[Ar]3d54s1",
@@ -1303,12 +1303,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Mn",
       "atomic number": "25",
       "atomic mass": "54.938045 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1246 °C  (rank: 39th)",
       "boiling point": "2061 °C  (rank: 53rd)"
@@ -1316,7 +1316,7 @@
     "materialProps": {
       "density": "7.47 g/cm^3  (rank: 43rd)",
       "Mohs hardness": "6  (≈ microcline)",
-      "Young's modulus": "198 GPa  (rank: 13th)",
+      "Youngs modulus": "198 GPa  (rank: 13th)",
       "tensile yield strength": "241 MPa  (rank: 4th)",
       "sound speed": "5150 m/s  (rank: 10th)",
       "thermal expansion": "2.17×10^-5 K^(-1)  (rank: 17th)",
@@ -1351,7 +1351,7 @@
       ]
     },
     "discoveryYear": 1774,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Manganese",
     "electron": {
       "configuration": "[Ar]3d54s2",
@@ -1359,12 +1359,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Fe",
       "atomic number": "26",
       "atomic mass": "55.845 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1538 °C  (rank: 26th)",
       "boiling point": "2861 °C  (rank: 39th)"
@@ -1372,7 +1372,7 @@
     "materialProps": {
       "density": "7.874 g/cm^3  (rank: 42nd)",
       "Mohs hardness": "4  (≈ fluorite)",
-      "Young's modulus": "211 GPa  (rank: 9th)",
+      "Youngs modulus": "211 GPa  (rank: 9th)",
       "tensile yield strength": "50 MPa  (rank: 27th)",
       "sound speed": "4910 m/s  (rank: 14th)",
       "thermal expansion": "1.18×10^-5 K^(-1)  (rank: 30th)",
@@ -1401,7 +1401,7 @@
     },
     "nuclearProps": {},
     "discoveryYear": -2000,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Iron",
     "electron": {
       "configuration": "[Ar]3d64s2",
@@ -1409,12 +1409,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Co",
       "atomic number": "27",
       "atomic mass": "58.933195 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1495 °C  (rank: 30th)",
       "boiling point": "2927 °C  (rank: 35th)"
@@ -1422,7 +1422,7 @@
     "materialProps": {
       "density": "8.9 g/cm^3  (rank: 33rd)",
       "Mohs hardness": "5  (≈ apatite)",
-      "Young's modulus": "209 GPa  (rank: 10th)",
+      "Youngs modulus": "209 GPa  (rank: 10th)",
       "tensile yield strength": "225 MPa  (rank: 7th)",
       "sound speed": "4720 m/s  (rank: 16th)",
       "thermal expansion": "1.3×10^-5 K^(-1)  (rank: 26th)",
@@ -1457,7 +1457,7 @@
       ]
     },
     "discoveryYear": 1735,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Cobalt",
     "electron": {
       "configuration": "[Ar]3d74s2",
@@ -1465,12 +1465,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ni",
       "atomic number": "28",
       "atomic mass": "58.6934 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1455 °C  (rank: 32nd)",
       "boiling point": "2913 °C  (rank: 36th)"
@@ -1478,7 +1478,7 @@
     "materialProps": {
       "density": "8.908 g/cm^3  (rank: 34th)",
       "Mohs hardness": "4  (≈ fluorite)",
-      "Young's modulus": "200 GPa  (rank: 12th)",
+      "Youngs modulus": "200 GPa  (rank: 12th)",
       "tensile yield strength": "59 MPa  (rank: 26th)",
       "sound speed": "4970 m/s  (rank: 12th)",
       "thermal expansion": "1.34×10^-5 K^(-1)  (rank: 23rd)",
@@ -1515,7 +1515,7 @@
       ]
     },
     "discoveryYear": 1751,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Nickel",
     "electron": {
       "configuration": "[Ar]3d84s2",
@@ -1523,12 +1523,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Cu",
       "atomic number": "29",
       "atomic mass": "63.546 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1084.62 °C  (rank: 43rd)",
       "boiling point": "2562 °C  (rank: 47th)"
@@ -1536,7 +1536,7 @@
     "materialProps": {
       "density": "8.96 g/cm^3  (rank: 33rd)",
       "Mohs hardness": "3  (≈ calcite)",
-      "Young's modulus": "130 GPa  (rank: 16th)",
+      "Youngs modulus": "130 GPa  (rank: 16th)",
       "sound speed": "3570 m/s  (rank: 25th)",
       "thermal expansion": "1.65×10^-5 K^(-1)  (rank: 20th)",
       "thermal conductivity": "400 W/(m K)  (rank: 2nd)"
@@ -1573,7 +1573,7 @@
       ]
     },
     "discoveryYear": -8000,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Copper",
     "electron": {
       "configuration": "[Ar]3d104s1",
@@ -1581,12 +1581,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Zn",
       "atomic number": "30",
       "atomic mass": "65.38 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "419.53 °C  (rank: 71st)",
       "boiling point": "907 °C  (rank: 71st)"
@@ -1594,7 +1594,7 @@
     "materialProps": {
       "density": "7.14 g/cm^3  (rank: 49th)",
       "Mohs hardness": "2.5  (between gypsum and calcite)",
-      "Young's modulus": "108 GPa  (rank: 20th)",
+      "Youngs modulus": "108 GPa  (rank: 20th)",
       "sound speed": "3700 m/s  (rank: 24th)",
       "thermal expansion": "3.02×10^-5 K^(-1)  (rank: 8th)",
       "thermal conductivity": "120 W/(m K)  (rank: 15th)"
@@ -1632,7 +1632,7 @@
       ]
     },
     "discoveryYear": 1500,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Zinc",
     "electron": {
       "configuration": "[Ar]3d104s2",
@@ -1640,12 +1640,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ga",
       "atomic number": "31",
       "atomic mass": "69.723 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "29.76 °C  (rank: 88th)",
       "boiling point": "2204 °C  (rank: 50th)"
@@ -1689,7 +1689,7 @@
       ]
     },
     "discoveryYear": 1875,
-    "type": "post-transition-metal",
+    "type": "Post-Transition-Metal",
     "name": "Gallium",
     "electron": {
       "configuration": "[Ar]3d104s24p1",
@@ -1697,12 +1697,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ge",
       "atomic number": "32",
       "atomic mass": "72.63 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "938.3 °C  (rank: 50th)",
       "boiling point": "2820 °C  (rank: 42nd)"
@@ -1744,7 +1744,7 @@
       ]
     },
     "discoveryYear": 1886,
-    "type": "metalloid",
+    "type": "Metalloid",
     "name": "Germanium",
     "electron": {
       "configuration": "[Ar]3d104s24p2",
@@ -1752,23 +1752,23 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "As",
       "atomic number": "33",
       "atomic mass": "74.9216 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "gray arsenic 817 °C",
       "boiling point": "gray arsenic 616 °C"
     },
     "materialProps": {
       "density": [
-        "yellow arsenic 1.97 g/cm^3",
-        "gray arsenic 5.727 g/cm^3"
+        "yellow arsenic 1.97 g/cm^3 ",
+        " gray arsenic 5.727 g/cm^3"
       ],
       "Mohs hardness": "3.5  (between calcite and fluorite)",
-      "Young's modulus": "8 GPa  (rank: 59th)",
+      "Youngs modulus": "8 GPa  (rank: 59th)",
       "thermal conductivity": "50 W/(m K)  (rank: 35th)"
     },
     "electromagnetProps": {
@@ -1801,7 +1801,7 @@
       ]
     },
     "discoveryYear": 1250,
-    "type": "metalloid",
+    "type": "Metalloid",
     "name": "Arsenic",
     "electron": {
       "configuration": "[Ar]3d104s24p3",
@@ -1809,23 +1809,23 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Se",
       "atomic number": "34",
       "atomic mass": "78.96 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "gray selenium 217 °C",
       "boiling point": "gray selenium 684.9 °C"
     },
     "materialProps": {
       "density": [
-        "black selenium 4.28 g/cm^3",
-        "gray selenium 4.81 g/cm^3"
+        "black selenium 4.28 g/cm^3 ",
+        " gray selenium 4.81 g/cm^3"
       ],
       "Mohs hardness": "2  (≈ gypsum)",
-      "Young's modulus": "10 GPa  (rank: 57th)",
+      "Youngs modulus": "10 GPa  (rank: 57th)",
       "sound speed": "3350 m/s  (rank: 29th)",
       "thermal conductivity": "0.52 W/(m K)  (rank: 79th)"
     },
@@ -1859,7 +1859,7 @@
       ]
     },
     "discoveryYear": 1817,
-    "type": "other",
+    "type": "Polyatomic",
     "name": "Selenium",
     "electron": {
       "configuration": "[Ar]3d104s24p4",
@@ -1867,12 +1867,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Br",
       "atomic number": "35",
       "atomic mass": "79.904 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "liquid",
       "melting point": "-7.3 °C  (rank: 90th)",
       "boiling point": "59 °C  (rank: 83rd)"
@@ -1914,7 +1914,7 @@
       ]
     },
     "discoveryYear": 1826,
-    "type": "halogen",
+    "type": "Diatomic-Nonmetal",
     "name": "Bromine",
     "electron": {
       "configuration": "[Ar]3d104s24p5",
@@ -1922,12 +1922,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Kr",
       "atomic number": "36",
       "atomic mass": "83.798 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "gas",
       "melting point": "-157.36 °C  (rank: 95th)",
       "boiling point": "-153.22 °C  (rank: 87th)"
@@ -1966,7 +1966,7 @@
       ]
     },
     "discoveryYear": 1898,
-    "type": "noble-gas",
+    "type": "Noble-Gas",
     "name": "Krypton",
     "electron": {
       "configuration": "[Ar]3d104s24p6",
@@ -1974,12 +1974,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Rb",
       "atomic number": "37",
       "atomic mass": "85.4678 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "39.31 °C  (rank: 87th)",
       "boiling point": "688 °C  (rank: 75th)"
@@ -1987,7 +1987,7 @@
     "materialProps": {
       "density": "1.532 g/cm^3  (rank: 82nd)",
       "Mohs hardness": "0.3  (between talc and gypsum)",
-      "Young's modulus": "2.4 GPa  (rank: 62nd)",
+      "Youngs modulus": "2.4 GPa  (rank: 62nd)",
       "sound speed": "1300 m/s  (rank: 60th)",
       "thermal conductivity": "58 W/(m K)  (rank: 30th)"
     },
@@ -2020,7 +2020,7 @@
       ]
     },
     "discoveryYear": 1861,
-    "type": "alkali-metal",
+    "type": "Alkali-Metal",
     "name": "Rubidium",
     "electron": {
       "configuration": "[Kr]5s1",
@@ -2028,12 +2028,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Sr",
       "atomic number": "38",
       "atomic mass": "87.62 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "777 °C  (rank: 62nd)",
       "boiling point": "1382 °C  (rank: 65th)"
@@ -2075,7 +2075,7 @@
       ]
     },
     "discoveryYear": 1790,
-    "type": "alkaline-earth-metal",
+    "type": "Alkaline-Earth-Metal",
     "name": "Strontium",
     "electron": {
       "configuration": "[Kr]5s2",
@@ -2083,19 +2083,19 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Y",
       "atomic number": "39",
       "atomic mass": "88.90585 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1526 °C  (rank: 28th)",
       "boiling point": "3345 °C  (rank: 24th)"
     },
     "materialProps": {
       "density": "4.472 g/cm^3  (rank: 67th)",
-      "Young's modulus": "64 GPa  (rank: 34th)",
+      "Youngs modulus": "64 GPa  (rank: 34th)",
       "tensile yield strength": "67 MPa  (rank: 20th)",
       "sound speed": "3300 m/s  (rank: 30th)",
       "thermal expansion": "1.06×10^-5 K^(-1)  (rank: 37th)",
@@ -2130,7 +2130,7 @@
       ]
     },
     "discoveryYear": 1794,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Yttrium",
     "electron": {
       "configuration": "[Kr]4d15s2",
@@ -2138,12 +2138,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Zr",
       "atomic number": "40",
       "atomic mass": "91.224 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1855 °C  (rank: 16th)",
       "boiling point": "4409 °C  (rank: 10th)"
@@ -2151,7 +2151,7 @@
     "materialProps": {
       "density": "6.511 g/cm^3  (rank: 55th)",
       "Mohs hardness": "5  (≈ apatite)",
-      "Young's modulus": "68 GPa  (rank: 32nd)",
+      "Youngs modulus": "68 GPa  (rank: 32nd)",
       "tensile yield strength": "230 MPa  (rank: 6th)",
       "sound speed": "3800 m/s  (rank: 23rd)",
       "thermal expansion": "5.7×10^-6 K^(-1)  (rank: 59th)",
@@ -2189,7 +2189,7 @@
       ]
     },
     "discoveryYear": 1789,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Zirconium",
     "electron": {
       "configuration": "[Kr]4d25s2",
@@ -2197,12 +2197,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Nb",
       "atomic number": "41",
       "atomic mass": "92.90638 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "2477 °C  (rank: 7th)",
       "boiling point": "4744 °C  (rank: 6th)"
@@ -2210,7 +2210,7 @@
     "materialProps": {
       "density": "8.57 g/cm^3  (rank: 38th)",
       "Mohs hardness": "6  (≈ microcline)",
-      "Young's modulus": "105 GPa  (rank: 21st)",
+      "Youngs modulus": "105 GPa  (rank: 21st)",
       "sound speed": "3480 m/s  (rank: 26th)",
       "thermal expansion": "7.3×10^-6 K^(-1)  (rank: 48th)",
       "thermal conductivity": "54 W/(m K)  (rank: 32nd)"
@@ -2244,7 +2244,7 @@
       ]
     },
     "discoveryYear": 1801,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Niobium",
     "electron": {
       "configuration": "[Kr]4d45s1",
@@ -2252,12 +2252,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Mo",
       "atomic number": "42",
       "atomic mass": "95.96 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "2623 °C  (rank: 6th)",
       "boiling point": "4639 °C  (rank: 7th)"
@@ -2265,7 +2265,7 @@
     "materialProps": {
       "density": "10.28 g/cm^3  (rank: 26th)",
       "Mohs hardness": "5.5  (between apatite and microcline)",
-      "Young's modulus": "329 GPa  (rank: 5th)",
+      "Youngs modulus": "329 GPa  (rank: 5th)",
       "sound speed": "6190 m/s  (rank: 4th)",
       "thermal expansion": "4.8×10^-6 K^(-1)  (rank: 62nd)",
       "thermal conductivity": "139 W/(m K)  (rank: 14th)"
@@ -2302,7 +2302,7 @@
       ]
     },
     "discoveryYear": 1781,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Molybdenum",
     "electron": {
       "configuration": "[Kr]4d55s1",
@@ -2310,13 +2310,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Tc",
       "atomic number": "43",
       "atomic mass": "98 u  (unified atomic mass units)",
       "half‐life": "210000 years"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "2157 °C  (rank: 11th)",
       "boiling point": "4265 °C  (rank: 11th)"
@@ -2356,7 +2356,7 @@
       ]
     },
     "discoveryYear": 1937,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Technetium",
     "electron": {
       "configuration": "[Kr]4d55s2",
@@ -2364,12 +2364,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ru",
       "atomic number": "44",
       "atomic mass": "101.07 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "2334 °C  (rank: 9th)",
       "boiling point": "4150 °C  (rank: 12th)"
@@ -2377,7 +2377,7 @@
     "materialProps": {
       "density": "12.37 g/cm^3  (rank: 19th)",
       "Mohs hardness": "6.5  (between microcline and quartz)",
-      "Young's modulus": "447 GPa  (rank: 3rd)",
+      "Youngs modulus": "447 GPa  (rank: 3rd)",
       "sound speed": "5970 m/s  (rank: 6th)",
       "thermal expansion": "6.4×10^-6 K^(-1)  (rank: 51st)",
       "thermal conductivity": "120 W/(m K)  (rank: 15th)"
@@ -2413,7 +2413,7 @@
       ]
     },
     "discoveryYear": 1844,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Ruthenium",
     "electron": {
       "configuration": "[Kr]4d75s1",
@@ -2421,12 +2421,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Rh",
       "atomic number": "45",
       "atomic mass": "102.9055 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1964 °C  (rank: 13th)",
       "boiling point": "3695 °C  (rank: 19th)"
@@ -2434,7 +2434,7 @@
     "materialProps": {
       "density": "12.45 g/cm^3  (rank: 18th)",
       "Mohs hardness": "6  (≈ microcline)",
-      "Young's modulus": "275 GPa  (rank: 8th)",
+      "Youngs modulus": "275 GPa  (rank: 8th)",
       "sound speed": "4700 m/s  (rank: 17th)",
       "thermal expansion": "8.2×10^-6 K^(-1)  (rank: 47th)",
       "thermal conductivity": "150 W/(m K)  (rank: 9th)"
@@ -2467,7 +2467,7 @@
       ]
     },
     "discoveryYear": 1803,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Rhodium",
     "electron": {
       "configuration": "[Kr]4d85s1",
@@ -2475,12 +2475,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Pd",
       "atomic number": "46",
       "atomic mass": "106.42 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1554.9 °C  (rank: 23rd)",
       "boiling point": "2963 °C  (rank: 34th)"
@@ -2488,7 +2488,7 @@
     "materialProps": {
       "density": "12.023 g/cm^3  (rank: 20th)",
       "Mohs hardness": "4.75  (between apatite and fluorite)",
-      "Young's modulus": "121 GPa  (rank: 18th)",
+      "Youngs modulus": "121 GPa  (rank: 18th)",
       "sound speed": "3070 m/s  (rank: 33rd)",
       "thermal expansion": "1.18×10^-5 K^(-1)  (rank: 30th)",
       "thermal conductivity": "72 W/(m K)  (rank: 26th)"
@@ -2523,7 +2523,7 @@
       ]
     },
     "discoveryYear": 1803,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Palladium",
     "electron": {
       "configuration": "[Kr]4d10",
@@ -2531,12 +2531,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ag",
       "atomic number": "47",
       "atomic mass": "107.8682 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "961.78 °C  (rank: 49th)",
       "boiling point": "2162 °C  (rank: 51st)"
@@ -2544,7 +2544,7 @@
     "materialProps": {
       "density": "10.49 g/cm^3  (rank: 25th)",
       "Mohs hardness": "2.5  (between gypsum and calcite)",
-      "Young's modulus": "83 GPa  (rank: 23rd)",
+      "Youngs modulus": "83 GPa  (rank: 23rd)",
       "sound speed": "2600 m/s  (rank: 43rd)",
       "thermal expansion": "1.89×10^-5 K^(-1)  (rank: 19th)",
       "thermal conductivity": "430 W/(m K)  (rank: 1st)"
@@ -2580,7 +2580,7 @@
       ]
     },
     "discoveryYear": -3000,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Silver",
     "electron": {
       "configuration": "[Kr]4d105s1",
@@ -2588,12 +2588,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Cd",
       "atomic number": "48",
       "atomic mass": "112.411 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "321.07 °C  (rank: 73rd)",
       "boiling point": "767 °C  (rank: 73rd)"
@@ -2601,7 +2601,7 @@
     "materialProps": {
       "density": "8.65 g/cm^3  (rank: 37th)",
       "Mohs hardness": "2  (≈ gypsum)",
-      "Young's modulus": "50 GPa  (rank: 39th)",
+      "Youngs modulus": "50 GPa  (rank: 39th)",
       "sound speed": "2310 m/s  (rank: 48th)",
       "thermal expansion": "3.08×10^-5 K^(-1)  (rank: 7th)",
       "thermal conductivity": "97 W/(m K)  (rank: 19th)"
@@ -2638,7 +2638,7 @@
       ]
     },
     "discoveryYear": 1817,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Cadmium",
     "electron": {
       "configuration": "[Kr]4d105s2",
@@ -2646,12 +2646,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "In",
       "atomic number": "49",
       "atomic mass": "114.818 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "156.6 °C  (rank: 81st)",
       "boiling point": "2072 °C  (rank: 52nd)"
@@ -2659,7 +2659,7 @@
     "materialProps": {
       "density": "7.31 g/cm^3  (rank: 45th)",
       "Mohs hardness": "1.2  (between talc and gypsum)",
-      "Young's modulus": "11 GPa  (rank: 56th)",
+      "Youngs modulus": "11 GPa  (rank: 56th)",
       "sound speed": "1215 m/s  (rank: 63rd)",
       "thermal expansion": "3.21×10^-5 K^(-1)  (rank: 6th)",
       "thermal conductivity": "82 W/(m K)  (rank: 24th)"
@@ -2693,7 +2693,7 @@
       ]
     },
     "discoveryYear": 1863,
-    "type": "post-transition-metal",
+    "type": "Post-Transition-Metal",
     "name": "Indium",
     "electron": {
       "configuration": "[Kr]4d105s25p1",
@@ -2701,36 +2701,30 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Sn",
       "atomic number": "50",
       "atomic mass": "118.71 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": [
-        "solid",
-        " "
+        "solid"
       ],
       "melting point": [
-        "white tin",
-        "231.9 °C"
+        "white tin 231.9 °C"
       ],
       "boiling point": [
-        "gray tin",
-        "2602 °C"
-      ],
-      " ": [
-        "white tin",
-        "2602 °C"
+        "gray tin 2602 °C ",
+        " white tin 2602 °C"
       ]
     },
     "materialProps": {
       "density": [
-        "gray tin 5.769 g/cm^3",
-        "white tin 7.31 g/cm^3"
+        "gray tin 5.769 g/cm^3 ",
+        " white tin 7.31 g/cm^3"
       ],
       "Mohs hardness": "1.5  (between talc and gypsum)",
-      "Young's modulus": "50 GPa  (rank: 39th)",
+      "Youngs modulus": "50 GPa  (rank: 39th)",
       "sound speed": "2500 m/s  (rank: 44th)",
       "thermal expansion": "2.2×10^-5 K^(-1)  (rank: 16th)",
       "thermal conductivity": "67 W/(m K)  (rank: 28th)"
@@ -2767,7 +2761,7 @@
       ]
     },
     "discoveryYear": -3000,
-    "type": "post-transition-metal",
+    "type": "Post-Transition-Metal",
     "name": "Tin",
     "electron": {
       "configuration": "[Kr]4d105s25p2",
@@ -2775,12 +2769,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Sb",
       "atomic number": "51",
       "atomic mass": "121.76 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "630.63 °C  (rank: 69th)",
       "boiling point": "1587 °C  (rank: 60th)"
@@ -2788,7 +2782,7 @@
     "materialProps": {
       "density": "6.697 g/cm^3  (rank: 51st)",
       "Mohs hardness": "3  (≈ calcite)",
-      "Young's modulus": "55 GPa  (rank: 37th)",
+      "Youngs modulus": "55 GPa  (rank: 37th)",
       "sound speed": "3420 m/s  (rank: 27th)",
       "thermal expansion": "1.1×10^-5 K^(-1)  (rank: 34th)",
       "thermal conductivity": "24 W/(m K)  (rank: 47th)"
@@ -2824,7 +2818,7 @@
       ]
     },
     "discoveryYear": -3000,
-    "type": "metalloid",
+    "type": "Metalloid",
     "name": "Antimony",
     "electron": {
       "configuration": "[Kr]4d105s25p3",
@@ -2832,12 +2826,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Te",
       "atomic number": "52",
       "atomic mass": "127.6 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "449.51 °C  (rank: 70th)",
       "boiling point": "988 °C  (rank: 69th)"
@@ -2845,7 +2839,7 @@
     "materialProps": {
       "density": "6.24 g/cm^3  (rank: 56th)",
       "Mohs hardness": "2.25  (between gypsum and calcite)",
-      "Young's modulus": "43 GPa  (rank: 45th)",
+      "Youngs modulus": "43 GPa  (rank: 45th)",
       "sound speed": "2610 m/s  (rank: 42nd)",
       "thermal conductivity": "3 W/(m K)  (rank: 77th)"
     },
@@ -2880,7 +2874,7 @@
       ]
     },
     "discoveryYear": 1783,
-    "type": "metalloid",
+    "type": "Metalloid",
     "name": "Tellurium",
     "electron": {
       "configuration": "[Kr]4d105s25p4",
@@ -2888,12 +2882,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "I",
       "atomic number": "53",
       "atomic mass": "126.90447 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "113.7 °C  (rank: 83rd)",
       "boiling point": "184.3 °C  (rank: 82nd)"
@@ -2931,7 +2925,7 @@
       ]
     },
     "discoveryYear": 1811,
-    "type": "halogen",
+    "type": "Diatomic-Nonmetal",
     "name": "Iodine",
     "electron": {
       "configuration": "[Kr]4d105s25p5",
@@ -2939,12 +2933,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Xe",
       "atomic number": "54",
       "atomic mass": "131.293 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "gas",
       "melting point": "-111.8 °C  (rank: 94th)",
       "boiling point": "-108 °C  (rank: 86th)"
@@ -2983,7 +2977,7 @@
       ]
     },
     "discoveryYear": 1898,
-    "type": "noble-gas",
+    "type": "Noble-Gas",
     "name": "Xenon",
     "electron": {
       "configuration": "[Kr]4d105s25p6",
@@ -2991,12 +2985,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Cs",
       "atomic number": "55",
       "atomic mass": "132.9054519 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "28.44 °C  (rank: 89th)",
       "boiling point": "671 °C  (rank: 77th)"
@@ -3004,7 +2998,7 @@
     "materialProps": {
       "density": "1.879 g/cm^3  (rank: 77th)",
       "Mohs hardness": "0.2  (between talc and gypsum)",
-      "Young's modulus": "1.7 GPa  (rank: 63rd)",
+      "Youngs modulus": "1.7 GPa  (rank: 63rd)",
       "thermal conductivity": "36 W/(m K)  (rank: 40th)"
     },
     "electromagnetProps": {
@@ -3036,7 +3030,7 @@
       ]
     },
     "discoveryYear": 1860,
-    "type": "alkali-metal",
+    "type": "Alkali-Metal",
     "name": "Cesium",
     "electron": {
       "configuration": "[Xe]6s1",
@@ -3044,12 +3038,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ba",
       "atomic number": "56",
       "atomic mass": "137.327 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "727 °C  (rank: 63rd)",
       "boiling point": "1870 °C  (rank: 56th)"
@@ -3057,7 +3051,7 @@
     "materialProps": {
       "density": "3.51 g/cm^3  (rank: 68th)",
       "Mohs hardness": "1.25  (between talc and gypsum)",
-      "Young's modulus": "13 GPa  (rank: 55th)",
+      "Youngs modulus": "13 GPa  (rank: 55th)",
       "sound speed": "1620 m/s  (rank: 57th)",
       "thermal expansion": "2.06×10^-5 K^(-1)  (rank: 18th)",
       "thermal conductivity": "18 W/(m K)  (rank: 52nd)"
@@ -3085,15 +3079,15 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
+      "stable isotopes":
         "Ba-138  (71.698%) "
-      ],
-      "unstable isotopes": [
+      ,
+      "unstable isotopes":
         "Ba-133  (10.52 yr) "
-      ]
+
     },
     "discoveryYear": 1808,
-    "type": "alkaline-earth-metal",
+    "type": "Alkaline-Earth-Metal",
     "name": "Barium",
     "electron": {
       "configuration": "[Xe]6s2",
@@ -3101,12 +3095,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Hf",
       "atomic number": "72",
       "atomic mass": "178.49 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "2233 °C  (rank: 10th)",
       "boiling point": "4603 °C  (rank: 8th)"
@@ -3114,7 +3108,7 @@
     "materialProps": {
       "density": "13.31 g/cm^3  (rank: 17th)",
       "Mohs hardness": "5.5  (between apatite and microcline)",
-      "Young's modulus": "78 GPa  (rank: 25th)",
+      "Youngs modulus": "78 GPa  (rank: 25th)",
       "sound speed": "3010 m/s  (rank: 34th)",
       "thermal expansion": "5.9×10^-6 K^(-1)  (rank: 58th)",
       "thermal conductivity": "23 W/(m K)  (rank: 48th)"
@@ -3142,15 +3136,15 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
+      "stable isotopes":
         "Hf-180  (35.08%) "
-      ],
-      "unstable isotopes": [
+      ,
+      "unstable isotopes":
         "Hf-174  (2 quadrillion yr) "
-      ]
+
     },
     "discoveryYear": 1923,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Hafnium",
     "electron": {
       "configuration": "[Xe]4f145d26s2",
@@ -3158,12 +3152,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ta",
       "atomic number": "73",
       "atomic mass": "180.94788 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "3017 °C  (rank: 5th)",
       "boiling point": "5458 °C  (rank: 3rd)"
@@ -3171,7 +3165,7 @@
     "materialProps": {
       "density": "16.65 g/cm^3  (rank: 10th)",
       "Mohs hardness": "6.5  (between microcline and quartz)",
-      "Young's modulus": "186 GPa  (rank: 14th)",
+      "Youngs modulus": "186 GPa  (rank: 14th)",
       "sound speed": "3400 m/s  (rank: 28th)",
       "thermal expansion": "6.3×10^-6 K^(-1)  (rank: 53rd)",
       "thermal conductivity": "57 W/(m K)  (rank: 31st)"
@@ -3200,12 +3194,12 @@
     "nuclearProps": {
       "half‐life": "(stable)",
       "stable isotopes": "Ta-181  (99.988%)",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Ta-179  (1.82 yr) "
-      ]
+
     },
     "discoveryYear": 1802,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Tantalum",
     "electron": {
       "configuration": "[Xe]4f145d36s2",
@@ -3213,12 +3207,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "W",
       "atomic number": "74",
       "atomic mass": "183.84 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "3422 °C  (rank: 2nd)",
       "boiling point": "5555 °C  (rank: 2nd)"
@@ -3226,7 +3220,7 @@
     "materialProps": {
       "density": "19.25 g/cm^3  (rank: 8th)",
       "Mohs hardness": "7.5  (between quartz and topaz)",
-      "Young's modulus": "411 GPa  (rank: 4th)",
+      "Youngs modulus": "411 GPa  (rank: 4th)",
       "tensile yield strength": "750 MPa  (rank: 2nd)",
       "sound speed": "5174 m/s  (rank: 9th)",
       "thermal expansion": "4.5×10^-6 K^(-1)  (rank: 63rd)",
@@ -3249,7 +3243,7 @@
     "abundances": {},
     "nuclearProps": {},
     "discoveryYear": 1783,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Tungsten",
     "electron": {
       "configuration": "[Xe]4f145d46s2",
@@ -3257,12 +3251,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Re",
       "atomic number": "75",
       "atomic mass": "186.207 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "3186 °C  (rank: 3rd)",
       "boiling point": "5596 °C  (rank: 1st)"
@@ -3270,7 +3264,7 @@
     "materialProps": {
       "density": "21.02 g/cm^3  (rank: 4th)",
       "Mohs hardness": "7  (≈ quartz)",
-      "Young's modulus": "463 GPa  (rank: 2nd)",
+      "Youngs modulus": "463 GPa  (rank: 2nd)",
       "sound speed": "4700 m/s  (rank: 17th)",
       "thermal expansion": "6.2×10^-6 K^(-1)  (rank: 55th)",
       "thermal conductivity": "48 W/(m K)  (rank: 36th)"
@@ -3299,12 +3293,12 @@
     "nuclearProps": {
       "half‐life": "(stable)",
       "stable isotopes": "Re-185  (37.4%)",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Re-187  (41 Gyr) "
-      ]
+
     },
     "discoveryYear": 1925,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Rhenium",
     "electron": {
       "configuration": "[Xe]4f145d56s2",
@@ -3312,12 +3306,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Os",
       "atomic number": "76",
       "atomic mass": "190.23 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "3033 °C  (rank: 4th)",
       "boiling point": "5012 °C  (rank: 4th)"
@@ -3352,15 +3346,15 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
+      "stable isotopes":
         "Os-192  (40.93%) "
-      ],
-      "unstable isotopes": [
+      ,
+      "unstable isotopes":
         "Os-186  (2 quadrillion yr) "
-      ]
+
     },
     "discoveryYear": 1803,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Osmium",
     "electron": {
       "configuration": "[Xe]4f145d66s2",
@@ -3368,12 +3362,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ir",
       "atomic number": "77",
       "atomic mass": "192.217 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "2466 °C  (rank: 8th)",
       "boiling point": "4428 °C  (rank: 9th)"
@@ -3381,7 +3375,7 @@
     "materialProps": {
       "density": "22.56 g/cm^3  (rank: 2nd)",
       "Mohs hardness": "6.5  (between microcline and quartz)",
-      "Young's modulus": "528 GPa  (rank: 1st)",
+      "Youngs modulus": "528 GPa  (rank: 1st)",
       "sound speed": "4825 m/s  (rank: 15th)",
       "thermal expansion": "6.4×10^-6 K^(-1)  (rank: 51st)",
       "thermal conductivity": "150 W/(m K)  (rank: 9th)"
@@ -3413,12 +3407,12 @@
         "Ir-193  (62.7%) ",
         " Ir-191  (37.3%)"
       ],
-      "unstable isotopes": [
+      "unstable isotopes":
         "Ir-192  (73.828 days) "
-      ]
+
     },
     "discoveryYear": 1803,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Iridium",
     "electron": {
       "configuration": "[Xe]4f145d76s2",
@@ -3426,12 +3420,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Pt",
       "atomic number": "78",
       "atomic mass": "195.084 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1768.3 °C  (rank: 17th)",
       "boiling point": "3825 °C  (rank: 18th)"
@@ -3439,7 +3433,7 @@
     "materialProps": {
       "density": "21.45 g/cm^3  (rank: 3rd)",
       "Mohs hardness": "3.5  (between calcite and fluorite)",
-      "Young's modulus": "168 GPa  (rank: 15th)",
+      "Youngs modulus": "168 GPa  (rank: 15th)",
       "sound speed": "2680 m/s  (rank: 39th)",
       "thermal expansion": "8.8×10^-6 K^(-1)  (rank: 44th)",
       "thermal conductivity": "72 W/(m K)  (rank: 26th)"
@@ -3466,15 +3460,15 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
+      "stable isotopes":
         "Pt-195  (33.832%) "
-      ],
-      "unstable isotopes": [
+      ,
+      "unstable isotopes":
         "Pt-190  (650 billion yr) "
-      ]
+
     },
     "discoveryYear": 1735,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Platinum",
     "electron": {
       "configuration": "[Xe]4f145d96s1",
@@ -3482,12 +3476,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Au",
       "atomic number": "79",
       "atomic mass": "196.966569 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1064.18 °C  (rank: 45th)",
       "boiling point": "2856 °C  (rank: 40th)"
@@ -3495,7 +3489,7 @@
     "materialProps": {
       "density": "19.3 g/cm^3  (rank: 7th)",
       "Mohs hardness": "2.5  (between gypsum and calcite)",
-      "Young's modulus": "78 GPa  (rank: 25th)",
+      "Youngs modulus": "78 GPa  (rank: 25th)",
       "sound speed": "1740 m/s  (rank: 56th)",
       "thermal expansion": "1.42×10^-5 K^(-1)  (rank: 21st)",
       "thermal conductivity": "320 W/(m K)  (rank: 3rd)"
@@ -3524,12 +3518,12 @@
     "nuclearProps": {
       "half‐life": "(stable)",
       "stable isotopes": "Au-197  (100%)",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Au-195  (186.1 days) "
-      ]
+
     },
     "discoveryYear": -2500,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Gold",
     "electron": {
       "configuration": "[Xe]4f145d106s1",
@@ -3537,12 +3531,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Hg",
       "atomic number": "80",
       "atomic mass": "200.59 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "liquid",
       "melting point": "-38.83 °C  (rank: 91st)",
       "boiling point": "356.73 °C  (rank: 80th)"
@@ -3577,15 +3571,15 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
+      "stable isotopes":
         "Hg-202  (29.86%) "
-      ],
-      "unstable isotopes": [
+      ,
+      "unstable isotopes":
         "Hg-194  (444 yr) "
-      ]
+
     },
     "discoveryYear": -150,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Mercury",
     "electron": {
       "configuration": "[Xe]4f145d106s2",
@@ -3593,12 +3587,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Tl",
       "atomic number": "81",
       "atomic mass": "204.3833 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "304 °C  (rank: 74th)",
       "boiling point": "1473 °C  (rank: 64th)"
@@ -3606,7 +3600,7 @@
     "materialProps": {
       "density": "11.85 g/cm^3  (rank: 21st)",
       "Mohs hardness": "1.2  (between talc and gypsum)",
-      "Young's modulus": "8 GPa  (rank: 59th)",
+      "Youngs modulus": "8 GPa  (rank: 59th)",
       "sound speed": "818 m/s  (rank: 68th)",
       "thermal expansion": "2.99×10^-5 K^(-1)  (rank: 9th)",
       "thermal conductivity": "46 W/(m K)  (rank: 38th)"
@@ -3638,12 +3632,12 @@
         "Tl-205  (70.476%) ",
         " Tl-203  (29.524%)"
       ],
-      "unstable isotopes": [
+      "unstable isotopes":
         "Tl-204  (3.77 yr) "
-      ]
+
     },
     "discoveryYear": 1861,
-    "type": "post-transition-metal",
+    "type": "Post-Transition-Metal",
     "name": "Thallium",
     "electron": {
       "configuration": "[Xe]4f145d106s26p1",
@@ -3651,12 +3645,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Pb",
       "atomic number": "82",
       "atomic mass": "207.2 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "327.46 °C  (rank: 72nd)",
       "boiling point": "1749 °C  (rank: 58th)"
@@ -3664,7 +3658,7 @@
     "materialProps": {
       "density": "11.34 g/cm^3  (rank: 24th)",
       "Mohs hardness": "1.5  (between talc and gypsum)",
-      "Young's modulus": "16 GPa  (rank: 54th)",
+      "Youngs modulus": "16 GPa  (rank: 54th)",
       "sound speed": "1260 m/s  (rank: 62nd)",
       "thermal expansion": "2.89×10^-5 K^(-1)  (rank: 10th)",
       "thermal conductivity": "35 W/(m K)  (rank: 41st)"
@@ -3693,15 +3687,15 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
+      "stable isotopes":
         "Pb-208  (52.4%) "
-      ],
-      "unstable isotopes": [
+      ,
+      "unstable isotopes":
         "Pb-205  (17.3 Myr) "
-      ]
+
     },
     "discoveryYear": -4000,
-    "type": "post-transition-metal",
+    "type": "Post-Transition-Metal",
     "name": "Lead",
     "electron": {
       "configuration": "[Xe]4f145d106s26p2",
@@ -3709,13 +3703,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Bi",
       "atomic number": "83",
       "atomic mass": "208.9804 u  (unified atomic mass units)",
       "half‐life": "1.9×10^19 years"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "271.3 °C  (rank: 76th)",
       "boiling point": "1564 °C  (rank: 61st)"
@@ -3723,7 +3717,7 @@
     "materialProps": {
       "density": "9.78 g/cm^3  (rank: 29th)",
       "Mohs hardness": "2.25  (between gypsum and calcite)",
-      "Young's modulus": "32 GPa  (rank: 50th)",
+      "Youngs modulus": "32 GPa  (rank: 50th)",
       "sound speed": "1790 m/s  (rank: 55th)",
       "thermal expansion": "1.34×10^-5 K^(-1)  (rank: 23rd)",
       "thermal conductivity": "8 W/(m K)  (rank: 73rd)"
@@ -3752,12 +3746,12 @@
       "half‐life": "1.9×10^19 yr",
       "specific radioactivity": "3.3×10^-6 Bq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Bi-209  (1.9×10^19 yr) "
-      ]
+
     },
     "discoveryYear": 1400,
-    "type": "post-transition-metal",
+    "type": "Post-Transition-Metal",
     "name": "Bismuth",
     "electron": {
       "configuration": "[Xe]4f145d106s26p3",
@@ -3765,13 +3759,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Po",
       "atomic number": "84",
       "atomic mass": "209 u  (unified atomic mass units)",
       "half‐life": "102 years"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "254 °C  (rank: 77th)",
       "boiling point": "962 °C  (rank: 70th)"
@@ -3801,12 +3795,12 @@
       "half‐life": "102 yr",
       "specific radioactivity": "621 GBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Po-209  (102 yr) "
-      ]
+
     },
     "discoveryYear": 1898,
-    "type": "metalloid",
+    "type": "Post-Transition-Metal",
     "name": "Polonium",
     "electron": {
       "configuration": "[Xe]4f145d106s26p4",
@@ -3814,13 +3808,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "At",
       "atomic number": "85",
       "atomic mass": "210 u  (unified atomic mass units)",
       "half‐life": "8.1 hours"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "302 °C  (rank: 75th)"
     },
@@ -3848,12 +3842,12 @@
       "half‐life": "8.1 h",
       "specific radioactivity": "68278 TBq/g",
       "decay mode": "beta plus decay",
-      "unstable isotopes": [
+      "unstable isotopes":
         "At-210  (8.1 h) "
-      ]
+
     },
     "discoveryYear": 1940,
-    "type": "halogen",
+    "type": "Metalloid",
     "name": "Astatine",
     "electron": {
       "configuration": "[Xe]4f145d106s26p5",
@@ -3861,13 +3855,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Rn",
       "atomic number": "86",
       "atomic mass": "222 u  (unified atomic mass units)",
       "half‐life": "91.7639 hours"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "gas",
       "melting point": "-71 °C  (rank: 92nd)",
       "boiling point": "-61.7 °C  (rank: 85th)"
@@ -3893,12 +3887,12 @@
       "half‐life": "91.7639 h",
       "specific radioactivity": "5692 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Rn-222  (91.7639 h) "
-      ]
+
     },
     "discoveryYear": 1900,
-    "type": "noble-gas",
+    "type": "Noble-Gas",
     "name": "Radon",
     "electron": {
       "configuration": "[Xe]4f145d106s26p6",
@@ -3906,13 +3900,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Fr",
       "atomic number": "87",
       "atomic mass": "223 u  (unified atomic mass units)",
       "half‐life": "22 minutes"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid"
     },
     "materialProps": {},
@@ -3934,12 +3928,12 @@
       "half‐life": "22 min",
       "specific radioactivity": "1.421×10^6 TBq/g",
       "decay mode": "beta decay",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Fr-223  (22 min) "
-      ]
+
     },
     "discoveryYear": 1939,
-    "type": "alkali-metal",
+    "type": "Alkali-Metal",
     "name": "Francium",
     "electron": {
       "configuration": "[Rn]7s1",
@@ -3947,13 +3941,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ra",
       "atomic number": "88",
       "atomic mass": "226 u  (unified atomic mass units)",
       "half‐life": "16 centuries"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "700 °C  (rank: 64th)",
       "boiling point": "1737 °C  (rank: 59th)"
@@ -3984,12 +3978,12 @@
       "half‐life": "16 centuries",
       "specific radioactivity": "36.5 GBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Ra-226  (1600 yr) "
-      ]
+
     },
     "discoveryYear": 1898,
-    "type": "alkaline-earth-metal",
+    "type": "Alkaline-Earth-Metal",
     "name": "Radium",
     "electron": {
       "configuration": "[Rn]7s2",
@@ -3997,13 +3991,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Rf",
       "atomic number": "104",
       "atomic mass": "265 u  (unified atomic mass units)",
       "half‐life": "13 hours"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {
@@ -4020,12 +4014,12 @@
       "half‐life": "13 h",
       "specific radioactivity": "33419 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Rf-265  (13 h) "
-      ]
+
     },
     "discoveryYear": 1964,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Rutherfordium",
     "electron": {
       "configuration": "[Rn]5f146d27s2",
@@ -4033,13 +4027,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Db",
       "atomic number": "105",
       "atomic mass": "268 u  (unified atomic mass units)",
       "half‐life": "5.6 hours"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {
@@ -4056,12 +4050,12 @@
       "half‐life": "5.6 h",
       "specific radioactivity": "74902 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Db-268  (5.6 h) "
-      ]
+
     },
     "discoveryYear": 1967,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Dubnium",
     "electron": {
       "configuration": "[Rn]5f146d37s2",
@@ -4069,13 +4063,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Sg",
       "atomic number": "106",
       "atomic mass": "271 u  (unified atomic mass units)",
       "half‐life": "120 minutes"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {
@@ -4092,12 +4086,12 @@
       "half‐life": "120 min",
       "specific radioactivity": "222219 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Sg-271  (120 min) "
-      ]
+
     },
     "discoveryYear": 1974,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Seaborgium",
     "electron": {
       "configuration": "[Rn]5f146d47s2",
@@ -4105,13 +4099,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Bh",
       "atomic number": "107",
       "atomic mass": "272 u  (unified atomic mass units)",
       "half‐life": "90 minutes"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {
@@ -4128,12 +4122,12 @@
       "half‐life": "90 min",
       "specific radioactivity": "283849 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Bh-274  (90 min) "
-      ]
+
     },
     "discoveryYear": 1981,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Bohrium",
     "electron": {
       "configuration": "[Rn]5f146d57s2",
@@ -4141,13 +4135,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Hs",
       "atomic number": "108",
       "atomic mass": "270 u  (unified atomic mass units)",
       "half‐life": "67 minutes"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {},
@@ -4162,12 +4156,12 @@
       "half‐life": "67 min",
       "specific radioactivity": "446085 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Hs-276  (67 min) "
-      ]
+
     },
     "discoveryYear": 1984,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Hassium",
     "electron": {
       "configuration": "[Rn]5f146d67s2",
@@ -4175,13 +4169,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Mt",
       "atomic number": "109",
       "atomic mass": "276 u  (unified atomic mass units)",
       "half‐life": "30 minutes"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {},
@@ -4196,12 +4190,12 @@
       "half‐life": "30 min",
       "specific radioactivity": "839206 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Mt-278  (30 min) "
-      ]
+
     },
     "discoveryYear": 1982,
-    "type": "transition-metal",
+    "type": "Unknown",
     "name": "Meitnerium",
     "electron": {
       "configuration": "[Rn]5f146d77s2",
@@ -4209,13 +4203,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ds",
       "atomic number": "110",
       "atomic mass": "281 u  (unified atomic mass units)",
       "half‐life": "4 minutes"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {},
@@ -4230,12 +4224,12 @@
       "half‐life": "4 min",
       "specific radioactivity": "6.123×10^6 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Ds-281  (4 min) "
-      ]
+
     },
     "discoveryYear": 1994,
-    "type": "transition-metal",
+    "type": "Unknown",
     "name": "Darmstadtium",
     "electron": {
       "configuration": "[Rn]5f146d97s1",
@@ -4243,13 +4237,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Rg",
       "atomic number": "111",
       "atomic mass": "280 u  (unified atomic mass units)",
       "half‐life": "10 minutes"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {},
@@ -4264,12 +4258,12 @@
       "half‐life": "10 min",
       "specific radioactivity": "2.472×10^6 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Rg-283  (10 min) "
-      ]
+
     },
     "discoveryYear": 1994,
-    "type": "transition-metal",
+    "type": "Unknown",
     "name": "Roentgenium",
     "electron": {
       "configuration": "[Rn]5f146d107s1",
@@ -4277,13 +4271,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Cn",
       "atomic number": "112",
       "atomic mass": "285 u  (unified atomic mass units)",
       "half‐life": "40 minutes"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {},
@@ -4298,12 +4292,12 @@
       "half‐life": "40 min",
       "specific radioactivity": "603723 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Cn-285  (40 min) "
-      ]
+
     },
     "discoveryYear": 1996,
-    "type": "transition-metal",
+    "type": "Transition-Metal",
     "name": "Copernicium",
     "electron": {
       "configuration": "[Rn]5f146d107s2",
@@ -4311,13 +4305,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Nh",
       "atomic number": "113",
       "atomic mass": "284 u  (unified atomic mass units)",
       "half‐life": "20 minutes"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {},
@@ -4332,12 +4326,12 @@
       "half‐life": "20 min",
       "specific radioactivity": "1.247×10^6 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Nh-287  (20 min) "
-      ]
+
     },
     "discoveryYear": 2004,
-    "type": "unknown",
+    "type": "Unknown",
     "name": "Nihonium",
     "electron": {
       "configuration": "[Rn]5f146d107s27p1",
@@ -4345,13 +4339,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Fl",
       "atomic number": "114",
       "atomic mass": "289 u  (unified atomic mass units)",
       "half‐life": "80 seconds"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {},
@@ -4366,12 +4360,12 @@
       "half‐life": "80 s",
       "specific radioactivity": "1.736×10^7 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Fl-289  (80 s) "
-      ]
+
     },
     "discoveryYear": 1998,
-    "type": "unknown",
+    "type": "Unknown",
     "name": "Flerovium",
     "electron": {
       "configuration": "[Rn]5f146d107s27p2",
@@ -4379,13 +4373,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Mc",
       "atomic number": "115",
       "atomic mass": "288 u  (unified atomic mass units)",
       "half‐life": "60 seconds"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {},
@@ -4400,12 +4394,12 @@
       "half‐life": "60 s",
       "specific radioactivity": "2.323×10^7 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Mc-291  (60 s) "
-      ]
+
     },
     "discoveryYear": 2004,
-    "type": "unknown",
+    "type": "Unknown",
     "name": "Moscovium",
     "electron": {
       "configuration": "[Rn]5f146d107s27p3",
@@ -4413,13 +4407,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Lv",
       "atomic number": "116",
       "atomic mass": "293 u  (unified atomic mass units)",
       "half‐life": "120 ms  (milliseconds)"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {},
@@ -4434,12 +4428,12 @@
       "half‐life": "120 ms",
       "specific radioactivity": "1.188×10^10 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Lv-292  (18 ms) "
-      ]
+
     },
     "discoveryYear": 2000,
-    "type": "unknown",
+    "type": "Unknown",
     "name": "Livermorium",
     "electron": {
       "configuration": "[Rn]5f146d107s27p4",
@@ -4447,13 +4441,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ts",
       "atomic number": "117",
       "atomic mass": "294 u  (unified atomic mass units)",
       "half‐life": "50 ms  (milliseconds)"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {},
@@ -4473,7 +4467,7 @@
       ]
     },
     "discoveryYear": 2010,
-    "type": "unknown",
+    "type": "Unknown",
     "name": "Tennessine",
     "electron": {
       "configuration": "[Rn]5f146d107s27p5",
@@ -4481,13 +4475,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Og",
       "atomic number": "118",
       "atomic mass": "294 u  (unified atomic mass units)",
       "half‐life": "5 ms  (milliseconds)"
     },
-    "thermoProps ": {},
+    "thermoProps": {},
     "materialProps": {},
     "electromagnetProps": {},
     "reactivity": {},
@@ -4505,7 +4499,7 @@
       "unstable isotopes": "Og-293  (5 ms)"
     },
     "discoveryYear": 2006,
-    "type": "unknown",
+    "type": "Unknown",
     "name": "Oganesson",
     "electron": {
       "configuration": "[Rn]5f146d107s27p6\"",
@@ -4513,12 +4507,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "La",
       "atomic number": "57",
       "atomic mass": "138.90547 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "920 °C  (rank: 52nd)",
       "boiling point": "3464 °C  (rank: 20th)"
@@ -4526,7 +4520,7 @@
     "materialProps": {
       "density": "6.146 g/cm^3  (rank: 57th)",
       "Mohs hardness": "2.5  (between gypsum and calcite)",
-      "Young's modulus": "37 GPa  (rank: 47th)",
+      "Youngs modulus": "37 GPa  (rank: 47th)",
       "tensile yield strength": "125 MPa  (rank: 15th)",
       "sound speed": "2475 m/s  (rank: 46th)",
       "thermal expansion": "1.21×10^-5 K^(-1)  (rank: 29th)",
@@ -4556,12 +4550,12 @@
     "nuclearProps": {
       "half‐life": "(stable)",
       "stable isotopes": "La-139  (99.91%)",
-      "unstable isotopes": [
+      "unstable isotopes":
         "La-138  (102 billion yr) "
-      ]
+
     },
     "discoveryYear": 1839,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Lanthanum",
     "electron": {
       "configuration": "[Xe]5d16s2",
@@ -4569,12 +4563,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ce",
       "atomic number": "58",
       "atomic mass": "140.116 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "798 °C  (rank: 61st)",
       "boiling point": "3360 °C  (rank: 23rd)"
@@ -4582,7 +4576,7 @@
     "materialProps": {
       "density": "6.689 g/cm^3  (rank: 52nd)",
       "Mohs hardness": "2.5  (between gypsum and calcite)",
-      "Young's modulus": "34 GPa  (rank: 49th)",
+      "Youngs modulus": "34 GPa  (rank: 49th)",
       "tensile yield strength": "91 MPa  (rank: 17th)",
       "sound speed": "2100 m/s  (rank: 53rd)",
       "thermal expansion": "6.3×10^-6 K^(-1)  (rank: 53rd)",
@@ -4611,15 +4605,15 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
+      "stable isotopes":
         "Ce-140  (88.45%) "
-      ],
-      "unstable isotopes": [
+      ,
+      "unstable isotopes":
         "Ce-144  (284.91 days) "
-      ]
+
     },
     "discoveryYear": 1803,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Cerium",
     "electron": {
       "configuration": "[Xe]4f15d16s2",
@@ -4627,12 +4621,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Pr",
       "atomic number": "59",
       "atomic mass": "140.90765 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "931 °C  (rank: 51st)",
       "boiling point": "3290 °C  (rank: 25th)"
@@ -4640,7 +4634,7 @@
     "materialProps": {
       "density": "6.64 g/cm^3  (rank: 53rd)",
       "Mohs hardness": "1.4  (between talc and gypsum)",
-      "Young's modulus": "37 GPa  (rank: 47th)",
+      "Youngs modulus": "37 GPa  (rank: 47th)",
       "tensile yield strength": "100 MPa  (rank: 16th)",
       "sound speed": "2280 m/s  (rank: 49th)",
       "thermal expansion": "6.7×10^-6 K^(-1)  (rank: 50th)",
@@ -4669,12 +4663,12 @@
     "nuclearProps": {
       "half‐life": "(stable)",
       "stable isotopes": "Pr-141  (100%)",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Pr-143  (13.57 days) "
-      ]
+
     },
     "discoveryYear": 1885,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Praseodymium",
     "electron": {
       "configuration": "[Xe]4f36s2",
@@ -4682,12 +4676,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Nd",
       "atomic number": "60",
       "atomic mass": "144.242 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1021 °C  (rank: 48th)",
       "boiling point": "3100 °C  (rank: 31st)"
@@ -4695,7 +4689,7 @@
     "materialProps": {
       "density": "7.01 g/cm^3  (rank: 50th)",
       "Mohs hardness": "1.2  (between talc and gypsum)",
-      "Young's modulus": "41 GPa  (rank: 46th)",
+      "Youngs modulus": "41 GPa  (rank: 46th)",
       "tensile yield strength": "165 MPa  (rank: 12th)",
       "sound speed": "2330 m/s  (rank: 47th)",
       "thermal expansion": "9.6×10^-6 K^(-1)  (rank: 42nd)",
@@ -4723,15 +4717,15 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
+      "stable isotopes":
         "Nd-142  (27.2%) "
-      ],
-      "unstable isotopes": [
+      ,
+      "unstable isotopes":
         "Nd-150  (7.9×10^18 yr) "
-      ]
+
     },
     "discoveryYear": 1885,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Neodymium",
     "electron": {
       "configuration": "[Xe]4f46s2",
@@ -4739,20 +4733,20 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Pm",
       "atomic number": "61",
       "atomic mass": "145 u  (unified atomic mass units)",
       "half‐life": "17.7 years"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1100 °C  (rank: 42nd)",
       "boiling point": "3000 °C  (rank: 33rd)"
     },
     "materialProps": {
       "density": "7.264 g/cm^3  (rank: 47th)",
-      "Young's modulus": "46 GPa  (rank: 43rd)",
+      "Youngs modulus": "46 GPa  (rank: 43rd)",
       "tensile yield strength": "70 MPa  (rank: 19th)",
       "thermal expansion": "1.1×10^-5 K^(-1)  (rank: 34th)",
       "thermal conductivity": "15 W/(m K)  (rank: 59th)"
@@ -4779,12 +4773,12 @@
       "half‐life": "17.7 yr",
       "specific radioactivity": "5.153 TBq/g",
       "decay mode": "electron capture",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Pm-145  (17.7 yr) "
-      ]
+
     },
     "discoveryYear": 1945,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Promethium",
     "electron": {
       "configuration": "[Xe]4f56s2",
@@ -4792,12 +4786,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Sm",
       "atomic number": "62",
       "atomic mass": "150.36 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1072 °C  (rank: 44th)",
       "boiling point": "1803 °C  (rank: 57th)"
@@ -4805,7 +4799,7 @@
     "materialProps": {
       "density": "7.353 g/cm^3  (rank: 44th)",
       "Mohs hardness": "1.4  (between talc and gypsum)",
-      "Young's modulus": "50 GPa  (rank: 39th)",
+      "Youngs modulus": "50 GPa  (rank: 39th)",
       "tensile yield strength": "90 MPa  (rank: 18th)",
       "sound speed": "2130 m/s  (rank: 52nd)",
       "thermal expansion": "1.27×10^-5 K^(-1)  (rank: 27th)",
@@ -4833,15 +4827,15 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
+      "stable isotopes":
         "Sm-152  (26.75%) "
-      ],
-      "unstable isotopes": [
+      ,
+      "unstable isotopes":
         "Sm-148  (7 quadrillion yr) "
-      ]
+
     },
     "discoveryYear": 1879,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Samarium",
     "electron": {
       "configuration": "[Xe]4f66s2",
@@ -4849,12 +4843,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Eu",
       "atomic number": "63",
       "atomic mass": "151.964 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "822 °C  (rank: 58th)",
       "boiling point": "1527 °C  (rank: 62nd)"
@@ -4862,7 +4856,7 @@
     "materialProps": {
       "density": "5.244 g/cm^3  (rank: 62nd)",
       "Mohs hardness": "3.1  (between calcite and fluorite)",
-      "Young's modulus": "18 GPa  (rank: 53rd)",
+      "Youngs modulus": "18 GPa  (rank: 53rd)",
       "thermal expansion": "3.5×10^-5 K^(-1)  (rank: 5th)",
       "thermal conductivity": "14 W/(m K)  (rank: 61st)"
     },
@@ -4892,12 +4886,12 @@
         "Eu-153  (52.19%) ",
         " Eu-151  (47.81%)"
       ],
-      "unstable isotopes": [
+      "unstable isotopes":
         "Eu-150  (36.9 yr) "
-      ]
+
     },
     "discoveryYear": 1901,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Europium",
     "electron": {
       "configuration": "[Xe]4f76s2",
@@ -4905,12 +4899,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Gd",
       "atomic number": "64",
       "atomic mass": "157.25 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1313 °C  (rank: 37th)",
       "boiling point": "3250 °C  (rank: 27th)"
@@ -4918,7 +4912,7 @@
     "materialProps": {
       "density": "7.901 g/cm^3  (rank: 41st)",
       "Mohs hardness": "5.1  (between apatite and microcline)",
-      "Young's modulus": "55 GPa  (rank: 37th)",
+      "Youngs modulus": "55 GPa  (rank: 37th)",
       "tensile yield strength": "173 MPa  (rank: 10th)",
       "sound speed": "2680 m/s  (rank: 39th)",
       "thermal expansion": "9.4×10^-6 K^(-1)  (rank: 43rd)",
@@ -4946,15 +4940,15 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
+      "stable isotopes":
         "Gd-158  (24.84%) "
-      ],
-      "unstable isotopes": [
+      ,
+      "unstable isotopes":
         "Gd-152  (108 trillion yr) "
-      ]
+
     },
     "discoveryYear": 1880,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Gadolinium",
     "electron": {
       "configuration": "[Xe]4f75d16s2",
@@ -4962,12 +4956,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Tb",
       "atomic number": "65",
       "atomic mass": "158.92535 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1356 °C  (rank: 35th)",
       "boiling point": "3230 °C  (rank: 28th)"
@@ -4975,7 +4969,7 @@
     "materialProps": {
       "density": "8.219 g/cm^3  (rank: 40th)",
       "Mohs hardness": "2.3  (between gypsum and calcite)",
-      "Young's modulus": "56 GPa  (rank: 36th)",
+      "Youngs modulus": "56 GPa  (rank: 36th)",
       "tensile yield strength": "60 MPa  (rank: 22nd)",
       "sound speed": "2620 m/s  (rank: 41st)",
       "thermal expansion": "1.03×10^-5 K^(-1)  (rank: 38th)",
@@ -5003,12 +4997,12 @@
     "nuclearProps": {
       "half‐life": "(stable)",
       "stable isotopes": "Tb-159  (100%)",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Tb-158  (180 yr) "
-      ]
+
     },
     "discoveryYear": 1843,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Terbium",
     "electron": {
       "configuration": "[Xe]4f96s2",
@@ -5016,12 +5010,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Dy",
       "atomic number": "66",
       "atomic mass": "162.5 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1412 °C  (rank: 34th)",
       "boiling point": "2567 °C  (rank: 46th)"
@@ -5029,7 +5023,7 @@
     "materialProps": {
       "density": "8.551 g/cm^3  (rank: 39th)",
       "Mohs hardness": "1.8  (between gypsum and talc)",
-      "Young's modulus": "61 GPa  (rank: 35th)",
+      "Youngs modulus": "61 GPa  (rank: 35th)",
       "tensile yield strength": "225 MPa  (rank: 7th)",
       "sound speed": "2710 m/s  (rank: 38th)",
       "thermal expansion": "9.9×10^-6 K^(-1)  (rank: 40th)",
@@ -5057,15 +5051,15 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
+      "stable isotopes":
         "Dy-164  (28.18%) "
-      ],
-      "unstable isotopes": [
+      ,
+      "unstable isotopes":
         "Dy-154  (3 Myr) "
-      ]
+
     },
     "discoveryYear": 1886,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Dysprosium",
     "electron": {
       "configuration": "[Xe]4f106s2",
@@ -5073,12 +5067,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ho",
       "atomic number": "67",
       "atomic mass": "164.93032 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1474 °C  (rank: 31st)",
       "boiling point": "2700 °C  (rank: 43rd)"
@@ -5086,7 +5080,7 @@
     "materialProps": {
       "density": "8.795 g/cm^3  (rank: 36th)",
       "Mohs hardness": "1.6  (between gypsum and talc)",
-      "Young's modulus": "65 GPa  (rank: 33rd)",
+      "Youngs modulus": "65 GPa  (rank: 33rd)",
       "tensile yield strength": "221 MPa  (rank: 9th)",
       "sound speed": "2760 m/s  (rank: 36th)",
       "thermal expansion": "1.12×10^-5 K^(-1)  (rank: 33rd)",
@@ -5115,12 +5109,12 @@
     "nuclearProps": {
       "half‐life": "(stable)",
       "stable isotopes": "Ho-165  (100%)",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Ho-163  (4570 yr) "
-      ]
+
     },
     "discoveryYear": 1878,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Holmium",
     "electron": {
       "configuration": "[Xe]4f116s2",
@@ -5128,12 +5122,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Er",
       "atomic number": "68",
       "atomic mass": "167.259 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1497 °C  (rank: 29th)",
       "boiling point": "2868 °C  (rank: 38th)"
@@ -5141,7 +5135,7 @@
     "materialProps": {
       "density": "9.066 g/cm^3  (rank: 32nd)",
       "Mohs hardness": "2  (between gypsum and talc)",
-      "Young's modulus": "70 GPa  (rank: 29th)",
+      "Youngs modulus": "70 GPa  (rank: 29th)",
       "tensile yield strength": "60 MPa  (rank: 22nd)",
       "sound speed": "2830 m/s  (rank: 35th)",
       "thermal expansion": "1.22×10^-5 K^(-1)  (rank: 28th)",
@@ -5169,15 +5163,15 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
+      "stable isotopes":
         "Er-166  (33.503%) "
-      ],
-      "unstable isotopes": [
+      ,
+      "unstable isotopes":
         "Er-169  (9.4 days) "
-      ]
+
     },
     "discoveryYear": 1842,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Erbium",
     "electron": {
       "configuration": "[Xe]4f126s2",
@@ -5185,12 +5179,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Tm",
       "atomic number": "69",
       "atomic mass": "168.93421 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1545 °C  (rank: 24th)",
       "boiling point": "1950 °C  (rank: 55th)"
@@ -5198,7 +5192,7 @@
     "materialProps": {
       "density": "9.321 g/cm^3  (rank: 30th)",
       "Mohs hardness": "1.8  (between gypsum and talc)",
-      "Young's modulus": "74 GPa  (rank: 27th)",
+      "Youngs modulus": "74 GPa  (rank: 27th)",
       "tensile yield strength": "60 MPa  (rank: 22nd)",
       "thermal expansion": "1.33×10^-5 K^(-1)  (rank: 25th)",
       "thermal conductivity": "17 W/(m K)  (rank: 53rd)"
@@ -5226,12 +5220,12 @@
     "nuclearProps": {
       "half‐life": "(stable)",
       "stable isotopes": "Tm-169  (100%)",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Tm-171  (1.92 yr) "
-      ]
+
     },
     "discoveryYear": 1879,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Thulium",
     "electron": {
       "configuration": "[Xe]4f136s2",
@@ -5239,19 +5233,19 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Yb",
       "atomic number": "70",
       "atomic mass": "173.054 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "819 °C  (rank: 59th)",
       "boiling point": "1196 °C  (rank: 67th)"
     },
     "materialProps": {
       "density": "6.57 g/cm^3  (rank: 54th)",
-      "Young's modulus": "24 GPa  (rank: 51st)",
+      "Youngs modulus": "24 GPa  (rank: 51st)",
       "tensile yield strength": "66 MPa  (rank: 21st)",
       "sound speed": "1590 m/s  (rank: 58th)",
       "thermal expansion": "2.63×10^-5 K^(-1)  (rank: 11th)",
@@ -5278,15 +5272,14 @@
     },
     "nuclearProps": {
       "half‐life": "(stable)",
-      "stable isotopes": [
-        "Yb-174  (31.83%) "
-      ],
-      "unstable isotopes": [
+      "stable isotopes":
+        "Yb-174  (31.83%) ",
+      "unstable isotopes":
         "Yb-169  (32.03 days) "
-      ]
+
     },
     "discoveryYear": 1878,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Ytterbium",
     "electron": {
       "configuration": "[Xe]4f146s2",
@@ -5294,12 +5287,12 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Lu",
       "atomic number": "71",
       "atomic mass": "174.9668 u  (unified atomic mass units)"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1663 °C  (rank: 20th)",
       "boiling point": "3402 °C  (rank: 22nd)"
@@ -5307,7 +5300,7 @@
     "materialProps": {
       "density": "9.841 g/cm^3  (rank: 28th)",
       "Mohs hardness": "2.6  (between calcite and gypsum)",
-      "Young's modulus": "69 GPa  (rank: 31st)",
+      "Youngs modulus": "69 GPa  (rank: 31st)",
       "tensile yield strength": "60 MPa  (rank: 22nd)",
       "thermal expansion": "9.9×10^-6 K^(-1)  (rank: 40th)",
       "thermal conductivity": "16 W/(m K)  (rank: 56th)"
@@ -5336,12 +5329,12 @@
     "nuclearProps": {
       "half‐life": "(stable)",
       "stable isotopes": "Lu-175  (97.41%)",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Lu-176  (37.6 Gyr) "
-      ]
+
     },
     "discoveryYear": 1907,
-    "type": "lanthanide",
+    "type": "Lanthanide",
     "name": "Lutetium",
     "electron": {
       "configuration": "[Xe]4f145d16s2",
@@ -5349,13 +5342,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Ac",
       "atomic number": "89",
       "atomic mass": "227 u  (unified atomic mass units)",
       "half‐life": "21.787 years"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1050 °C  (rank: 46th)",
       "boiling point": "3200 °C  (rank: 30th)"
@@ -5383,12 +5376,12 @@
       "half‐life": "21.787 yr",
       "specific radioactivity": "2.676 TBq/g",
       "decay mode": "beta decay",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Ac-227  (21.772 yr) "
-      ]
+
     },
     "discoveryYear": 1899,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Actinium",
     "electron": {
       "configuration": "[Rn]6d17s2",
@@ -5396,13 +5389,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Th",
       "atomic number": "90",
       "atomic mass": "232.03806 u  (unified atomic mass units)",
       "half‐life": "14.06 billion years"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1750 °C  (rank: 18th)",
       "boiling point": "4820 °C  (rank: 5th)"
@@ -5410,7 +5403,7 @@
     "materialProps": {
       "density": "11.724 g/cm^3  (rank: 22nd)",
       "Mohs hardness": "3  (≈ calcite)",
-      "Young's modulus": "79 GPa  (rank: 24th)",
+      "Youngs modulus": "79 GPa  (rank: 24th)",
       "tensile yield strength": "144 MPa  (rank: 13th)",
       "sound speed": "2490 m/s  (rank: 45th)",
       "thermal expansion": "1.1×10^-5 K^(-1)  (rank: 34th)",
@@ -5442,12 +5435,12 @@
       "specific radioactivity": "4.057 kBq/g",
       "decay mode": "alpha emission",
       "stable isotopes": "Th-232  (100%)",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Th-230  (75440 yr) "
-      ]
+
     },
     "discoveryYear": 1829,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Thorium",
     "electron": {
       "configuration": "[Rn]6d27s2",
@@ -5455,13 +5448,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Pa",
       "atomic number": "91",
       "atomic mass": "231.03586 u  (unified atomic mass units)",
       "half‐life": "32790 years"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1572 °C  (rank: 22nd)",
       "boiling point": "4000 °C  (rank: 14th)"
@@ -5494,12 +5487,12 @@
       "half‐life": "32790 yr",
       "specific radioactivity": "1.748 GBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Pa-231  (32760 yr) "
-      ]
+
     },
     "discoveryYear": 1913,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Protactinium",
     "electron": {
       "configuration": "[Rn]5f26d17s2",
@@ -5507,13 +5500,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "U",
       "atomic number": "92",
       "atomic mass": "238.02891 u  (unified atomic mass units)",
       "half‐life": "4.47 billion years"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1135 °C  (rank: 41st)",
       "boiling point": "3927 °C  (rank: 17th)"
@@ -5521,7 +5514,7 @@
     "materialProps": {
       "density": "19.05 g/cm^3  (rank: 9th)",
       "Mohs hardness": "6  (≈ microcline)",
-      "Young's modulus": "208 GPa  (rank: 11th)",
+      "Youngs modulus": "208 GPa  (rank: 11th)",
       "sound speed": "3155 m/s  (rank: 32nd)",
       "thermal expansion": "1.39×10^-5 K^(-1)  (rank: 22nd)",
       "thermal conductivity": "27 W/(m K)  (rank: 45th)"
@@ -5551,12 +5544,12 @@
       "half‐life": "4.47 billion yr",
       "specific radioactivity": "12.44 kBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "U-238  (4.47 Gyr) "
-      ]
+
     },
     "discoveryYear": 1789,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Uranium",
     "electron": {
       "configuration": "[Rn]5f36d17s2",
@@ -5564,13 +5557,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Np",
       "atomic number": "93",
       "atomic mass": "237 u  (unified atomic mass units)",
       "half‐life": "2.145 million years"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "644 °C  (rank: 67th)",
       "boiling point": "4000 °C  (rank: 13th)"
@@ -5601,12 +5594,12 @@
       "half‐life": "2.145 million yr",
       "specific radioactivity": "26.03 MBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Np-237  (2.144 Myr) "
-      ]
+
     },
     "discoveryYear": 1940,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Neptunium",
     "electron": {
       "configuration": "[Rn]5f46d17s2",
@@ -5614,20 +5607,20 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Pu",
       "atomic number": "94",
       "atomic mass": "244 u  (unified atomic mass units)",
       "half‐life": "79 million years"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "640 °C  (rank: 68th)",
       "boiling point": "3230 °C  (rank: 28th)"
     },
     "materialProps": {
       "density": "19.816 g/cm^3  (rank: 6th)",
-      "Young's modulus": "96 GPa  (rank: 22nd)",
+      "Youngs modulus": "96 GPa  (rank: 22nd)",
       "tensile yield strength": "275 MPa  (rank: 3rd)",
       "sound speed": "2260 m/s  (rank: 50th)",
       "thermal conductivity": "6 W/(m K)  (rank: 75th)"
@@ -5655,12 +5648,12 @@
       "half‐life": "79 million yr",
       "specific radioactivity": "685.6 kBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Pu-244  (79 Myr) "
-      ]
+
     },
     "discoveryYear": 1940,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Plutonium",
     "electron": {
       "configuration": "[Rn]5f67s2",
@@ -5668,13 +5661,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Am",
       "atomic number": "95",
       "atomic mass": "243 u  (unified atomic mass units)",
       "half‐life": "73.8 centuries"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1176 °C  (rank: 40th)",
       "boiling point": "2011 °C  (rank: 54th)"
@@ -5705,12 +5698,12 @@
       "half‐life": "73.8 centuries",
       "specific radioactivity": "7.376 GBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Am-243  (7390 yr) "
-      ]
+
     },
     "discoveryYear": 1944,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Americium",
     "electron": {
       "configuration": "[Rn]5f77s2",
@@ -5718,13 +5711,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Cm",
       "atomic number": "96",
       "atomic mass": "247 u  (unified atomic mass units)",
       "half‐life": "15.6 million years"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "1345 °C  (rank: 36th)",
       "boiling point": "3110 °C  (rank: 31st)"
@@ -5751,12 +5744,12 @@
       "half‐life": "15.6 million yr",
       "specific radioactivity": "3.434 MBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Cm-247  (15.6 Myr) "
-      ]
+
     },
     "discoveryYear": 1944,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Curium",
     "electron": {
       "configuration": "[Rn]5f76d17s2",
@@ -5764,26 +5757,22 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Bk",
       "atomic number": "97",
       "atomic mass": "247 u  (unified atomic mass units)",
       "half‐life": "13.8 centuries"
     },
-    "thermoProps ": {
-      "phase at STP": [
+    "thermoProps": {
+      "phase at STP":
         "solid",
-        " "
-      ],
-      "melting point": [
-        "β-berkelium",
-        "986 °C"
-      ]
+      "melting point":
+        "β-berkelium 986 °C"
     },
     "materialProps": {
       "density": [
-        "β-berkelium 13.25 g/cm^3",
-        "α-berkelium 14.78 g/cm^3"
+        " β-berkelium 13.25 g/cm^3",
+        " α-berkelium 14.78 g/cm^3 "
       ],
       "thermal conductivity": "10 W/(m K)  (rank: 70th)"
     },
@@ -5804,12 +5793,11 @@
       "half‐life": "13.8 centuries",
       "specific radioactivity": "38.82 GBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Bk-247  (1380 yr) "
-      ]
     },
     "discoveryYear": 1949,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Berkelium",
     "electron": {
       "configuration": "[Rn]5f97s2",
@@ -5817,13 +5805,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Cf",
       "atomic number": "98",
       "atomic mass": "251 u  (unified atomic mass units)",
       "half‐life": "9 centuries"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "900 °C  (rank: 53rd)"
     },
@@ -5847,12 +5835,12 @@
       "half‐life": "9 centuries",
       "specific radioactivity": "58.52 GBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Cf-251  (898 yr) "
-      ]
+
     },
     "discoveryYear": 1950,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Californium",
     "electron": {
       "configuration": "[Rn]5f107s2",
@@ -5860,13 +5848,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Es",
       "atomic number": "99",
       "atomic mass": "252 u  (unified atomic mass units)",
       "half‐life": "471.6 days"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "phase at STP": "solid",
       "melting point": "860 °C  (rank: 54th)"
     },
@@ -5888,12 +5876,12 @@
       "half‐life": "471.6 days",
       "specific radioactivity": "40.64 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Es-252  (471.6 days) "
-      ]
+
     },
     "discoveryYear": 1952,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Einsteinium",
     "electron": {
       "configuration": "[Rn]5f117s2",
@@ -5901,13 +5889,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Fm",
       "atomic number": "100",
       "atomic mass": "257 u  (unified atomic mass units)",
       "half‐life": "100.5 days"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "melting point": "1527 °C  (rank: 27th)"
     },
     "materialProps": {},
@@ -5928,12 +5916,12 @@
       "half‐life": "100.5 days",
       "specific radioactivity": "187 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Fm-257  (100.5 days) "
-      ]
+
     },
     "discoveryYear": 1952,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Fermium",
     "electron": {
       "configuration": "[Rn]5f127s2",
@@ -5941,13 +5929,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Md",
       "atomic number": "101",
       "atomic mass": "258 u  (unified atomic mass units)",
       "half‐life": "51.5 days"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "melting point": "827 °C  (rank: 56th)"
     },
     "materialProps": {},
@@ -5968,12 +5956,12 @@
       "half‐life": "51.5 days",
       "specific radioactivity": "363.6 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Md-258  (51.5 days) "
-      ]
+
     },
     "discoveryYear": 1955,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Mendelevium",
     "electron": {
       "configuration": "[Rn]5f137s2",
@@ -5981,13 +5969,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "No",
       "atomic number": "102",
       "atomic mass": "259 u  (unified atomic mass units)",
       "half‐life": "170 minutes"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "melting point": "827 °C  (rank: 56th)"
     },
     "materialProps": {},
@@ -6008,12 +5996,12 @@
       "half‐life": "170 min",
       "specific radioactivity": "116258 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "No-261  (170 min) "
-      ]
+
     },
     "discoveryYear": 1958,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Nobelium",
     "electron": {
       "configuration": "[Rn]5f147s2",
@@ -6021,13 +6009,13 @@
     }
   },
   {
-    "basicProps  ": {
+    "basicProps": {
       "symbol": "Lr",
       "atomic number": "103",
       "atomic mass": "262 u  (unified atomic mass units)",
       "half‐life": "10 hours"
     },
-    "thermoProps ": {
+    "thermoProps": {
       "melting point": "1627 °C  (rank: 21st)"
     },
     "materialProps": {},
@@ -6046,12 +6034,12 @@
       "half‐life": "10 h",
       "specific radioactivity": "44202 TBq/g",
       "decay mode": "alpha emission",
-      "unstable isotopes": [
+      "unstable isotopes":
         "Lr-265  (10 h) "
-      ]
+
     },
     "discoveryYear": 1961,
-    "type": "actinide",
+    "type": "Actinide",
     "name": "Lawrencium",
     "electron": {
       "configuration": "[Rn]5f147s27p1",

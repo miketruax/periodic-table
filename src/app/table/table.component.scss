@@ -12,44 +12,6 @@ $size-sm: 40px;
   opacity: 0;
 }
 
-.other{
-  background-color: yellow;
-}
-
-.alkali-metal{
-  background: red;
-}
-.alkaline-earth-metal{
-  background: orange;
-}
-.lanthanide{
-  background: pink;
-}
-.actinide{
-  background: purple;
-}
-.transition-metal{
-  background: salmon;
-}
-.post-transition-metal{
-  background: gray;
-}
-.metalloid{
-  background: brown;
-}
-
-.noble-gas{
-  background: turquoise;
-}
-
-.halogen{
-  background-color: lightblue;
-}
-
-.unknown{
-  background-color: lightgray;
-}
-
 .element{
   width: $size-lg;
   height: $size-lg;
@@ -60,7 +22,9 @@ $size-sm: 40px;
 
 .table{
   float: none !important;
+  position: fixed;
   margin: auto;
+
   max-width: 1120px !important;
   min-width: 1120px !important;
   margin-top: 10px !important;
@@ -188,4 +152,3 @@ p{
     margin-left: ($size-sm*3)
   }
 }
-

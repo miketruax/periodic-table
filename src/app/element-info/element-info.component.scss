@@ -1,0 +1,46 @@
+.exit{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  float: right;
+  background-image: url('../../assets/x.svg');
+  background-size: 90% 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.info-container{
+  background-color: rgba(black, .2);
+  position: absolute;
+  top: 0;
+
+}
+
+.info{
+  margin-top: 20px !important;
+  background-color: white;
+  margin-bottom: 20px !important;
+  padding: 8px !important;
+}
+
+.top-circle{
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 45px;
+  line-height: 67.5px;
+  border-radius: 50%;
+  p{
+    line-height: 15px;
+    font-size:20px;
+  }
+}
+
+.info-header{
+  background-color: lightgray;
+}
+
+.basicProps{
+  margin-top: 20px !important;
+}
