@@ -6,10 +6,10 @@
 
 
 <div class="table col-xs-12">
-    <div *ngFor="let e of elements;" id="{{e['Basic Elemental Properties'].symbol}}" (click)="showMore(e)"
+    <div *ngFor="let e of elements;" id="{{e.basicProps.symbol}}" (click)="showMore(e)"
          ngClass="{{e.type}} {{e.discoveryYear > year? 'undiscovered' : 'discovered'}}" class="element">
-        <p class='element-symbol text-center'>{{e['Basic Elemental Properties'].symbol}}</p>
-        <p class='element-number text-center'>{{e['Basic Elemental Properties']['atomic number']}}</p>
-        <p class='element-weight text-center'>{{e['Basic Elemental Properties']['atomic mass'] | atomicMass}}</p>
+        <p class='element-symbol text-center'>{{e.basicProps.symbol}}</p>
+        <p class='element-number text-center'>{{e.basicProps['atomic number']}}</p>
+        <p class='element-weight text-center'>{{e.basicProps['atomic mass'] | atomicMass}}</p>
     </div>
 </div>
