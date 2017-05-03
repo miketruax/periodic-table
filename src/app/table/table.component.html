@@ -5,15 +5,18 @@
 <!--<button (click)="seeAll()">See them all</button>-->
 <button class="col-xs-12" (click)="style='classic'">Classic View</button>
 <button class="col-xs-12" (click)="style='humanAbundance'">Human Abundance</button>
+<button class="col-xs-12" (click)="style='universeAbundance'; sortbyUniverseAbundance()">Universe Abundance</button>
 
 
 <div class="table" ngClass="{{style}}" *ngIf="!moreInfo">
     <div *ngFor="let e of elements;" id="{{e.basicProps.symbol}}" (click)="showMore(e)"
          ngClass="{{e.type}} {{e.discoveryYear > year? 'undiscovered' : 'discovered'}}" class="element">
-        <p class='element-symbol text-center'>{{e.basicProps.symbol}}</p>
-        <p class='element-number text-center'>{{e.basicProps['atomic number']}}</p>
-        <p class='element-weight text-center'>{{e.basicProps['atomic mass'] | atomicMass}}</p>
+        <div class="element-container">
+          <div class='element-symbol text-center'>{{e.basicProps.symbol}}</div>
+          <div class='element-number text-center'>{{e.basicProps['atomic number']}}</div>
+          <div class='element-weight text-center'>{{e.basicProps['atomic mass'] | atomicMass}}</div>
+        </div>
     </div>
 </div>
-
+<div class="col-xs-12"></div>
 <element-info-component (showMore)="showMore($event)" [moreInfo]="moreInfo" [element]="selectedElement"></element-info-component>

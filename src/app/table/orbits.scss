@@ -1,0 +1,305 @@
+//Ring 1
+
+@-webkit-keyframes ring1{
+  from {
+    -webkit-transform: rotate(0deg) translateX(2.5vw) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(2.5vw) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes ring1{
+  from {
+    -moz-transform: rotate(0deg) translateX(2.5vw) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(2.5vw) rotate(-360deg);
+  }
+}
+
+@-o-keyframes ring1{
+  from {
+    -o-transform: rotate(0deg) translateX(2.5vw) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(2.5vw) rotate(-360deg);
+  }
+}
+
+@keyframes ring1{
+  from {
+    transform: rotate(0deg) translateX(2.5vw) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(2.5vw) rotate(-360deg);
+  }
+}
+
+//Ring 2
+
+@-webkit-keyframes ring2{
+  from {
+    -webkit-transform: rotate(0deg) translateX(10vw) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(10vw) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes ring2{
+  from {
+    -moz-transform: rotate(0deg) translateX(10vw) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(10vw) rotate(-360deg);
+  }
+}
+
+@-o-keyframes ring2{
+  from {
+    -o-transform: rotate(0deg) translateX(10vw) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(10vw) rotate(-360deg);
+  }
+}
+
+@keyframes ring2{
+  from {
+    transform: rotate(0deg) translateX(10vw) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(10vw) rotate(-360deg);
+  }
+}
+
+//Ring 3
+
+@-webkit-keyframes ring3{
+  from {
+    -webkit-transform: rotate(0deg) translateX(15vw) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(15vw) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes ring3{
+  from {
+    -moz-transform: rotate(0deg) translateX(15vw) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(15vw) rotate(-360deg);
+  }
+}
+
+@-o-keyframes ring3{
+  from {
+    -o-transform: rotate(0deg) translateX(15vw) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(15vw) rotate(-360deg);
+  }
+}
+
+@keyframes ring3{
+  from {
+    transform: rotate(0deg) translateX(15vw) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(15vw) rotate(-360deg);
+  }
+}
+
+//Ring 4
+
+@-webkit-keyframes ring4{
+  from {
+    -webkit-transform: rotate(0deg) translateX(20vw) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(20vw) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes ring4{
+  from {
+    -moz-transform: rotate(0deg) translateX(20vw) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(20vw) rotate(-360deg);
+  }
+}
+
+@-o-keyframes ring4{
+  from {
+    -o-transform: rotate(0deg) translateX(20vw) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(20vw) rotate(-360deg);
+  }
+}
+
+@keyframes ring4{
+  from {
+    transform: rotate(0deg) translateX(20vw) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(20vw) rotate(-360deg);
+  }
+}
+
+//Ring 5
+
+@-webkit-keyframes ring5{
+  from {
+    -webkit-transform: rotate(0deg) translateX(25vw) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(25vw) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes ring5{
+  from {
+    -moz-transform: rotate(0deg) translateX(25vw) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(25vw) rotate(-360deg);
+  }
+}
+
+@-o-keyframes ring5{
+  from {
+    -o-transform: rotate(0deg) translateX(25vw) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(25vw) rotate(-360deg);
+  }
+}
+
+@keyframes ring5{
+  from {
+    transform: rotate(0deg) translateX(25vw) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(25vw) rotate(-360deg);
+  }
+}
+
+//Ring 6
+
+@-webkit-keyframes ring6{
+  from {
+    -webkit-transform: rotate(0deg) translateX(30vw) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(30vw) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes ring6{
+  from {
+    -moz-transform: rotate(0deg) translateX(30vw) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(30vw) rotate(-360deg);
+  }
+}
+
+@-o-keyframes ring6{
+  from {
+    -o-transform: rotate(0deg) translateX(30vw) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(30vw) rotate(-360deg);
+  }
+}
+
+@keyframes ring6{
+  from {
+    transform: rotate(0deg) translateX(30vw) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(30vw) rotate(-360deg);
+  }
+}
+
+//Ring 7
+
+@-webkit-keyframes ring7{
+  from {
+    -webkit-transform: rotate(0deg) translateX(35vw) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(35vw) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes ring7{
+  from {
+    -moz-transform: rotate(0deg) translateX(35vw) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(35vw) rotate(-360deg);
+  }
+}
+
+@-o-keyframes ring7{
+  from {
+    -o-transform: rotate(0deg) translateX(35vw) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(35vw) rotate(-360deg);
+  }
+}
+
+@keyframes ring7{
+  from {
+    transform: rotate(0deg) translateX(35vw) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(35vw) rotate(-360deg);
+  }
+}
+
+//Ring 8
+
+@-webkit-keyframes ring8{
+  from {
+    -webkit-transform: rotate(0deg) translateX(40vw) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(40vw) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes ring8{
+  from {
+    -moz-transform: rotate(0deg) translateX(40vw) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(40vw) rotate(-360deg);
+  }
+}
+
+@-o-keyframes ring8{
+  from {
+    -o-transform: rotate(0deg) translateX(40vw) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(40vw) rotate(-360deg);
+  }
+}
+
+@keyframes ring8{
+  from {
+    transform: rotate(0deg) translateX(40vw) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(40vw) rotate(-360deg);
+  }
+}
+
+

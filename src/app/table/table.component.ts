@@ -30,6 +30,24 @@ export class TableComponent {
     });
     human.forEach(v=>{console.log(v["basicProps"]["symbol"], parseInt(v["abundances"]["human abundance"].split('(rank: ')[1]))});
   }
+  sortbyUniverseAbundance(){
+    let human =[];
+    this.elements.forEach((val ,i, elements)=>{
+      if(val["abundances"] && val["abundances"]["universe abundance"]){
+        let rank = parseInt(val["abundances"]["universe abundance"].split('(rank: ')[1]);
+        if(rank){
+          human.push(val);
+        }
+      }
+    });
+    human.sort((a, b)=>{
+      return parseInt(a["abundances"]["universe abundance"].split('(rank: ')[1]) - parseInt(b["abundances"]["universe abundance"].split('(rank: ')[1])
+    });
+    // human.forEach(v=>{console.log(v["basicProps"]["symbol"], parseInt(v["abundances"]["universe abundance"].split('(rank: ')[1]))});
+
+
+  }
+
   seeAll(){
     this.year = -3000;
     this.counter = setInterval( ()=>{
