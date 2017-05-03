@@ -1,7 +1,3 @@
-$size-lg: 60px;
-$size-md: 50px;
-$size-sm: 40px;
-
 .discovered{
   transition: opacity 400ms linear;
   opacity: 1;
@@ -13,142 +9,164 @@ $size-sm: 40px;
 }
 
 .element{
-  width: $size-lg;
-  height: $size-lg;
-  border: 1px solid rgba(0,0,0,.1);
+  position: relative;
+  left: 0;
+  top: 0;
+  transition: all .5s linear;
+  width: 5vw;
+  height: 5vw;
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: rgba(0,0,0,.1);
   cursor: pointer;
   float: left;
 }
 
-.table{
-  float: none !important;
-  position: fixed;
-  margin: auto;
-
-  max-width: 1120px !important;
-  min-width: 1120px !important;
-  margin-top: 10px !important;
+.table {
+  margin: 0 5vw;
+  width: 100vw;
 }
-
-#H{
-  margin-right: $size-lg * 16 !important;
-}
-
-#H, #Li, #Na, #K, #Rb, #Cs, #Fr{
-  clear: left;
-}
-
-
-#Be, #Mg{
-  margin-right: $size-lg * 10;
-}
-
-#Ba, #Ra{
-  margin-right: $size-lg;
-}
-
-#La, #Ce, #Pr, #Nd, #Pm, #Sm, #Eu, #Gd, #Tb, #Dy, #Ho, #Er, #Tm, #Yb, #Lu{
-  margin-top: 20px !important;
-}
-
-#La, #Ac{
-  margin-left: ($size-lg*3)
-}
-
-
-.element-container{
-  width: 100%;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.element-number{
-  font-size: 12px !important;
-  font-weight: 300;
-}
-.element-weight{
-  font-size: 10px !important;
-  font-weight: 300;
-}
-.element-symbol{
-  font-size: 27px !important;
-  font-weight: 100;
-}
-
-p{
-  padding: 0;
-  margin: -4px !important;
-}
-
-
-@media(max-width: 1310px){
-  .element-weight, .element-number{
-    font-size: 10px !important;
+  #H {
+    margin-right: 5vw * 16;
   }
 
+  #H, #Li, #Na, #K, #Rb, #Cs, #Fr {
+    clear: left;
+  }
+
+  #Be, #Mg {
+    margin-right: 5vw * 10;
+  }
+
+  #Ba, #Ra {
+    margin-right: 5vw;
+  }
+
+  #La, #Ce, #Pr, #Nd, #Pm, #Sm, #Eu, #Gd, #Tb, #Dy, #Ho, #Er, #Tm, #Yb, #Lu {
+    margin-top: 5vw !important;
+    border-top-width: 1px;
+  }
+
+  #H, #Be, #Sc, #Ti, #V, #Cr, #Mn, #Fe, #Co, #Ni, #Cu, #Zn, #B, #C, #N, #O, #F, #He {
+    border-top-width: 1px;
+  }
+
+  #H, #Li, #Na, #K, #Rb, #Cs, #Fr, #Hf, #Rf, #La, #Ac, #B, #Al, #He {
+    border-left-width: 1px;
+  }
+
+  #La, #Ac {
+    margin-left: (5vw*3);
+  }
+
+
+.element-container {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.element-number {
+  font-size: 1.5vw !important;
+  font-weight: 300;
+}
+.element-weight {
+  font-size: 1vw !important;
+  font-weight: 200;
+}
+.element-symbol {
+  font-size: 2vw !important;
+  font-weight: 200;
+}
+
+p {
+  margin: -.4vw !important;
+}
+
+@media(max-width: 649px){
+  .element{
+    width: 30.5px;
+    height: 30.5px;
+  }
+  .element-weight{
+    font-size: 6.1px !important;
+  }
   .element-symbol{
-    font-size: 20px !important;
+    font-size: 12.2px !important;
+  }
+  .element-number{
+    font-size: 9.15px !important;
+  }
+
+  .table{
+    margin: 0 10px !important;
+    min-width: 650px !important;
+  }
+
+  #H{
+    margin-right: 488px !important;
+  }
+
+  #Be, #Mg{
+    margin-right: 305px !important;
+  }
+
+  #Ba, #Ra{
+    margin-right: 30.5px !important;
+  }
+
+  #La, #Ce, #Pr, #Nd, #Pm, #Sm, #Eu, #Gd, #Tb, #Dy, #Ho, #Er, #Tm, #Yb, #Lu{
+    margin-top: 30.5px !important;
+  }
+  #La, #Ac{
+    margin-left: (30.5px)*3;
   }
 
   p{
     margin: -3px !important;
   }
-  .table{
-    min-width: 955px !important;
-    width: 955px !important;
-  }
-  .element{
-    width: $size-md;
-    height: $size-md;
-  }
-  #H{
-    margin-right: $size-md * 16 !important;
-  }
-  #Be, #Mg{
-    margin-right: $size-md * 10;
-  }
 
-  #Ba, #Ra{
-    margin-right: $size-md;
-  }
-
-  #La, #Ac{
-    margin-left: ($size-md*3)
-  }
 }
 
-@media(max-width: 950px){
-  .element-weight, .element-number{
-    font-size: 9px !important;
-  }
-
-  .element-symbol{
-    font-size: 18px !important;
-  }
-
-  p{
-    margin: -4px !important;
-  }
-  .table{
-    min-width: 775px !important;
-    width: 775px !important;
-  }
-  .element{
-    width: $size-sm;
-    height: $size-sm;
-  }
-  #H{
-    margin-right: $size-sm * 16 !important;
-  }
-  #Be, #Mg{
-    margin-right: $size-sm * 10;
-  }
-
-  #Ba, #Ra{
-    margin-right: $size-sm;
-  }
-
-  #La, #Ac{
-    margin-left: ($size-sm*3)
-  }
+.humanAbundance{
+  .element{opacity: 0; float: left;}
+  #O{position:relative; left: -75vw; top: -5vw; opacity:1;}
+  #C{position:relative; left: -60vw; top: -5vw; opacity:1;}
+  #H{position:relative; left: 10vw; opacity:1;}
+  #N{position:relative; left: -55vw; top: -5vw; opacity:1;}
+  #Ca{position:relative; left: 15vw; top: -15vw; opacity:1;}
+  #P{position:relative; top:-10vw; left: -45vw; opacity:1;}
+  #K{position:relative; top: -15vw; left: 30vw; opacity:1;}
+  #S{position:relative; top: -10vw; left: -40vw; opacity:1;}
+  #Na{position:relative; top: -10vw; left: 40vw; opacity:1;}
+  #Cl{position:relative; left: -35vw; top: -10vw; opacity:1;}
+  #Mg{position:relative; left: 45vw; top: -10vw; opacity:1;}
+  #Si{position:relative; top: -10vw; left: -10vw;  opacity:1;}
+  #Fe{position:relative; top: -15vw; left: 25vw; opacity:1;}
+  #F{position:relative; top: -5vw; left: -15vw; opacity:1;}
+  #Zn{position:relative; top: -15vw; left: 15vw; opacity:1;}
+  #Rb{position:relative; top:-20vw;  left: 75vw; opacity:1;}
+  #Sr{position:relative; top:-20vw;  left: 75vw; opacity:1;}
+  #Br{position:relative; top: -15vw; left: 5vw; opacity:1;}
+  #Pb{position:relative; left: -65vw; top: -20vw; opacity:1;}
+  #Cu{position:relative; left: -45vw; top: -10vw; opacity:1;}
+  #Al{position:relative; left: -50vw; top: -5vw; opacity:1;}
+  #Cd{position:relative; left: -40vw; top: -15vw; opacity:1;}
+  #B{position:relative; left: -40vw; opacity:1;}
+  #Ba{position:relative; left: 20vw; top: -20vw; opacity:1;}
+  #Mn{position:relative; top: -10vw; opacity:1;}
+  #I{position:relative; left: -45vw; top: -15vw; opacity:1;}
+  #Sn{position:relative; left: -25vw; top: -15vw; opacity:1;}
+  #Mo{position:relative; left: 20vw; top: -15vw; opacity:1;}
+  #Ni{position:relative; left: 5vw; top: -10vw; opacity:1;}
+  #Au{position:relative; left: 5vw; top: -20vw; opacity:1;}
+  #Se{position:relative; left: -15vw; top: -10vw; opacity:1;}
+  #Zr{position:relative; left: 50vw; top: -15vw; opacity:1;}
+  #As{position:relative; top: -10vw; opacity:1;}
+  #Li{position:relative; left:75vw; opacity:1;}
+  #V{position:relative; left: 60vw; top: -10vw; opacity:1;}
+  #Co{position:relative; left: 45vw; top: -10vw; opacity:1;}
+  #Cs{position:relative; top: -15vw; opacity:1;}
+  #U{position:relative; left: -25vw; top: -35vw; opacity:1;}
+  #Be{position:relative; top: 5vw; left: 5vw; opacity:1;}
+  #Ra{position:relative; left: 10vw; top: -20vw; opacity:1;}
 }

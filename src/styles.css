@@ -6,7 +6,6 @@ html{
 }
 body{
   background: white;
-  overflow-x: scroll !important;
 }
 
 
@@ -38,7 +37,6 @@ body{
 .Noble-Gas{
   background-color: #99d6ff;
 }
-
 .Diatomic-Nonmetal{
   background-color: #e066ff;
 }

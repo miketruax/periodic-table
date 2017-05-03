@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Dat Periodic Table Tho';
+  title = 'Periodic Table of Elements';
 }

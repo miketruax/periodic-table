@@ -3909,7 +3909,7 @@
     "thermoProps": {
       "phase at STP": "solid"
     },
-    "materialProps": {},
+
     "electromagnetProps": {
       "color": " (silver)"
     },
@@ -3998,8 +3998,8 @@
       "half‐life": "13 hours"
     },
     "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
+
+
     "reactivity": {
       "valence": "4"
     },
@@ -4034,8 +4034,8 @@
       "half‐life": "5.6 hours"
     },
     "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
+
+
     "reactivity": {
       "valence": "5"
     },
@@ -4070,8 +4070,8 @@
       "half‐life": "120 minutes"
     },
     "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
+
+
     "reactivity": {
       "valence": "6"
     },
@@ -4106,8 +4106,8 @@
       "half‐life": "90 minutes"
     },
     "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
+
+
     "reactivity": {
       "valence": "7"
     },
@@ -4142,9 +4142,9 @@
       "half‐life": "67 minutes"
     },
     "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
-    "reactivity": {},
+
+
+
     "atomicProps": {
       "term symbol": "^5D_4"
     },
@@ -4176,9 +4176,9 @@
       "half‐life": "30 minutes"
     },
     "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
-    "reactivity": {},
+
+
+
     "atomicProps": {
       "term symbol": "^4F_(9/2)"
     },
@@ -4209,10 +4209,10 @@
       "atomic mass": "281 u  (unified atomic mass units)",
       "half‐life": "4 minutes"
     },
-    "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
-    "reactivity": {},
+
+
+
+
     "atomicProps": {
       "term symbol": "^3D_3"
     },
@@ -4243,10 +4243,10 @@
       "atomic mass": "280 u  (unified atomic mass units)",
       "half‐life": "10 minutes"
     },
-    "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
-    "reactivity": {},
+
+
+
+
     "atomicProps": {
       "term symbol": "^2S_(1/2)"
     },
@@ -4277,10 +4277,10 @@
       "atomic mass": "285 u  (unified atomic mass units)",
       "half‐life": "40 minutes"
     },
-    "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
-    "reactivity": {},
+
+
+
+
     "atomicProps": {
       "term symbol": "^1S_0"
     },
@@ -4311,10 +4311,10 @@
       "atomic mass": "284 u  (unified atomic mass units)",
       "half‐life": "20 minutes"
     },
-    "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
-    "reactivity": {},
+
+
+
+
     "atomicProps": {
       "term symbol": "^2P_(1/2)"
     },
@@ -4345,10 +4345,10 @@
       "atomic mass": "289 u  (unified atomic mass units)",
       "half‐life": "80 seconds"
     },
-    "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
-    "reactivity": {},
+
+
+
+
     "atomicProps": {
       "term symbol": "^3P_0"
     },
@@ -4379,10 +4379,10 @@
       "atomic mass": "288 u  (unified atomic mass units)",
       "half‐life": "60 seconds"
     },
-    "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
-    "reactivity": {},
+
+
+
+
     "atomicProps": {
       "term symbol": "^4S_(3/2)"
     },
@@ -4413,10 +4413,10 @@
       "atomic mass": "293 u  (unified atomic mass units)",
       "half‐life": "120 ms  (milliseconds)"
     },
-    "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
-    "reactivity": {},
+
+
+
+
     "atomicProps": {
       "term symbol": "^3P_2"
     },
@@ -4447,10 +4447,10 @@
       "atomic mass": "294 u  (unified atomic mass units)",
       "half‐life": "50 ms  (milliseconds)"
     },
-    "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
-    "reactivity": {},
+
+
+
+
     "atomicProps": {
       "term symbol": "^2P_(3/2)"
     },
@@ -4481,10 +4481,6 @@
       "atomic mass": "294 u  (unified atomic mass units)",
       "half‐life": "5 ms  (milliseconds)"
     },
-    "thermoProps": {},
-    "materialProps": {},
-    "electromagnetProps": {},
-    "reactivity": {},
     "atomicProps": {
       "term symbol": "^1S_0"
     },
@@ -5776,7 +5772,7 @@
       ],
       "thermal conductivity": "10 W/(m K)  (rank: 70th)"
     },
-    "electromagnetProps": {},
+
     "reactivity": {
       "valence": "4",
       "electronegativity": "1.3",
@@ -5818,7 +5814,7 @@
     "materialProps": {
       "density": "15.1 g/cm^3  (rank: 12th)"
     },
-    "electromagnetProps": {},
+
     "reactivity": {
       "valence": "4",
       "electronegativity": "1.3",
@@ -5858,8 +5854,8 @@
       "phase at STP": "solid",
       "melting point": "860 °C  (rank: 54th)"
     },
-    "materialProps": {},
-    "electromagnetProps": {},
+
+
     "reactivity": {
       "valence": "4",
       "electronegativity": "1.3",
@@ -5898,8 +5894,8 @@
     "thermoProps": {
       "melting point": "1527 °C  (rank: 27th)"
     },
-    "materialProps": {},
-    "electromagnetProps": {},
+
+
     "reactivity": {
       "valence": "3",
       "electronegativity": "1.3",
@@ -5938,8 +5934,8 @@
     "thermoProps": {
       "melting point": "827 °C  (rank: 56th)"
     },
-    "materialProps": {},
-    "electromagnetProps": {},
+
+
     "reactivity": {
       "valence": "3",
       "electronegativity": "1.3",
@@ -5978,8 +5974,8 @@
     "thermoProps": {
       "melting point": "827 °C  (rank: 56th)"
     },
-    "materialProps": {},
-    "electromagnetProps": {},
+
+
     "reactivity": {
       "valence": "3",
       "electronegativity": "1.3",
@@ -6018,8 +6014,8 @@
     "thermoProps": {
       "melting point": "1627 °C  (rank: 21st)"
     },
-    "materialProps": {},
-    "electromagnetProps": {},
+
+
     "reactivity": {
       "valence": "3"
     },

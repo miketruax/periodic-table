@@ -1,11 +1,13 @@
-<div class="col-xs-10 col-xs-offset-1">
-  <input (click)="changeYear()" class="col-xs-12" type="range" min=-3000 max=2017 [(ngModel)]="year"/>
-  <h4 class="col-xs-12 text-center">{{year}}</h4>
-</div>
-<button (click)="seeAll()">See them all</button>
+<!--<div class="col-xs-10 col-xs-offset-1">-->
+  <!--<input (click)="changeYear()" class="col-xs-12" type="range" min=-3000 max=2017 [(ngModel)]="year"/>-->
+  <!--<h4 class="col-xs-12 text-center">{{year}}</h4>-->
+<!--</div>-->
+<!--<button (click)="seeAll()">See them all</button>-->
+<button class="col-xs-12" (click)="style='classic'">Classic View</button>
+<button class="col-xs-12" (click)="style='humanAbundance'">Human Abundance</button>
 
 
-<div class="table col-xs-12">
+<div class="table" ngClass="{{style}}" *ngIf="!moreInfo">
     <div *ngFor="let e of elements;" id="{{e.basicProps.symbol}}" (click)="showMore(e)"
          ngClass="{{e.type}} {{e.discoveryYear > year? 'undiscovered' : 'discovered'}}" class="element">
         <p class='element-symbol text-center'>{{e.basicProps.symbol}}</p>
