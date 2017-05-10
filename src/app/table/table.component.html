@@ -3,21 +3,27 @@
   <!--<h4 class="col-xs-12 text-center">{{year}}</h4>-->
 <!--</div>-->
 <!--<button (click)="seeAll()">See them all</button>-->
+
 <h1 class=" col-xs-12 text-center">
   Periodic Table of Elements
 </h1>
 
 <button class="col-xs-10 col-xs-offset-1 btn btn-default" (click)="style='classic'">Classic View</button>
 <button class="col-xs-4 col-xs-offset-1  btn btn-default" (click)="style='humanAbundance'">Human Abundance</button>
-<button class="col-xs-4 col-xs-offset-2 btn btn-default" (click)="style='universeAbundance'; sortbyUniverseAbundance()">Universe Abundance</button>
+<button class="col-xs-4 col-xs-offset-2 btn btn-default" (click)="style='universeAbundance'">Universe Abundance</button>
+<button class="col-xs-4 col-xs-offset-2 btn btn-default" (click)="style='crustAbundance'">Crust Abundance</button>
 
 
 <div class="table" ngClass="{{style}}" *ngIf="!moreInfo">
-    <div *ngFor="let e of elements;" id="{{e.basicProps.symbol}}" (click)="showMore(e)"
+    <div *ngFor="let e of elements;" id="{{e.basicProps.symbol}}"  (click)="style== 'classic' ? showMore(e) : ''"
          ngClass="{{e.type}} {{e.discoveryYear > year? 'undiscovered' : 'discovered'}}" class="element">
           <div class='element-symbol text-center'>{{e.basicProps.symbol}}</div>
           <div class='element-number text-center'>{{e.basicProps['atomic number']}}</div>
           <div class='element-weight text-center'>{{e.basicProps['atomic mass'] | atomicMass}}</div>
     </div>
+</div>
+<div class="ranking" *ngFor="let e of elements | ranking:style; let i = index" ngClass="{{e.type}}" (click)="showMore(e)">
+  <div class="text-center">{{i +1}}: {{e.name}} {{getSorted(e, style)}}</div>
+
 </div>
 <element-info-component (showMore)="showMore($event)" [moreInfo]="moreInfo" [element]="selectedElement"></element-info-component>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, HostListener} from '@angular/core';
 
 @Component({
   selector: 'table-component',
@@ -15,38 +15,7 @@ export class TableComponent {
   constructor(){
     this.elements = require('../../assets/elem_v3.json');
   }
-  sortbyHumanAbundance(){
-    let human =[];
-    this.elements.forEach((val ,i, elements)=>{
-      if(val["abundances"] && val["abundances"]["human abundance"]){
-        let rank = parseInt(val["abundances"]["human abundance"].split('(rank: ')[1]);
-        if(rank){
-          human.push(val);
-        }
-      }
-    });
-    human.sort((a, b)=>{
-      return parseInt(a["abundances"]["human abundance"].split('(rank: ')[1]) - parseInt(b["abundances"]["human abundance"].split('(rank: ')[1])
-    });
-    human.forEach(v=>{console.log(v["basicProps"]["symbol"], parseInt(v["abundances"]["human abundance"].split('(rank: ')[1]))});
-  }
-  sortbyUniverseAbundance(){
-    let human =[];
-    this.elements.forEach((val ,i, elements)=>{
-      if(val["abundances"] && val["abundances"]["universe abundance"]){
-        let rank = parseInt(val["abundances"]["universe abundance"].split('(rank: ')[1]);
-        if(rank){
-          human.push(val);
-        }
-      }
-    });
-    human.sort((a, b)=>{
-      return parseInt(a["abundances"]["universe abundance"].split('(rank: ')[1]) - parseInt(b["abundances"]["universe abundance"].split('(rank: ')[1])
-    });
-    // human.forEach(v=>{console.log(v["basicProps"]["symbol"], parseInt(v["abundances"]["universe abundance"].split('(rank: ')[1]))});
 
-
-  }
 
   seeAll(){
     this.year = -3000;
@@ -64,48 +33,19 @@ export class TableComponent {
     this.moreInfo = !this.moreInfo;
     this.selectedElement = e;
   }
+
+  getSorted(e,r){
+    switch (r){
+      case ('crustAbundance'):
+        return e['abundances']["crust abundance"].split('(rank')[0];
+      case ('humanAbundance'):
+        return e['abundances']["human abundance"].split('(rank')[0];
+      case ('universeAbundance'):
+        return e['abundances']["universe abundance"].split('(rank')[0];
+
+      default:
+        return;
+    }
+
+  }
 }
-
-/*
-#O 1
-#C 2
-#H 3
-#N 4
-#Ca 5
-#P 6
-#K 7
-#S 7
-#Na 9
-#Cl 10
-#Mg 11
-#Si 12
-#Fe 13
-#F 14
-#Zn 15
-#Rb 16
-#Sr 16
-#Br 18
-#Pb 19
-#Cu 20
-#Al 21
-#Cd 22
-#B 22
-#Ba 24
-#Mn 25
-#I 25
-#Sn 25
-#Mo 28
-#Ni 28
-#Au 28
-#Se 31
-#Zr 31
-#As 31
-#Li 34
-#V 34
-#Co 37
-#Cs 37
-#U 39
-#Be 40
-#Ra 41
-
-  */

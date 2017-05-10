@@ -8,6 +8,7 @@ import {TableComponent} from "./table/table.component";
 import {AtomicMass} from "./pipes/atomicMass.pipe";
 import {ElementInfoComponent} from "./element-info/element-info.component";
 import {ElementType} from "./pipes/elementType.pipe";
+import {RankingPipe} from "./pipes/ranking.pipe";
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {ElementType} from "./pipes/elementType.pipe";
     TableComponent,
     ElementInfoComponent,
     AtomicMass,
-    ElementType
+    ElementType,
+    RankingPipe
   ],
   imports: [
     BrowserModule,

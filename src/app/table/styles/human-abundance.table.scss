@@ -1,0 +1,262 @@
+//--MIXINS--//
+//@mixin humanPositon($x, $y, $i) {
+  @mixin humanPosition($i) {
+  border: none;
+  background-color: rgba(white, 0);
+  //top: ((6- $y) * 5vw)+ ((random(40)-20)*1vw);
+  //left: ((10-$x) * 5vw)+ (random(70)-35);
+  opacity: 1;
+  .element-symbol {
+    width: (5*(40-$i)/40)*2vw !important;
+    height: (5*(40-$i)/40)*2vw !important;
+    margin: 0 !important;
+    border-radius: 50%;
+    font-size: (5*(40-$i)/40)*1vw !important;
+  }
+}
+
+
+
+//---STYLES---//
+
+
+.humanAbundance {
+  .element .element-weight, .element .element-number, .element {
+    opacity: 0;
+  }
+
+  #O {
+    @include humanPosition(1);
+    left: -75vw;
+    top: -5vw;
+
+  }
+  #C {
+    @include humanPosition(2);
+    left: -60vw;
+    top: -5vw;
+
+  }
+  #H {
+    @include humanPosition(3);
+    left: 10vw;
+
+  }
+  #N {
+    @include humanPosition(4);
+    left: -55vw;
+    top: -5vw;
+
+  }
+  #Ca {
+    @include humanPosition(5);
+    left: 15vw;
+    top: -15vw;
+
+  }
+  #P {
+    @include humanPosition(6);
+    top: -10vw;
+    left: -45vw;
+
+  }
+  #K {
+    @include humanPosition(7);
+    top: -15vw;
+    left: 30vw;
+
+  }
+  #S {
+    @include humanPosition(8);
+    top: -10vw;
+    left: -40vw;
+
+  }
+  #Na {
+    @include humanPosition(9);
+    top: -10vw;
+    left: 40vw;
+
+  }
+  #Cl {
+    @include humanPosition(10);
+    left: -35vw;
+    top: -10vw;
+
+  }
+  #Mg {
+    @include humanPosition(11);
+    left: 45vw;
+    top: -10vw;
+
+  }
+  #Si {
+    @include humanPosition(12);
+    top: -10vw;
+    left: -10vw;
+
+  }
+  #Fe {
+    @include humanPosition(13);
+    top: -15vw;
+    left: 25vw;
+
+  }
+  #F {
+    @include humanPosition(14);
+    top: -5vw;
+    left: -15vw;
+
+  }
+  #Zn {
+    @include humanPosition(15);
+    top: -15vw;
+    left: 15vw;
+
+  }
+  #Rb {
+    @include humanPosition(16);
+    top: -20vw;
+    left: 75vw;
+
+  }
+  #Sr {
+    @include humanPosition(17);
+    top: -20vw;
+    left: 75vw;
+
+  }
+  #Br {
+    @include humanPosition(18);
+    top: -15vw;
+    left: 5vw;
+
+  }
+  #Pb {
+    @include humanPosition(19);
+    left: -65vw;
+    top: -20vw;
+
+  }
+  #Cu {
+    @include humanPosition(20);
+    left: -45vw;
+    top: -10vw;
+
+  }
+  #Al {
+    @include humanPosition(21);
+    left: -50vw;
+    top: -5vw;
+
+  }
+  #Cd {
+    @include humanPosition(22);
+    left: -40vw;
+    top: -15vw;
+
+  }
+  #B {
+    @include humanPosition(23);
+    left: -40vw;
+
+  }
+  #Ba {
+    @include humanPosition(24);
+    left: 20vw;
+    top: -20vw;
+
+  }
+  #Mn {
+    @include humanPosition(25);
+    top: -10vw;
+
+  }
+  #I {
+    @include humanPosition(26);
+    left: -45vw;
+    top: -15vw;
+
+  }
+  #Sn {
+    @include humanPosition(27);
+    left: -25vw;
+    top: -15vw;
+
+  }
+  #Mo {
+    @include humanPosition(28);
+    left: 20vw;
+    top: -15vw;
+
+  }
+  #Ni {
+    @include humanPosition(29);
+    left: 5vw;
+    top: -10vw;
+
+  }
+  #Au {
+    @include humanPosition(30);
+    left: 5vw;
+    top: -20vw;
+
+  }
+  #Se {
+    @include humanPosition(31);
+    left: -15vw;
+    top: -10vw;
+
+  }
+  #Zr {
+    @include humanPosition(32);
+    left: 50vw;
+    top: -15vw;
+
+  }
+  #As {
+    @include humanPosition(33);
+    top: -10vw;
+
+  }
+  #Li {
+    @include humanPosition(34);
+    left: 75vw;
+
+  }
+  #V {
+    @include humanPosition(35);
+    left: 60vw;
+    top: -10vw;
+
+  }
+  #Co {
+    @include humanPosition(36);
+    left: 45vw;
+    top: -10vw;
+
+  }
+  #Cs {
+    @include humanPosition(37);
+    top: -15vw;
+
+  }
+  #U {
+    @include humanPosition(38);
+    left: -25vw;
+    top: -35vw;
+
+  }
+  #Be {
+    @include humanPosition(39);
+    top: 5vw;
+    left: 5vw;
+
+  }
+  #Ra {
+    @include humanPosition(40);
+    left: 10vw;
+    top: -20vw;
+
+  }
+}
