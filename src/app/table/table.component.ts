@@ -30,6 +30,7 @@ export class TableComponent {
     clearInterval(this.counter);
   }
   showMore(e:Object){
+    window.scrollTo(0,0);
     this.moreInfo = !this.moreInfo;
     this.selectedElement = e;
   }

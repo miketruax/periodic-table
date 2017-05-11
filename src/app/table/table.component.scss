@@ -3,18 +3,31 @@
 @import "./styles/human-abundance.table";
 @import "./styles/crust-abundance.table";
 
+.main-container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .universeAbundance, .humanAbundance, .crustAbundance{
   .element{
     cursor: auto;
   }
 }
 
+element-info-component, .main-container{
+  transition: all .25s linear;
+}
 .ranking{
-  clear: both;
-  border: 1px solid rgba(white, .2);
-  width: 95vw;
+  width: 96%;
+  margin: 2px 2% !important;
   cursor: pointer;
-  margin: 1px !important;
+  border: .5px solid rgba(black, .2);
+  border-radius: 6px;
+  font-weight: 400 !important;
+  float: left;
+  @media (max-width: 720px) {
+    width: 96%;
+    margin: 2px 2% !important;
+  }
 }
 
 .universeAbundance, .humanAbundance {

@@ -3,18 +3,27 @@
   <!--<h4 class="col-xs-12 text-center">{{year}}</h4>-->
 <!--</div>-->
 <!--<button (click)="seeAll()">See them all</button>-->
-
+<div class="col-xs-12 main-container" [style.opacity]="moreInfo ? 0 : 1">
 <h1 class=" col-xs-12 text-center">
   Periodic Table of Elements
 </h1>
+  <h4>Views:</h4>
+  <button class="col-xs-12 btn btn-default" (click)="style='classic'">Classic</button>
+  <div class="btn-group col-xs-12">
+    <button type="button" class="col-xs-12 btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      By Abundance  <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" (click)="style='crustAbundance'">Crust Abundance</a></li>
+      <li><a class="dropdown-item" (click)="style='humanAbundance'">Human Abundance</a></li>
+      <li><a class="dropdown-item" (click)="style='universeAbundance'">Universe Abundance</a></li>
+    </ul>
+  </div>
 
-<button class="col-xs-10 col-xs-offset-1 btn btn-default" (click)="style='classic'">Classic View</button>
-<button class="col-xs-4 col-xs-offset-1  btn btn-default" (click)="style='humanAbundance'">Human Abundance</button>
-<button class="col-xs-4 col-xs-offset-2 btn btn-default" (click)="style='universeAbundance'">Universe Abundance</button>
-<button class="col-xs-4 col-xs-offset-2 btn btn-default" (click)="style='crustAbundance'">Crust Abundance</button>
 
+</div>
 
-<div class="table" ngClass="{{style}}" *ngIf="!moreInfo">
+<div [style.opacity]="moreInfo ? 0 : 1" class="table" ngClass="{{style}}" *ngIf="!moreInfo">
     <div *ngFor="let e of elements;" id="{{e.basicProps.symbol}}"  (click)="style== 'classic' ? showMore(e) : ''"
          ngClass="{{e.type}} {{e.discoveryYear > year? 'undiscovered' : 'discovered'}}" class="element">
           <div class='element-symbol text-center'>{{e.basicProps.symbol}}</div>
@@ -22,8 +31,10 @@
           <div class='element-weight text-center'>{{e.basicProps['atomic mass'] | atomicMass}}</div>
     </div>
 </div>
-<div class="ranking" *ngFor="let e of elements | ranking:style; let i = index" ngClass="{{e.type}}" (click)="showMore(e)">
-  <div class="text-center">{{i +1}}: {{e.name}} {{getSorted(e, style)}}</div>
-
+<div class="ranking-container col-xs-12" *ngIf="style !== 'classic'">
+  <h3 class="col-xs-12 text-center">Elements by total mass percentage</h3>
+  <div class="ranking" *ngFor="let e of elements | ranking:style; let i = index" ngClass="{{e.type}}" (click)="showMore(e)">
+    <div class="col-xs-12">{{i+1}}. {{e.name}}<span style="float: right;">{{getSorted(e, style)}}</span></div>
+  </div>
 </div>
-<element-info-component (showMore)="showMore($event)" [moreInfo]="moreInfo" [element]="selectedElement"></element-info-component>
+<element-info-component [style.opacity]="moreInfo ? 1 : 0"  (showMore)="showMore($event)" [moreInfo]="moreInfo" [element]="selectedElement"></element-info-component>

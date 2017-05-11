@@ -42,16 +42,16 @@
   border: none;
   background-color: rgba(white, 0);
   top: ((6- $y) * 5vw)+ ((random(30)-20)*1vw);
-  left: ((10-$x) * 5vw)+ (random(70)-35);
+  left: ((10-$x) * 5vw)+ ((random(70)-40)*1vw);
   opacity: 1;
   .element-symbol {
-    width: (5*(80-$i)/80)*2vw !important;
-    height: (5*(80-$i)/80)*2vw !important;
+    width: (5*(80-$i)/80)*1.5vw !important;
+    height: (5*(80-$i)/80)*1.5vw !important;
     margin: 0 !important;
     border-radius: 50%;
-    font-size: (5*(80-$i)/80)*1vw !important;
+    font-size: (5*(80-$i)/80)*.75vw !important;
   }
-  animation: ring1 ((random(100)*100ms)+350ms) linear infinite;
+  animation: ring1 ((random(100)*150ms)+350ms) linear infinite;
 }
 
 // -------STYLES-----------//
