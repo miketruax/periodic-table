@@ -29,6 +29,17 @@ element-info-component, .main-container{
     margin: 2px 2% !important;
   }
 }
+.dropdown-menu{
+  left: 15px !important;
+  a{
+    cursor: pointer;
+  }
+}
+.ranking:hover{
+  -ms-transform: scale(1.02); /* IE 9 */
+  -webkit-transform: scale(1.02); /* Safari */
+  transform: scale(1.02); /* Standard syntax */
+}
 
 .universeAbundance, .humanAbundance {
   .Alkali-Metal {
@@ -96,4 +107,19 @@ element-info-component, .main-container{
       background-color: #f2edf6;
     }
   }
+}
+
+.loading-bar{
+  background-color: aliceblue;
+  padding:0 !important;
+  border-radius: 15px;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.loading-container{
+  border-radius: 15px;
+  padding: 0 !important;
+  background-color: gray;
+  margin-bottom: 15px;
 }

@@ -33,6 +33,15 @@ export class RankingPipe implements PipeTransform {
         });
         return ret;
 
+      case 'discoveryYear':
+        elem.forEach((val)=>{
+          ret.push(val);
+        });
+        ret.sort((a, b) => {
+          return a['discoveryYear'] > b['discoveryYear'] ? 1 : a['discoveryYear'] < b['discoveryYear'] ? -1 : 0;
+        });
+        return ret;
+
       case 'universeAbundance':
         elem.forEach((val, i, elements) => {
           if (val["abundances"] && val["abundances"]["universe abundance"]) {

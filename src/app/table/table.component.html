@@ -1,26 +1,26 @@
-<!--<div class="col-xs-10 col-xs-offset-1">-->
-  <!--<input (click)="changeYear()" class="col-xs-12" type="range" min=-3000 max=2017 [(ngModel)]="year"/>-->
-  <!--<h4 class="col-xs-12 text-center">{{year}}</h4>-->
-<!--</div>-->
-<!--<button (click)="seeAll()">See them all</button>-->
 <div class="col-xs-12 main-container" [style.opacity]="moreInfo ? 0 : 1">
 <h1 class=" col-xs-12 text-center">
   Periodic Table of Elements
 </h1>
-  <h4>Views:</h4>
-  <button class="col-xs-12 btn btn-default" (click)="style='classic'">Classic</button>
   <div class="btn-group col-xs-12">
     <button type="button" class="col-xs-12 btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      By Abundance  <span class="caret"></span>
+      Change View <span class="caret"></span>
     </button>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" (click)="style='crustAbundance'">Crust Abundance</a></li>
-      <li><a class="dropdown-item" (click)="style='humanAbundance'">Human Abundance</a></li>
-      <li><a class="dropdown-item" (click)="style='universeAbundance'">Universe Abundance</a></li>
+    <ul class="dropdown-menu col-xs-12">
+      <li><a class="dropdown-item col-xs-12" (click)="setStyle('classic')">Classic</a></li>
+      <li><a class="dropdown-item col-xs-12" (click)="setStyle('crustAbundance')">Crust Abundance</a></li>
+      <li><a class="dropdown-item col-xs-12" (click)="setStyle('humanAbundance')">Human Abundance</a></li>
+      <li><a class="dropdown-item col-xs-12" (click)="setStyle('universeAbundance')">Universe Abundance</a></li>
+      <li><a class="dropdown-item col-xs-12" (click)="discoveryShow()">Order of Discovery</a></li>
     </ul>
   </div>
 
 
+</div>
+<div class="col-xs-12"  *ngIf="style === 'discoveryYear'">
+  <div class="col-xs-12 loading-container">
+    <div class="col-xs-12 loading-bar text-center" [style.width.%]="year/2017*100">Year: {{year}}</div>
+  </div>
 </div>
 
 <div [style.opacity]="moreInfo ? 0 : 1" class="table" ngClass="{{style}}" *ngIf="!moreInfo">
@@ -31,8 +31,9 @@
           <div class='element-weight text-center'>{{e.basicProps['atomic mass'] | atomicMass}}</div>
     </div>
 </div>
-<div class="ranking-container col-xs-12" *ngIf="style !== 'classic'">
-  <h3 class="col-xs-12 text-center">Elements by total mass percentage</h3>
+<div class="ranking-container col-xs-12" *ngIf="style !== 'classic' && !moreInfo">
+  <h3 class="col-xs-12 text-center" *ngIf="style !== 'discoveryYear'">Elements by total mass percentage</h3>
+  <h3 class="col-xs-12 text-center" *ngIf="style === 'discoveryYear'">Elements by year discovered</h3>
   <div class="ranking" *ngFor="let e of elements | ranking:style; let i = index" ngClass="{{e.type}}" (click)="showMore(e)">
     <div class="col-xs-12">{{i+1}}. {{e.name}}<span style="float: right;">{{getSorted(e, style)}}</span></div>
   </div>

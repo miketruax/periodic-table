@@ -17,19 +17,25 @@ export class TableComponent {
   }
 
 
-  seeAll(){
-    this.year = -3000;
+  discoveryShow(){
+    this.style='discoveryYear';
+    this.year = 0;
     this.counter = setInterval( ()=>{
-      this.year = this.year+1;
-      if(this.year == 2017){
+      this.year += this.year < 1200 ? 50 : 5;
+      if(this.year >= 2017){
+        this.year = 2017;
         clearInterval(this.counter);
       }
     }, 50);
   }
-  changeYear(){
+  setStyle(s: string){
+    this.year = 2017;
     clearInterval(this.counter);
+    this.style = s;
   }
   showMore(e:Object){
+    clearInterval(this.counter);
+    this.year = 2017;
     window.scrollTo(0,0);
     this.moreInfo = !this.moreInfo;
     this.selectedElement = e;
@@ -43,6 +49,13 @@ export class TableComponent {
         return e['abundances']["human abundance"].split('(rank')[0];
       case ('universeAbundance'):
         return e['abundances']["universe abundance"].split('(rank')[0];
+      case ('discoveryYear'):
+        if(e['discoveryYear'] >0) {
+          return e['discoveryYear'] + ' CE';
+        }
+        else{
+          return Math.abs(e['discoveryYear'])+ ' BCE';
+        }
 
       default:
         return;
