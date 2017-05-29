@@ -2,6 +2,7 @@
 @import "./styles/universe-abundance.table";
 @import "./styles/human-abundance.table";
 @import "./styles/crust-abundance.table";
+@import "./styles/discovery-year.table";
 
 .main-container{
   margin-top: 20px;
@@ -109,17 +110,3 @@ element-info-component, .main-container{
   }
 }
 
-.loading-bar{
-  background-color: aliceblue;
-  padding:0 !important;
-  border-radius: 15px;
-  border: 1px solid black;
-  font-weight: bold;
-}
-
-.loading-container{
-  border-radius: 15px;
-  padding: 0 !important;
-  background-color: gray;
-  margin-bottom: 15px;
-}

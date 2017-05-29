@@ -1,4 +1,5 @@
 import {Component, HostListener} from '@angular/core';
+import {DomSanitizer} from "@angular/platform-browser";
 
 @Component({
   selector: 'table-component',
@@ -11,31 +12,37 @@ export class TableComponent {
   counter: any;
   elements: Object[];
   selectedElement: Object = {};
-  year: number = 2017;
-  constructor(){
+  currYear: number;
+  year: number;
+  constructor(private sanitizer: DomSanitizer){
     this.elements = require('../../assets/elem_v3.json');
+    this.currYear = new Date().getFullYear();
+    this.year = this.currYear;
   }
-
+  clearCounter(){
+    console.log('Now!');
+    clearInterval(this.counter);
+  }
 
   discoveryShow(){
     this.style='discoveryYear';
     this.year = 0;
     this.counter = setInterval( ()=>{
       this.year += this.year < 1200 ? 50 : 5;
-      if(this.year >= 2017){
-        this.year = 2017;
+      if(this.year >= this.currYear){
+        this.year = this.currYear;
         clearInterval(this.counter);
       }
     }, 50);
   }
   setStyle(s: string){
-    this.year = 2017;
+    this.year = this.currYear;
     clearInterval(this.counter);
     this.style = s;
   }
   showMore(e:Object){
     clearInterval(this.counter);
-    this.year = 2017;
+    this.year = this.currYear;
     window.scrollTo(0,0);
     this.moreInfo = !this.moreInfo;
     this.selectedElement = e;

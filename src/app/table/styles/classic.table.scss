@@ -1,20 +1,10 @@
-.discovered {
-  transition: opacity 400ms linear;
-  opacity: 1;
-}
-
-.undiscovered {
-  transition: opacity 400ms linear;
-  opacity: 0;
-}
-
 .element {
   position: relative;
   left: 0;
   top: 0;
   width: 5vw;
   height: 5vw;
-  transition: top .5s linear, left .5s linear, opacity .5s linear;
+  transition: top .5s linear, left .5s linear, opacity .5s linear, transform 400ms linear;
   border-width: 0 1px 1px 0;
   border-style: solid;
   border-color: rgba(0, 0, 0, .1);
