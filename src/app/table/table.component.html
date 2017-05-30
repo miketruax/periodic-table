@@ -27,8 +27,7 @@
   <div class="text-center lead">{{year === currYear ? 'Now' : year+' CE'}}</div>
 </div>
 
-<div [style.opacity]="(moreInfo || showRanking) ? 0 : 1" class="table" ngClass="{{style}}"
-     *ngIf="!moreInfo" [style.background-image]="style=== 'crustAbundance' ? 'url(\'assets/globe.png\')' : ''">
+<div [style.opacity]="(moreInfo || showRanking) ? 0 : 1" class="table" ngClass="{{style}}" *ngIf="!moreInfo">
     <div *ngFor="let e of elements;" id="{{e.basicProps.symbol}}"  (click)="style== 'classic' ? showMore(e) : ''"
          ngClass="{{e.type}} {{e.discoveryYear > year? 'undiscovered' : 'discovered'}}" class="element">
           <div class='element-symbol text-center'>{{e.basicProps.symbol}}</div>
