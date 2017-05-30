@@ -5,7 +5,7 @@
     <h3 class="col-xs-12 text-center" *ngIf="style !== 'discoveryYear'">
       {{style !=='discoveryYear' ? 'Ranked by mass percentage' : 'Elements by year discovered'}}</h3>
     <div class="ranking" *ngFor="let e of elements; let i = index" ngClass="{{e.type}}" (click)="showMore.emit(e)">
-      <div class="col-xs-12">{{i+1}}. {{e.name}}<span style="float: right;">{{getSorted(e)}}</span></div>
+      <div class="col-xs-12">{{i+1}}. {{e.name}}<span style="float: right;">{{e |rankingInfo:style}}</span></div>
     </div>
   </div>
 </div>

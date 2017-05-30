@@ -10,6 +10,7 @@ import {ElementInfoComponent} from "./element-info/element-info.component";
 import {ElementType} from "./pipes/elementType.pipe";
 import {RankingPipe} from "./pipes/ranking.pipe";
 import {ElementRankingComponent} from "./element-ranking/element-ranking.component";
+import {RankingInfoPipe} from "./pipes/rankingInfo.pipe";
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import {ElementRankingComponent} from "./element-ranking/element-ranking.compone
     ElementRankingComponent,
     AtomicMass,
     ElementType,
-    RankingPipe
+    RankingPipe, RankingInfoPipe
   ],
   imports: [
     BrowserModule,

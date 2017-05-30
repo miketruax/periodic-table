@@ -18,9 +18,11 @@ element-info-component, element-ranking-component, .main-container{
   transition: all .25s linear;
 }
 .dropdown-menu{
-  left: 15px !important;
   a{
     cursor: pointer;
+  }
+  .active{
+    background-color: gainsboro;
   }
 }
 

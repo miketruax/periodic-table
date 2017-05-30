@@ -7,11 +7,11 @@
       Change View <span class="caret"></span>
     </button>
     <ul class="dropdown-menu col-xs-12">
-      <li><a class="dropdown-item col-xs-12" (click)="setStyle('classic')">Classic</a></li>
-      <li><a class="dropdown-item col-xs-12" (click)="setStyle('crustAbundance')">Crust Abundance</a></li>
-      <li><a class="dropdown-item col-xs-12" (click)="setStyle('humanAbundance')">Human Abundance</a></li>
-      <li><a class="dropdown-item col-xs-12" (click)="setStyle('universeAbundance')">Universe Abundance</a></li>
-      <li><a class="dropdown-item col-xs-12" (click)="discoveryShow()">Order of Discovery</a></li>
+      <li><a class="dropdown-item col-xs-12" ngClass="{{style==='classic' ? 'active' : ''}}" (click)="setStyle('classic')">Classic</a></li>
+      <li><a class="dropdown-item col-xs-12" ngClass="{{style==='crustAbundance' ? 'active' : ''}}" (click)="setStyle('crustAbundance')">Crust Abundance</a></li>
+      <li><a class="dropdown-item col-xs-12" ngClass="{{style==='humanAbundance' ? 'active' : ''}}" (click)="setStyle('humanAbundance')">Human Abundance</a></li>
+      <li><a class="dropdown-item col-xs-12" ngClass="{{style==='universeAbundance' ? 'active' : ''}}" (click)="setStyle('universeAbundance')">Universe Abundance</a></li>
+      <li><a class="dropdown-item col-xs-12" ngClass="{{style==='discoveryYear' ? 'active' : ''}}" (click)="discoveryShow()">Order of Discovery</a></li>
     </ul>
   </div>
 </div>
@@ -28,7 +28,7 @@
 </div>
 
 <div [style.opacity]="(moreInfo || showRanking) ? 0 : 1" class="table" ngClass="{{style}}"
-     *ngIf="!moreInfo" [style.background-image]="style=== 'humanAbundance!!' ? 'url(\'assets/hand.jpeg\')' : ''">
+     *ngIf="!moreInfo" [style.background-image]="style=== 'crustAbundance' ? 'url(\'assets/globe.png\')' : ''">
     <div *ngFor="let e of elements;" id="{{e.basicProps.symbol}}"  (click)="style== 'classic' ? showMore(e) : ''"
          ngClass="{{e.type}} {{e.discoveryYear > year? 'undiscovered' : 'discovered'}}" class="element">
           <div class='element-symbol text-center'>{{e.basicProps.symbol}}</div>
