@@ -47,6 +47,9 @@
 #La, #Ac {
   margin-left: 15vw;
 }
+.element-number, .element-weight, .element-symbol {
+  transition: opacity 400ms linear, transform 400ms linear;
+}
 
 .element-number {
   font-size: 1vw !important;
@@ -76,4 +79,16 @@
   .element-symbol {
     font-size: 2vw !important;
   }
+}
+
+.exit{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-top: 20px !important;
+  background-image: url('../../assets/exit.svg');
+  background-size: 90% 90%;
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -9,12 +9,14 @@ import {AtomicMass} from "./pipes/atomicMass.pipe";
 import {ElementInfoComponent} from "./element-info/element-info.component";
 import {ElementType} from "./pipes/elementType.pipe";
 import {RankingPipe} from "./pipes/ranking.pipe";
+import {ElementRankingComponent} from "./element-ranking/element-ranking.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     TableComponent,
     ElementInfoComponent,
+    ElementRankingComponent,
     AtomicMass,
     ElementType,
     RankingPipe

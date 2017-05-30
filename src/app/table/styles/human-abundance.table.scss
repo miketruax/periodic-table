@@ -1,262 +1,187 @@
 //--MIXINS--//
-//@mixin humanPositon($x, $y, $i) {
-  @mixin humanPosition($i) {
+@mixin humanPosition($i, $x, $y) {
   border: none;
   background-color: rgba(white, 0);
-  //top: ((6- $y) * 5vw)+ ((random(40)-20)*1vw);
-  //left: ((10-$x) * 5vw)+ (random(70)-35);
+    top: $y*1vw;
+    left: $x*1vw;
   opacity: 1;
   .element-symbol {
-    width: (5*(40-$i)/40)*2vw !important;
-    height: (5*(40-$i)/40)*2vw !important;
+    width: (5*(80-$i)/80)*1.5vw !important;
+    height: (5*(80-$i)/80)*1.5vw !important;
     margin: 0 !important;
     border-radius: 50%;
-    font-size: (5*(40-$i)/40)*1vw !important;
+    font-size: (5*(80-$i)/80)*.75vw !important;
   }
 }
-
-
 
 //---STYLES---//
 
 
 .humanAbundance {
+  background-repeat: no-repeat;
+  background-position: center;
   .element .element-weight, .element .element-number, .element {
     opacity: 0;
   }
 
   #O {
-    @include humanPosition(1);
-    left: -75vw;
-    top: -5vw;
-
+    //@include humanPosition(1, -75, -5);
+    @include humanPosition(1, -47, 21);
   }
   #C {
-    @include humanPosition(2);
-    left: -60vw;
-    top: -5vw;
-
+    //@include humanPosition(2, -60, -5);
+    @include humanPosition(2, -26, 15);
   }
   #H {
-    @include humanPosition(3);
-    left: 10vw;
-
+    //@include humanPosition(3, 10, 0);
+    @include humanPosition(3, 29, 32);
   }
   #N {
-    @include humanPosition(4);
-    left: -55vw;
-    top: -5vw;
-
+    //@include humanPosition(4, -55, -5);
+    @include humanPosition(4, -40, 33);
   }
   #Ca {
-    @include humanPosition(5);
-    left: 15vw;
-    top: -15vw;
-
+    //@include humanPosition(5, 15, -15);
+    @include humanPosition(5, 30, 13);
   }
   #P {
-    @include humanPosition(6);
-    top: -10vw;
-    left: -45vw;
-
+    //@include humanPosition(6, -45, -10);
+    @include humanPosition(6, -36, 32);
   }
   #K {
-    @include humanPosition(7);
-    top: -15vw;
-    left: 30vw;
-
+    //@include humanPosition(7, 30, -15);
+    @include humanPosition(7, 36, 20);
   }
   #S {
-    @include humanPosition(8);
-    top: -10vw;
-    left: -40vw;
-
+    //@include humanPosition(8, -40, -10);
+    @include humanPosition(8, -41, 12);
   }
   #Na {
-    @include humanPosition(9);
-    top: -10vw;
-    left: 40vw;
-
+    //@include humanPosition(9, 40, -10);
+    @include humanPosition(9, 45, 17);
   }
   #Cl {
-    @include humanPosition(10);
-    left: -35vw;
-    top: -10vw;
-
+    //@include humanPosition(10, -35, -10);
+    @include humanPosition(10, -35, 11);
   }
   #Mg {
-    @include humanPosition(11);
-    left: 45vw;
-    top: -10vw;
-
+    //@include humanPosition(11, 45, -10);
+    @include humanPosition(11, 35, 17);
   }
   #Si {
-    @include humanPosition(12);
-    top: -10vw;
-    left: -10vw;
-
+    //@include humanPosition(12, -10, -10);
+    @include humanPosition(12, -12, 22);
   }
   #Fe {
-    @include humanPosition(13);
-    top: -15vw;
-    left: 25vw;
-
+    //@include humanPosition(13, 25, -15);
+    @include humanPosition(13, 12, 17);
   }
   #F {
-    @include humanPosition(14);
-    top: -5vw;
-    left: -15vw;
-
+    //@include humanPosition(14, -15, -5);
+    @include humanPosition(14, -38, 28);
   }
   #Zn {
-    @include humanPosition(15);
-    top: -15vw;
-    left: 15vw;
-
+    //@include humanPosition(15, 15, -15);
+    @include humanPosition(15, -5, 22);
   }
   #Rb {
-    @include humanPosition(16);
-    top: -20vw;
-    left: 75vw;
-
+    //@include humanPosition(16, 75, -20);
+    @include humanPosition(16, 47, 21);
   }
   #Sr {
-    @include humanPosition(17);
-    top: -20vw;
-    left: 75vw;
-
+    //@include humanPosition(17, 75, -20);
+    @include humanPosition(17, 36, 24);
   }
   #Br {
-    @include humanPosition(18);
-    top: -15vw;
-    left: 5vw;
-
+    //@include humanPosition(18, 5, -15);
+    @include humanPosition(18, -39, 24);
   }
   #Pb {
-    @include humanPosition(19);
-    left: -65vw;
-    top: -20vw;
-
+    //@include humanPosition(19, -65, -20);
+    @include humanPosition(19, -40, -2);
   }
   #Cu {
-    @include humanPosition(20);
-    left: -45vw;
-    top: -10vw;
-
+    //@include humanPosition(20, -45, -10);
+    @include humanPosition(20, -28, 4);
   }
   #Al {
-    @include humanPosition(21);
-    left: -50vw;
-    top: -5vw;
-
+    //@include humanPosition(21, -50, -5);
+    @include humanPosition(21, -41, 6);
   }
   #Cd {
-    @include humanPosition(22);
-    left: -40vw;
-    top: -15vw;
-
+    //@include humanPosition(22, -40, -15);
+    @include humanPosition(22, -23, -2);
   }
   #B {
-    @include humanPosition(23);
-    left: -40vw;
-
+    //@include humanPosition(23, -40, 0);
+    @include humanPosition(23, -32, 1);
   }
   #Ba {
-    @include humanPosition(24);
-    left: 20vw;
-    top: -20vw;
-
+    //@include humanPosition(24, 20, -20);
+    @include humanPosition(24, 24, -14);
   }
   #Mn {
-    @include humanPosition(25);
-    top: -10vw;
-
+    //@include humanPosition(25, 0, -10);
+    @include humanPosition(25, 9, -14);
   }
   #I {
-    @include humanPosition(26);
-    left: -45vw;
-    top: -15vw;
-
+    //@include humanPosition(26, -45, -15);
+    @include humanPosition(26, -40, -5);
   }
   #Sn {
-    @include humanPosition(27);
-    left: -25vw;
-    top: -15vw;
-
+    //@include humanPosition(27, -25, -15);
+    @include humanPosition(27, -26, -14);
   }
   #Mo {
-    @include humanPosition(28);
-    left: 20vw;
-    top: -15vw;
-
+    //@include humanPosition(28, 20, -15);
+    @include humanPosition(28, 14, -9);
   }
   #Ni {
-    @include humanPosition(29);
-    left: 5vw;
-    top: -10vw;
-
+    //@include humanPosition(29, 5, -10);
+    @include humanPosition(29, 4, -12);
   }
   #Au {
-    @include humanPosition(30);
-    left: 5vw;
-    top: -20vw;
-
+    //@include humanPosition(30, 5, -20);
+    @include humanPosition(30, -1, -18);
   }
   #Se {
-    @include humanPosition(31);
-    left: -15vw;
-    top: -10vw;
-
+    //@include humanPosition(31, -15, -10);
+    @include humanPosition(31, -27, -4);
   }
   #Zr {
-    @include humanPosition(32);
-    left: 50vw;
-    top: -15vw;
-
+    //@include humanPosition(32, 50, -15);
+    @include humanPosition(32, 32, -5);
   }
   #As {
-    @include humanPosition(33);
-    top: -10vw;
-
+    //@include humanPosition(33, 0, -10);
+    @include humanPosition(33, -5, 10);
   }
   #Li {
-    @include humanPosition(34);
-    left: 75vw;
-
+    //@include humanPosition(34, 75, 0);
+    @include humanPosition(34, 61, 21);
   }
   #V {
-    @include humanPosition(35);
-    left: 60vw;
-    top: -10vw;
-
+    //@include humanPosition(35, 60, -10);
+    @include humanPosition(35, 40, 14);
   }
   #Co {
-    @include humanPosition(36);
-    left: 45vw;
-    top: -10vw;
-
+    //@include humanPosition(36, 45, -10);
+    @include humanPosition(36, 17, 15);
   }
   #Cs {
-    @include humanPosition(37);
-    top: -15vw;
-
+    //@include humanPosition(37, 0, -15);
+    @include humanPosition(37, 32, -10);
   }
   #U {
-    @include humanPosition(38);
-    left: -25vw;
-    top: -35vw;
-
+    //@include humanPosition(38, -25, -35);
+    @include humanPosition(38, 18, -27);
   }
   #Be {
-    @include humanPosition(39);
-    top: 5vw;
-    left: 5vw;
-
+    //@include humanPosition(39, 5, 5);
+    @include humanPosition(39, 34, 21);
   }
   #Ra {
-    @include humanPosition(40);
-    left: 10vw;
-    top: -20vw;
-
+    //@include humanPosition(40, 10, -20);
+    @include humanPosition(40, 41, 8);
   }
 }

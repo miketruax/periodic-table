@@ -8,6 +8,7 @@ import {DomSanitizer} from "@angular/platform-browser";
 })
 export class TableComponent {
   moreInfo: boolean = false;
+  showRanking: boolean = false;
   style: string = "classic";
   counter: any;
   elements: Object[];
@@ -20,7 +21,6 @@ export class TableComponent {
     this.year = this.currYear;
   }
   clearCounter(){
-    console.log('Now!');
     clearInterval(this.counter);
   }
 
@@ -48,25 +48,7 @@ export class TableComponent {
     this.selectedElement = e;
   }
 
-  getSorted(e,r){
-    switch (r){
-      case ('crustAbundance'):
-        return e['abundances']["crust abundance"].split('(rank')[0];
-      case ('humanAbundance'):
-        return e['abundances']["human abundance"].split('(rank')[0];
-      case ('universeAbundance'):
-        return e['abundances']["universe abundance"].split('(rank')[0];
-      case ('discoveryYear'):
-        if(e['discoveryYear'] >0) {
-          return e['discoveryYear'] + ' CE';
-        }
-        else{
-          return Math.abs(e['discoveryYear'])+ ' BCE';
-        }
-
-      default:
-        return;
-    }
-
+  ranking(){
+    this.showRanking = !this.showRanking;
   }
 }
