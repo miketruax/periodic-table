@@ -1,0 +1,77 @@
+<div class="main-container" ngClass="{{transitionStyle}}">
+<div class="table-container">
+  <h3 class="text-center main-title">
+    Periodic Table of Elements
+  </h3>
+
+  <!--TOP MENU -->
+
+  <div class="menu-container" >
+    <div class="icon-container" ngClass="{{style==='classic' ? 'active' : ''}}" (click)="setStyle('classic')"
+         [innerHTML]="iconBuilder('beaker', 'Standard View')">
+      Classic
+    </div>
+    <div class="icon-container " ngClass="{{style==='crustAbundance' ? 'active' : ''}}"
+         (click)="setStyle('crustAbundance')" [innerHTML]="iconBuilder('globe', 'Crust Abundance')">Crust Abundance
+    </div>
+    <div class="icon-container " ngClass="{{style==='humanAbundance' ? 'active' : ''}}"
+         (click)="setStyle('humanAbundance')" [innerHTML]="iconBuilder('person', 'Human Abundance')">Human Abundance
+    </div>
+    <div class="icon-container " ngClass="{{style==='universeAbundance' ? 'active' : ''}}"
+         (click)="setStyle('universeAbundance')" [innerHTML]="iconBuilder('rocket', 'Universe Abundance')">Universe Abundance
+    </div>
+    <div class="icon-container " ngClass="{{style==='discoveryYear' ? 'active' : ''}}" (click)="setStyle('discoveryYear')"
+         [innerHTML]="iconBuilder('calendar', 'Discovery Date')">
+      Order of Discovery
+    </div>
+  </div>
+
+<!--SHOW RANKING BUTTON-->
+
+
+
+
+
+<!--YEAR CONTROLS FOR CHRONOLOGICAL ORDER-->
+<div class="slider-container" *ngIf="style === 'discoveryYear'">
+  <div class="text-center yearDisplay">Elements Discovered By {{year === currYear ? 'Now' : year+' CE'}}</div>
+  <div class="back yearControls" [style.visibility]="year === -10000 ? 'hidden' : 'visible'" (click)="jumpYear(-1)" [innerHTML]="iconBuilder('arrow-left', 'Prev', false, 20)"></div>
+  <div class="back yearControls" [style.visibility]="year === -10000 ? 'hidden' : 'visible'" (click)="resetYears()" [innerHTML]="iconBuilder('history', 'Reset', false, 20)"></div>
+  <div class="back yearControls" ngClass="{{timer !== false ? 'playing': ''}}" (click)="playYear(true)" [innerHTML]="iconBuilder('triangle-right', 'Play', false, 20)"></div>
+  <div class="back yearControls" (click)="playYear(false)" [innerHTML]="iconBuilder('primitive-square', 'Stop', false, 20)"></div>
+  <div class="back yearControls" [style.opacity]="year !== elementYears[elementYears.length - 1] ? 1 : 0" [innerHTML]="iconBuilder('arrow-right', 'Next', false, 20)"(click)="jumpYear(1)"></div>
+</div>
+
+<!--TABLE-->
+
+
+
+<div class="table" ngClass="{{style}}">
+  <div *ngFor="let e of elements;" id="{{e['basic properties'].symbol}}"
+       (click)="(style=== 'classic' || style === 'discoveryYear') ? showMore(e, $event) : ''"
+       ngClass="{{e['basic properties'].type}} {{e['basic properties']['year discovered'] > year? 'undiscovered' : 'discovered'}}"
+       class="element">
+    <div class='element-number text-center'>{{e['basic properties']['atomic number']}}</div>
+    <div class='element-symbol text-center'>{{e['basic properties'].symbol}}</div>
+    <div class='element-weight text-center'>{{e['basic properties']['atomic mass'] | atomicMass}}</div>
+  </div>
+</div>
+
+  </div>
+<!--ELEMENT RANKING -->
+  <div *ngIf="(!moreInfo) && style !== 'classic'" class="rankingButton"
+       (click)="showRankTable()" [innerHTML]="style === 'discoveryYear' ? iconBuilder('clock', 'View List By Chronological Order', true) : iconBuilder('list-ordered', 'View List Ranked By Mass', true)">
+  </div>
+  <element-ranking-component *ngIf="showRanking" (closeRanking)="hideRankTable($event)"
+                             [moreInfo]="moreInfo" [showRanking]="showRanking" (showMore)="showMore($event)"
+                             [style]="style" [elements]="elements | ranking:style"></element-ranking-component>
+
+
+<!--ELEMENT INFO-->
+
+<element-info-component id="element-info" (showMore)="hideMore($event)" *ngIf="moreInfo"
+                        [element]="selectedElement" [startTop]="box.top" [startLeft]="box.left"></element-info-component>
+
+<!--PORTFOLIO EXIT-->
+
+</div>
