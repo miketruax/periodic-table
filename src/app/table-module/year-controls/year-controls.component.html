@@ -1,0 +1,26 @@
+<div class="slider-container float-left">
+  <div class="text-center yearDisplay">Elements Discovered By {{formatYear()}}</div>
+  <div class="text-center yearControls float-left" ngClass="{{year === -10000 ? 'inactive' : ''}}"
+       (click)="jumpYear(-1)">
+    <span octicon="arrow-left" size="20"></span>
+    <p class="iconDescription">Prev</p>
+  </div>
+  <div class="text-center yearControls float-left" ngClass="{{year === -10000 ? 'inactive' : ''}}"
+       (click)="resetYears()">
+    <span octicon="history" size="20"></span>
+    <p class="iconDescription">Reset</p>
+  </div>
+  <div class="text-center yearControls float-left" ngClass="{{timer !== false ? 'playing': ''}}" (click)="playYear()">
+    <span octicon="triangle-right" size="20"></span>
+    <p class="iconDescription">Play</p>
+  </div>
+  <div class="text-center yearControls float-left" (click)="clearTimer()">
+    <span octicon="primitive-square" size="20"></span>
+    <p class="iconDescription">Stop</p>
+  </div>
+  <div class="text-center yearControls float-left"
+       ngClass="{{year !== elementYears[elementYears.length - 1] ? '' : 'inactive'}}" (click)="jumpYear(1)">
+    <span octicon="arrow-right" size="20"></span>
+    <p class="iconDescription">Prev</p>
+  </div>
+</div>

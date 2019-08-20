@@ -1,0 +1,16 @@
+<div class="info-container">
+  <div class="ranking-container">
+  <h2 class="text-center rank-heading text-capitalize">{{rankHeader()}}
+    <div class="exit" (click)="closeRanking.emit()" >
+      <span octicon="x" size="15"></span>
+    </div>
+  </h2>
+    <h3 class="text-center rank-heading" *ngIf="style !== 'discoveryYear'">
+      {{style !=='discoveryYear' ? 'Ranked by mass percentage' : 'Elements by year discovered'}}</h3>
+    <div class="ranking" *ngFor="let e of elements; let i = index" ngClass="{{e['basic properties'].type}}">
+      <div class="ranking-item">{{i+1}}. {{e['basic properties'].name}}<span class="float-right">{{e |rankingInfo:style}}</span></div>
+    </div>
+  </div>
+  <button class="float-right close-button text-center pointer" (click)="closeRanking.emit()">Close</button>
+</div>
+

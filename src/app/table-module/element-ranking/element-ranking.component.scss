@@ -1,0 +1,32 @@
+.ranking{
+  width: 98%;
+  padding: 4px;
+  margin: 2px auto !important;
+  border: .5px solid rgba(black, .2);
+  font-weight: 400 !important;
+}
+
+.ranking-item span{
+  float: right;
+}
+
+.rank-heading{
+  font-size: 20px;
+}
+
+@media(max-width: 800px){
+  .ranking{
+    margin: 1px auto !important;
+    padding: 4px 0;
+    font-size: 12px;
+  }
+
+}
+.exit{
+  z-index: 100;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin-top: 10px !important;
+}

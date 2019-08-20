@@ -1,0 +1,21 @@
+.discoveryYear {
+  &.table{
+    margin-top: 5px;
+  }
+  .discovered div {
+    opacity: 1;
+    .element-number, .element-weight, .element-symbol {
+      transition: opacity 400ms linear, transform 400ms linear;
+    }
+  }
+
+  .undiscovered {
+    .element-number, .element-weight, .element-symbol {
+      transition: opacity 400ms linear, transform 400ms linear;
+      opacity: 0;
+      -ms-transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  }
+}

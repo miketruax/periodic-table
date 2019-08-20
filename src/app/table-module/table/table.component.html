@@ -1,0 +1,87 @@
+<div class="main-container" ngClass="{{transitionStyle}}">
+  <div class="table-container">
+    <h3 class="text-center main-title">
+      Periodic Table of Elements
+    </h3>
+
+    <!--TOP MENU -->
+
+    <div class="menu-container float-left">
+      <div class="icon-container float-left" [class.active]="style=='classic'"
+           (click)="setStyle('classic')">
+        <mat-icon>table_chart</mat-icon>
+        <p class="iconDescription">Standard View</p>
+      </div>
+      <div class="icon-container float-left" [class.active]="style=='crustAbundance'"
+           (click)="setStyle('crustAbundance')">
+           <mat-icon>terrain</mat-icon>
+        <p class="iconDescription">Crust Abundance</p>
+      </div>
+      <div class="icon-container float-left" [class.active]="style=='humanAbundance'"
+           (click)="setStyle('humanAbundance')">
+           <mat-icon>person</mat-icon>
+        <p class="iconDescription">Human Abundance</p>
+      </div>
+      <div class="icon-container float-left" [class.active]="style=='universeAbundance'"
+           (click)="setStyle('universeAbundance')">
+           <mat-icon>stars</mat-icon>
+        <p class="iconDescription">Universe Abundance</p>
+      </div>
+      <div class="icon-container float-left" [class.active]="style=='discoveryYear'"
+           (click)="setStyle('discoveryYear')">
+        <mat-icon>av_timer</mat-icon>
+        <p class="iconDescription">Discovery Date</p>
+      </div>
+      <hr>
+    </div>
+
+
+    <!--YEAR CONTROLS FOR CHRONOLOGICAL ORDER-->
+    <year-controls-component *ngIf="style === 'discoveryYear'" [elementYears]="elementYears" [year]="year"
+                             (setYear)="setYear($event)"></year-controls-component>
+
+    <!--TABLE-->
+
+
+    <div class="table float-left" ngClass="{{style}}">
+      <div *ngFor="let e of elements;" id="{{e['basic properties'].symbol}}"
+           (click)="(style=== 'classic' || style === 'discoveryYear') ? showMore(e, $event) : ''"
+           ngClass="{{e['basic properties'].type}} {{e['basic properties']['year discovered'] > year? 'undiscovered' : 'discovered'}}"
+           class="element">
+        <div class='element-number text-center'>{{e['basic properties']['atomic number']}}</div>
+        <div class='element-symbol text-center'>{{e['basic properties'].symbol}}</div>
+        <div class='element-weight text-center'>{{e['basic properties']['atomic mass'] | atomicMass}}</div>
+      </div>
+    </div>
+
+    <!--SHOW RANKING BUTTON-->
+
+    <div *ngIf="(!moreInfo) && style !== 'classic'" class="rankingButton text-center" (click)="showRankTable()">
+      <span octicon='list-ordered' size="20.5"></span>
+      <span class="iconDescription">View List {{style== 'discoveryYear' ? 'By Discovery Order' : 'Ranked By Mass'}}</span>
+    </div>
+
+    <!--FOOTER -->
+
+    <footer class="footer text-center">
+      <hr>
+      <p>Designed by <a href="http://www.miketruax.com" target="_blank">Mike Truax</a></p>
+      <p><a href="https://www.github.com/miketruax/periodic-table/" target="_blank">See The Code</a></p>
+    </footer>
+
+  </div>
+  <!--ELEMENT RANKING -->
+
+  <element-ranking-component *ngIf="showRanking" (closeRanking)="hideRankTable($event)"
+                             [style]="style" [elements]="elements | ranking:style"></element-ranking-component>
+
+
+  <!--ELEMENT INFO-->
+
+  <element-info-component id="element-info" (hideMore)="hideMore($event)" *ngIf="moreInfo"
+                          [element]="selectedElement" [startTop]="box.top"
+                          [startLeft]="box.left"></element-info-component>
+
+  <!--PORTFOLIO EXIT-->
+
+</div>

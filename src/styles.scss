@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+table-component{
+    background-color: white;
+    overflow-y:hidden;
+  }
+  
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+  
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  
+            .octicon {
+              display: inline-block;
+              vertical-align: text-top;
+              fill: currentColor;
+            }
+  
