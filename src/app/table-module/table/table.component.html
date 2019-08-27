@@ -27,8 +27,8 @@
            <mat-icon>stars</mat-icon>
         <p class="iconDescription">Universe Abundance</p>
       </div>
-      <div class="icon-container float-left" [class.active]="style=='discoveryYear'"
-           (click)="setStyle('discoveryYear')">
+      <div class="icon-container float-left" [class.active]="style=='yearDiscovered'"
+           (click)="setStyle('yearDiscovered')">
         <mat-icon>av_timer</mat-icon>
         <p class="iconDescription">Discovery Date</p>
       </div>
@@ -37,20 +37,20 @@
 
 
     <!--YEAR CONTROLS FOR CHRONOLOGICAL ORDER-->
-    <year-controls-component *ngIf="style === 'discoveryYear'" [elementYears]="elementYears" [year]="year"
+    <year-controls-component *ngIf="style === 'yearDiscovered'" [elementYears]="elementYears" [year]="year"
                              (setYear)="setYear($event)"></year-controls-component>
 
     <!--TABLE-->
 
 
     <div class="table float-left" ngClass="{{style}}">
-      <div *ngFor="let e of elements;" id="{{e['basic properties'].symbol}}"
-           (click)="(style=== 'classic' || style === 'discoveryYear') ? showMore(e, $event) : ''"
-           ngClass="{{e['basic properties'].type}} {{e['basic properties']['year discovered'] > year? 'undiscovered' : 'discovered'}}"
+      <div *ngFor="let e of elements;" id="{{e.basicProperties.symbol}}"
+           (click)="(style=== 'classic' || style === 'yearDiscovered') ? showMore(e, $event) : ''"
+           ngClass="{{e.basicProperties.type}} {{e.basicProperties['year discovered'] > year? 'undiscovered' : 'discovered'}}"
            class="element">
-        <div class='element-number text-center'>{{e['basic properties']['atomic number']}}</div>
-        <div class='element-symbol text-center'>{{e['basic properties'].symbol}}</div>
-        <div class='element-weight text-center'>{{e['basic properties']['atomic mass'] | atomicMass}}</div>
+        <div class='element-number text-center'>{{e.basicProperties.atomicNumber}}</div>
+        <div class='element-symbol text-center'>{{e.basicProperties.symbol}}</div>
+        <div class='element-weight text-center'>{{e.basicProperties.atomic mass | atomicMass}}</div>
       </div>
     </div>
 
@@ -58,7 +58,7 @@
 
     <div *ngIf="(!moreInfo) && style !== 'classic'" class="rankingButton text-center" (click)="showRankTable()">
       <span octicon='list-ordered' size="20.5"></span>
-      <span class="iconDescription">View List {{style== 'discoveryYear' ? 'By Discovery Order' : 'Ranked By Mass'}}</span>
+      <span class="iconDescription">View List {{style== 'yearDiscovered' ? 'By Discovery Order' : 'Ranked By Mass'}}</span>
     </div>
 
     <!--FOOTER -->
