@@ -9,7 +9,7 @@ export class ElementRankingComponent {
   @Input() elements: Object[];
   @Input() style: string;
   @Output() closeRanking = new EventEmitter();
-
+  displayedColumns: string[] = ["position", "'basic properties'['name']", "'basic properties'['atomic mass']", "weight", "symbol"];
   constructor(){
   }
 

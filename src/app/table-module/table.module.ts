@@ -5,7 +5,6 @@ import {ElementInfoComponent} from "./element-info/element-info.component";
 import {ElementType} from "./shared/pipes/elementType.pipe";
 import {RankingPipe} from "./element-ranking/pipes/ranking.pipe";
 import {ElementRankingComponent} from "./element-ranking/element-ranking.component";
-import {RankingInfoPipe} from "./element-ranking/pipes/rankingInfo.pipe";
 import {KeysPipe} from "./shared/pipes/keys.pipe";
 import {YearControlsComponent} from './year-controls/year-controls.component'
 import {CommonModule} from "@angular/common";
@@ -18,7 +17,7 @@ import { MaterialModule } from './materialModule';
     ElementRankingComponent,
     AtomicMass,
     ElementType,
-    RankingPipe, RankingInfoPipe, KeysPipe, YearControlsComponent
+    RankingPipe, KeysPipe, YearControlsComponent
   ],
   imports: [
     CommonModule, MaterialModule
@@ -28,7 +27,7 @@ import { MaterialModule } from './materialModule';
     ElementRankingComponent,
     AtomicMass,
     ElementType,
-    RankingPipe, RankingInfoPipe, KeysPipe, YearControlsComponent]
+    RankingPipe, KeysPipe, YearControlsComponent]
 
 })
 export class TableModule { }
