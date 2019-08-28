@@ -1,9 +1,9 @@
 <div class="info-container">
   <div class="ranking-container">
-  <h2 class="text-center rank-heading text-capitalize">{{rankHeader()}}
-    <div class="exit" (click)="closeRanking.emit()" >
-      <span octicon="x" size="15"></span>
-    </div>
+  <h2 class="text-center rank-heading text-capitalize">{{style | sentenceCase}}
+      <button mat-icon-button aria-label="Exit">
+      <mat-icon [routerLink]="['/']" aria-hidden="false" aria-label="Example home icon">close</mat-icon>
+      </button>
   </h2>
 
 <table mat-table [dataSource]="elements" class="mat-elevation-z8">
@@ -19,5 +19,5 @@
 </table>
 
 </div>
-<button class="float-right close-button text-center pointer" (click)="closeRanking.emit()">Close</button>
+<button mat-raised-button color="primary" class="float-right close-button text-center pointer">Close</button>
 </div>

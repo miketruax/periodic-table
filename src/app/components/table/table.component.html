@@ -44,8 +44,8 @@
 
 
     <div class="table float-left" ngClass="{{style}}">
-      <div *ngFor="let e of elements;" id="{{e.basicProperties.symbol}}"
-           (click)="(style=== 'classic' || style === 'yearDiscovered') ? showMore(e, $event) : ''"
+      <div *ngFor="let e of elements; let i = index" id="{{e.basicProperties.symbol}}"
+          (click)="setStyle()" [routerLink]="['/element-info/'+e.basicProperties.name]" 
            ngClass="{{e.basicProperties.type}} {{e.basicProperties.yearDiscovered > year? 'undiscovered' : 'discovered'}}"
            class="element">
         <div class='element-number text-center'>{{e.basicProperties.atomicNumber}}</div>
@@ -56,7 +56,7 @@
 
     <!--SHOW RANKING BUTTON-->
 
-    <div *ngIf="(!moreInfo) && style !== 'classic'" class="rankingButton text-center" (click)="showRankTable()">
+    <div *ngIf="(!moreInfo) && style !== 'classic'" class="rankingButton text-center" [routerLink]="['/ranking/'+style]">
       <span octicon='list-ordered' size="20.5"></span>
       <span class="iconDescription">View List {{style== 'yearDiscovered' ? 'By Discovery Order' : 'Ranked By Mass'}}</span>
     </div>
@@ -72,16 +72,5 @@
   </div>
   <!--ELEMENT RANKING -->
 
-  <element-ranking-component *ngIf="showRanking" (closeRanking)="hideRankTable($event)"
-                             [style]="style" [elements]="elements | ranking:style"></element-ranking-component>
-
-
-  <!--ELEMENT INFO-->
-
-  <element-info-component id="element-info" (hideMore)="hideMore($event)" *ngIf="moreInfo"
-                          [element]="selectedElement" [startTop]="box.top"
-                          [startLeft]="box.left"></element-info-component>
-
-  <!--PORTFOLIO EXIT-->
 
 </div>

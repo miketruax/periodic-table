@@ -6,34 +6,34 @@ export interface PeriodicElement {
     reactivity?: Reactivity,
     atomicProperties?: AtomicProperties,
     abundances?: Abundances,
-    nuclearProperties: NuclearProperties,
-    electronInformation: ElectronInformation
+    nuclearProperties?: NuclearProperties,
+    electronInformation?: ElectronInformation
 }
 
 interface BasicProperties{
     name?: string,
     symbol?: string,
-    atomicNumber?: string
+    atomicNumber?: number,
     atomicMass?: string,
     yearDiscovered?: number,
     type?: string
 }
 
 interface ThermodynamicProperties{
-    phaseAtSTP?: string,
-    meltingPoint?: string,
-    boilingPoint?: string,
-    meltingPointRank?: string,
-    boilingPointRank?: string,
+    phaseAtSTP?: string | Array<string>,
+    meltingPoint?: string | Array<string>,
+    boilingPoint?: string | Array<string>,
+    meltingPointRank?: number,
+    boilingPointRank?: number,
 }
 
 interface MaterialProperties{
     density?: string | Array<string>,
     soundSpeed?: string
     thermalConductivity?: string
-    densityRank?: string,
-    thermalConductivityRank?: string,
-    soundSpeedRank?: string
+    densityRank?: number,
+    thermalConductivityRank?: number,
+    soundSpeedRank?: number
 }
 
 interface ElectromagneticProperties{
@@ -46,7 +46,7 @@ interface Reactivity{
     valence?: string,
     electronegativity?: string,
     electronAffinity?: string,
-    firstIonizationEnergy: string
+    firstIonizationEnergy?: string
 }
 
 interface AtomicProperties{
@@ -58,9 +58,9 @@ interface Abundances{
     universeAbundance?: string,
     crustAbundance?: string,
     humanAbundance?: string,
-    universeAbundanceRank?: string,
-    crustAbundanceRank?: string,
-    humanAbundanceRank?: string
+    universeAbundanceRank?: number,
+    crustAbundanceRank?: number,
+    humanAbundanceRank?: number
 }
 
 interface NuclearProperties{

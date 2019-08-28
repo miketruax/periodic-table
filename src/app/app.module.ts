@@ -9,7 +9,6 @@ import { ElementInfoComponent } from './components/element-info/element-info.com
 import { ElementRankingComponent } from './components/element-ranking/element-ranking.component';
 import { AtomicMass } from './shared/pipes/atomicMass.pipe';
 import { ElementType } from './shared/pipes/elementType.pipe';
-import { RankingPipe } from './shared/pipes/ranking.pipe';
 import { YearControlsComponent } from './components/year-controls/year-controls.component';
 import { SentenceCase } from './shared/pipes/sentenceCase.pipe';
 
@@ -20,8 +19,7 @@ import { SentenceCase } from './shared/pipes/sentenceCase.pipe';
     ElementInfoComponent,
     ElementRankingComponent,
     AtomicMass,
-    ElementType, SentenceCase,
-    RankingPipe, YearControlsComponent
+    ElementType, SentenceCase, YearControlsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,28 +1,24 @@
-
-  <div id="{{element.basicProperties.symbol}}"
-       ngClass="{{element.basicProperties.type}}"
-       class="element" [style.left]="startLeft" [style.top]="startTop">
-    <div class='element-number text-center'>{{element.basicProperties.atomicNumber}}</div>
-    <div class='element-symbol text-center'>{{element.basicProperties.symbol}}</div>
-    <div class='element-weight text-center'>{{element.basicProperties.atomicMass | atomicMass}}</div>
-</div>
 <div class="info-container">
-    <div class="exit" (click)="hideMore.emit({})">
-      <span octicon="x" size="15"></span>
-    </div>
+    <button mat-icon-button aria-label="Exit">
+        <mat-icon [routerLink]="['/']" aria-hidden="false" aria-label="Example home icon">close</mat-icon>
+        </button>
   <div class="top-circle" ngClass="{{element.basicProperties.type}}">
     <p class="symbol text-center">{{element.basicProperties.symbol}}</p>
     <p class="atomic-number text-center">{{element.basicProperties.atomicNumber}}</p>
   </div>
 
+<mat-accordion multi="true">
+  <mat-expansion-panel *ngFor="let el  of element | keyvalue:keepOrder" [expanded]="true">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{el.key | sentenceCase}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="float-left info" *ngFor="let info of element[el.key] | keyvalue:keepOrder">
+          <b class="text-capitalize float-left">{{info.key | sentenceCase}}: </b><span class="float-right"> {{info.value}}</span>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
 
-<div class="info-section" *ngFor="let el of element | keyvalue">
-  <h5 class="text-center info-header text-uppercase">{{el.key}}:</h5>
-  <div class="float-left info" *ngFor="let info of element[el.key] | keyvalue">
-    <b class="text-capitalize float-left">{{info.key | sentenceCase}}: </b><span class="float-right"> {{info.value}}</span>
-  </div>
-</div>
-
-
-  <button class="float-right close-button text-center pointer" (click)="hideMore.emit({})">Close</button>
+  <button mat-raised-button color="primary"  class="float-right close-button text-center pointer" [routerLink]="['/']">Close</button>
 </div>
