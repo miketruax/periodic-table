@@ -1,10 +1,10 @@
 import {Component, Input, Output, EventEmitter, OnInit} from '@angular/core';
-import { PeriodicElement } from '../interfaces/element.interface';
+import { PeriodicElement } from 'src/app/interfaces/element.interface';
 
 @Component({
   selector: 'element-ranking-component',
   templateUrl: './element-ranking.component.html',
-  styleUrls: ['../shared/styles/table.component.scss','./element-ranking.component.scss']
+  styleUrls: ['../../shared/styles/table.component.scss','./element-ranking.component.scss']
 })
 export class ElementRankingComponent implements OnInit{
   @Input() elements: Object[];

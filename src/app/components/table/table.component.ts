@@ -1,11 +1,11 @@
 import {Component, OnInit} from '@angular/core';
-import elements from "./elem_v3";
-import { PeriodicElement } from '../interfaces/element.interface';
+import elements from "../../shared/elem_v3";
+import { PeriodicElement } from '../../interfaces/element.interface';
 
 @Component({
   selector: 'table-component',
   templateUrl: './table.component.html',
-  styleUrls: ['../shared/styles/table.component.scss']
+  styleUrls: ['../../shared/styles/table.component.scss']
 })
 export class TableComponent implements OnInit {
   moreInfo: boolean = false;

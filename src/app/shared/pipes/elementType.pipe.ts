@@ -4,8 +4,5 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class ElementType implements PipeTransform {
   transform(type: string) {
     return type.replace(/-/g, ' ');
-
-
-
   }
 }

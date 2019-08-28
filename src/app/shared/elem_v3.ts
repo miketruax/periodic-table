@@ -151,7 +151,7 @@ export default  [
             "youngsModulusRank": 61
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "9.4×10^-8 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -221,7 +221,7 @@ export default  [
             "youngsModulusRank": 6
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "4×10^-8 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "superconducting point": "0.026 K  (kelvins)",
@@ -286,7 +286,7 @@ export default  [
             "soundSpeedRank": 2
         },
         "electromagneticProperties": {
-            "electrical type": "insulator",
+            "electricalType": "insulator",
             "resistivity": "10000 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (black)"
@@ -358,7 +358,7 @@ export default  [
             "soundSpeedRank": 1
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1×10^-5 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (black)",
@@ -669,7 +669,7 @@ export default  [
             "youngsModulusRank": 57
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "4.7×10^-8 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -735,7 +735,7 @@ export default  [
             "youngsModulusRank": 44
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "4.4×10^-8 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -803,7 +803,7 @@ export default  [
             "youngsModulusRank": 29
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "2.6×10^-8 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "1.175 K  (kelvins)",
@@ -870,7 +870,7 @@ export default  [
             "youngsModulusRank": 42
         },
         "electromagneticProperties": {
-            "electrical type": "semiconductor",
+            "electricalType": "semiconductor",
             "resistivity": "0.001 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (gray)"
@@ -936,7 +936,7 @@ export default  [
             "thermalConductivityRank": 81
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1×10^-7 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (colorless)",
@@ -1002,7 +1002,7 @@ export default  [
             "thermalConductivityRank": 82
         },
         "electromagneticProperties": {
-            "electrical type": "insulator",
+            "electricalType": "insulator",
             "resistivity": "1×10^15 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (yellow)",
@@ -1066,7 +1066,7 @@ export default  [
             "soundSpeedRank": 72
         },
         "electromagneticProperties": {
-            "electrical type": "insulator",
+            "electricalType": "insulator",
             "resistivity": "100 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (yellow)",
@@ -1191,7 +1191,7 @@ export default  [
             "soundSpeedRank": 54
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "7×10^-8 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -1260,7 +1260,7 @@ export default  [
             "youngsModulusRank": 52
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "3.4×10^-8 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -1326,7 +1326,7 @@ export default  [
             "youngsModulusRank": 27
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "5.5×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "0.05 K  (kelvins)",
@@ -1385,7 +1385,7 @@ export default  [
             "youngsModulusRank": 19
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "4×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "0.4 K  (kelvins)",
@@ -1433,7 +1433,7 @@ export default  [
             "youngsModulusRank": 17
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "2×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "5.4 K  (kelvins)",
@@ -1500,7 +1500,7 @@ export default  [
             "youngsModulusRank": 7
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.3×10^-7 Ω m  (ohm meters)",
             "magneticType": "antiferromagnetic",
             "color": " (silver)"
@@ -1548,7 +1548,7 @@ export default  [
             "youngsModulusRank": 13
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.6×10^-6 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -1615,7 +1615,7 @@ export default  [
             "youngsModulusRank": 9
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "9.7×10^-8 Ω m  (ohm meters)",
             "magneticType": "ferromagnetic",
             "color": " (gray)"
@@ -1675,7 +1675,7 @@ export default  [
             "youngsModulusRank": 10
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "6×10^-8 Ω m  (ohm meters)",
             "magneticType": "ferromagnetic",
             "color": " (gray)"
@@ -1742,7 +1742,7 @@ export default  [
             "youngsModulusRank": 12
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "7×10^-8 Ω m  (ohm meters)",
             "magneticType": "ferromagnetic",
             "color": " (gray)"
@@ -1810,7 +1810,7 @@ export default  [
             "youngsModulusRank": 16
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.7×10^-8 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (copper)"
@@ -1879,7 +1879,7 @@ export default  [
             "youngsModulusRank": 20
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "5.9×10^-8 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "superconducting point": "0.85 K  (kelvins)",
@@ -1947,7 +1947,7 @@ export default  [
             "soundSpeedRank": 37
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.4×10^-7 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "superconducting point": "1.083 K  (kelvins)",
@@ -2013,7 +2013,7 @@ export default  [
             "soundSpeedRank": 8
         },
         "electromagneticProperties": {
-            "electrical type": "semiconductor",
+            "electricalType": "semiconductor",
             "resistivity": "5×10^-4 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (gray)"
@@ -2079,7 +2079,7 @@ export default  [
             "youngsModulusRank": 59
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "3×10^-7 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (silver)",
@@ -2208,7 +2208,7 @@ export default  [
             "thermalConductivityRank": 85
         },
         "electromagneticProperties": {
-            "electrical type": "insulator",
+            "electricalType": "insulator",
             "resistivity": "1×10^10 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (red)",
@@ -2336,7 +2336,7 @@ export default  [
             "youngsModulusRank": 62
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.2×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -2398,7 +2398,7 @@ export default  [
             "thermalExpansionRank": 14
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.3×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -2466,7 +2466,7 @@ export default  [
             "youngsModulusRank": 34
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "5.6×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "1.3 K  (kelvins)",
@@ -2532,7 +2532,7 @@ export default  [
             "youngsModulusRank": 32
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "4.2×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "0.61 K  (kelvins)",
@@ -2601,7 +2601,7 @@ export default  [
             "youngsModulusRank": 21
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.5×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "9.25 K  (kelvins)",
@@ -2666,7 +2666,7 @@ export default  [
             "youngsModulusRank": 5
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "5×10^-8 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "0.915 K  (kelvins)",
@@ -2729,7 +2729,7 @@ export default  [
             "thermalConductivityRank": 34
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "2×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "7.8 K  (kelvins)",
@@ -2789,7 +2789,7 @@ export default  [
             "youngsModulusRank": 3
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "7.1×10^-8 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "0.49 K  (kelvins)",
@@ -2856,7 +2856,7 @@ export default  [
             "youngsModulusRank": 8
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "4.3×10^-8 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -2920,7 +2920,7 @@ export default  [
             "youngsModulusRank": 18
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -2986,7 +2986,7 @@ export default  [
             "youngsModulusRank": 23
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.6×10^-8 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (silver)"
@@ -3053,7 +3053,7 @@ export default  [
             "youngsModulusRank": 39
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "7×10^-8 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "superconducting point": "0.517 K  (kelvins)",
@@ -3122,7 +3122,7 @@ export default  [
             "youngsModulusRank": 56
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "8×10^-8 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "superconducting point": "3.41 K  (kelvins)",
@@ -3194,7 +3194,7 @@ export default  [
             "youngsModulusRank": 39
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.1×10^-7 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "superconducting point": "3.72 K  (kelvins)",
@@ -3263,7 +3263,7 @@ export default  [
             "youngsModulusRank": 37
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "4×10^-7 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (silver)"
@@ -3328,7 +3328,7 @@ export default  [
             "youngsModulusRank": 45
         },
         "electromagneticProperties": {
-            "electrical type": "semiconductor",
+            "electricalType": "semiconductor",
             "resistivity": "1×10^-4 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (silver)",
@@ -3388,7 +3388,7 @@ export default  [
             "thermalConductivityRank": 80
         },
         "electromagneticProperties": {
-            "electrical type": "insulator",
+            "electricalType": "insulator",
             "resistivity": "1×10^7 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (slate gray)"
@@ -3510,7 +3510,7 @@ export default  [
             "youngsModulusRank": 63
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "2×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -3576,7 +3576,7 @@ export default  [
             "youngsModulusRank": 55
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "3.5×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -3641,7 +3641,7 @@ export default  [
             "youngsModulusRank": 25
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "3×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "0.128 K  (kelvins)",
@@ -3704,7 +3704,7 @@ export default  [
             "youngsModulusRank": 14
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.3×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "4.47 K  (kelvins)",
@@ -3768,7 +3768,7 @@ export default  [
             "youngsModulusRank": 4
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "5×10^-8 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "0.015 K  (kelvins)",
@@ -3816,7 +3816,7 @@ export default  [
             "youngsModulusRank": 2
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.8×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "1.7 K  (kelvins)",
@@ -3877,7 +3877,7 @@ export default  [
             "soundSpeedRank": 13
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "8.1×10^-8 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "0.66 K  (kelvins)",
@@ -3940,7 +3940,7 @@ export default  [
             "youngsModulusRank": 1
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "4.7×10^-8 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "0.11 K  (kelvins)",
@@ -4006,7 +4006,7 @@ export default  [
             "youngsModulusRank": 15
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.1×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (gray)"
@@ -4068,7 +4068,7 @@ export default  [
             "youngsModulusRank": 25
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "2.2×10^-8 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (gold)"
@@ -4129,7 +4129,7 @@ export default  [
             "soundSpeedRank": 59
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "9.6×10^-7 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "superconducting point": "4.154 K  (kelvins)",
@@ -4193,7 +4193,7 @@ export default  [
             "youngsModulusRank": 59
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.5×10^-7 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "superconducting point": "2.38 K  (kelvins)",
@@ -4259,7 +4259,7 @@ export default  [
             "youngsModulusRank": 54
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "2.1×10^-7 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "superconducting point": "7.2 K  (kelvins)",
@@ -4324,7 +4324,7 @@ export default  [
             "youngsModulusRank": 50
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.3×10^-6 Ω m  (ohm meters)",
             "magneticType": "diamagnetic",
             "color": " (gray)"
@@ -4378,7 +4378,7 @@ export default  [
             "densityRank": 31
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "4.3×10^-7 Ω m  (ohm meters)",
             "color": " (silver)"
         },
@@ -4551,7 +4551,7 @@ export default  [
             "thermalConductivityRank": 51
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1×10^-6 Ω m  (ohm meters)",
             "color": " (silver)"
         },
@@ -5000,7 +5000,7 @@ export default  [
             "youngsModulusRank": 47
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "6.1×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "4.88 K  (kelvins)",
@@ -5064,7 +5064,7 @@ export default  [
             "youngsModulusRank": 49
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "7.4×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "0.022 K  (kelvins)",
@@ -5128,7 +5128,7 @@ export default  [
             "youngsModulusRank": 47
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "7×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -5191,7 +5191,7 @@ export default  [
             "youngsModulusRank": 46
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "6.4×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -5252,7 +5252,7 @@ export default  [
             "youngsModulusRank": 43
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "7.5×10^-7 Ω m  (ohm meters)",
             "color": " (silver)"
         },
@@ -5309,7 +5309,7 @@ export default  [
             "youngsModulusRank": 39
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "9.4×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -5369,7 +5369,7 @@ export default  [
             "youngsModulusRank": 53
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "9×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "1.8 K  (kelvins)",
@@ -5435,7 +5435,7 @@ export default  [
             "youngsModulusRank": 37
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.3×10^-6 Ω m  (ohm meters)",
             "magneticType": "ferromagnetic",
             "color": " (silver)"
@@ -5498,7 +5498,7 @@ export default  [
             "youngsModulusRank": 36
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.2×10^-6 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -5560,7 +5560,7 @@ export default  [
             "youngsModulusRank": 35
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "9.1×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -5623,7 +5623,7 @@ export default  [
             "youngsModulusRank": 33
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "9.4×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -5686,7 +5686,7 @@ export default  [
             "youngsModulusRank": 29
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "8.6×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -5747,7 +5747,7 @@ export default  [
             "youngsModulusRank": 27
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "7×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -5809,7 +5809,7 @@ export default  [
             "youngsModulusRank": 51
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "2.8×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"
@@ -5869,7 +5869,7 @@ export default  [
             "youngsModulusRank": 31
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "5.6×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "0.1 K  (kelvins)",
@@ -5981,7 +5981,7 @@ export default  [
             "youngsModulusRank": 24
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.5×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "1.38 K  (kelvins)",
@@ -6038,7 +6038,7 @@ export default  [
             "thermalConductivityRank": 37
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.8×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "1.4 K  (kelvins)",
@@ -6099,7 +6099,7 @@ export default  [
             "youngsModulusRank": 11
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "2.8×10^-7 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "superconducting point": "0.68 K  (kelvins)",
@@ -6157,7 +6157,7 @@ export default  [
             "thermalConductivityRank": 75
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.2×10^-6 Ω m  (ohm meters)",
             "color": " (silver)"
         },
@@ -6211,7 +6211,7 @@ export default  [
             "youngsModulusRank": 22
         },
         "electromagneticProperties": {
-            "electrical type": "conductor",
+            "electricalType": "conductor",
             "resistivity": "1.5×10^-6 Ω m  (ohm meters)",
             "magneticType": "paramagnetic",
             "color": " (silver)"

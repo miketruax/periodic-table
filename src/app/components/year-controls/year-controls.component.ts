@@ -1,11 +1,10 @@
 import {Component, Input, Output, EventEmitter, OnDestroy} from '@angular/core';
-import {SafeHtml} from "@angular/platform-browser";
 
 
 @Component({
   selector: 'year-controls-component',
   templateUrl: './year-controls.component.html',
-  styleUrls: ['../shared/styles/table.component.scss','./year-controls.component.scss']
+  styleUrls: ['../../shared/styles/table.component.scss','./year-controls.component.scss']
 })
 export class YearControlsComponent implements OnDestroy{
   @Input() year: number;
