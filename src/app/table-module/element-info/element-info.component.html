@@ -1,18 +1,18 @@
 
-  <div id="{{element['basic properties'].symbol}}"
-       ngClass="{{element['basic properties'].type}}"
+  <div id="{{element.basicProperties.symbol}}"
+       ngClass="{{element.basicProperties.type}}"
        class="element" [style.left]="startLeft" [style.top]="startTop">
-    <div class='element-number text-center'>{{element['basic properties']['atomic number']}}</div>
-    <div class='element-symbol text-center'>{{element['basic properties'].symbol}}</div>
-    <div class='element-weight text-center'>{{element['basic properties']['atomic mass'] | atomicMass}}</div>
+    <div class='element-number text-center'>{{element.basicProperties.atomicNumber}}</div>
+    <div class='element-symbol text-center'>{{element.basicProperties.symbol}}</div>
+    <div class='element-weight text-center'>{{element.basicProperties.atomicMass | atomicMass}}</div>
 </div>
 <div class="info-container">
     <div class="exit" (click)="hideMore.emit({})">
       <span octicon="x" size="15"></span>
     </div>
-  <div class="top-circle" ngClass="{{element['basic properties'].type}}">
-    <p class="symbol text-center">{{element['basic properties'].symbol}}</p>
-    <p class="atomic-number text-center">{{element['basic properties']['atomic number']}}</p>
+  <div class="top-circle" ngClass="{{element.basicProperties.type}}">
+    <p class="symbol text-center">{{element.basicProperties.symbol}}</p>
+    <p class="atomic-number text-center">{{element.basicProperties.atomicNumber}}</p>
   </div>
 
 

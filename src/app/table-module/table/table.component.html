@@ -46,11 +46,11 @@
     <div class="table float-left" ngClass="{{style}}">
       <div *ngFor="let e of elements;" id="{{e.basicProperties.symbol}}"
            (click)="(style=== 'classic' || style === 'yearDiscovered') ? showMore(e, $event) : ''"
-           ngClass="{{e.basicProperties.type}} {{e.basicProperties['year discovered'] > year? 'undiscovered' : 'discovered'}}"
+           ngClass="{{e.basicProperties.type}} {{e.basicProperties.yearDiscovered > year? 'undiscovered' : 'discovered'}}"
            class="element">
         <div class='element-number text-center'>{{e.basicProperties.atomicNumber}}</div>
         <div class='element-symbol text-center'>{{e.basicProperties.symbol}}</div>
-        <div class='element-weight text-center'>{{e.basicProperties.atomic mass | atomicMass}}</div>
+        <div class='element-weight text-center'>{{e.basicProperties.atomicMass | atomicMass}}</div>
       </div>
     </div>
 

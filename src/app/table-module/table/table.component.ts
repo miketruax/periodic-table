@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import elements from "./elem_v3";
+import { PeriodicElement } from '../interfaces/element.interface';
 
 @Component({
   selector: 'table-component',
@@ -21,8 +22,8 @@ export class TableComponent implements OnInit {
 
   constructor() {
     this.elements =  elements;
-    this.elements.forEach((v, i) =>{
-      this.elementYears.push(v['basic properties']['year discovered']);
+    this.elements.forEach((v:PeriodicElement, i) =>{
+      this.elementYears.push(v.basicProperties.yearDiscovered);
     });
     this.elementYears.sort((a,b)=>{
       return a-b;
