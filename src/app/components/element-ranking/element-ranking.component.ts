@@ -1,4 +1,4 @@
-import {Component, Input, Output, EventEmitter, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { PeriodicElement } from 'src/app/interfaces/element.interface';
 import { ElementService } from 'src/app/services/element.service';
 import { ActivatedRoute } from '@angular/router';
@@ -23,10 +23,9 @@ export class ElementRankingComponent implements OnInit{
     let header = this.style == 'yearDiscovered' ? 'Year' : '% By Mass';
 
     this.columns = [
-      { columnDef: `${propName}.${this.style}Rank`,    header: 'No.', cell: (row: PeriodicElement) => `${row[propName][this.style+'Rank']}`        },
-      // { columnDef: 'basicProperties.symbol',  header: 'Symbol', cell: (row: PeriodicElement) => `${row.basicProperties.symbol}` },
-      { columnDef: 'basicProperties.name',  header: 'Name', cell: (row: PeriodicElement) => `${row.basicProperties.name}` },
-      { columnDef: `${propName}.${this.style}`,  header: header, cell: (row: PeriodicElement) => `${row[propName][this.style]}` }
+      { columnDef: `${propName}.${this.style}Rank`,    header: 'No.', cell: (row: PeriodicElement) => `${row[propName][this.style+'Rank']}`, class: (row: PeriodicElement)=> row.basicProperties.type},
+      { columnDef: 'basicProperties.name',  header: 'Name', cell: (row: PeriodicElement) => `${row.basicProperties.name}`, class: (row: PeriodicElement)=> row.basicProperties.type },
+      { columnDef: `${propName}.${this.style}`,  header: header, cell: (row: PeriodicElement) => `${row[propName][this.style]}`, class: (row: PeriodicElement)=> row.basicProperties.type }
     ];
     
     /** Column definitions in order */

@@ -28,7 +28,6 @@ export class ElementService {
   rankedElements(type){
     let validTypes = ["yearDiscovered", "crustAbundance", "humanAbundance", "universeAbundance"];
     if(!validTypes.includes(type)){
-        
         this.router.navigate(['/'])
         return [];
     }
@@ -43,11 +42,12 @@ export class ElementService {
           return false
         });
       }
+      
       ret = ret.sort((a,b)=>{
-          if(a[property][type] > b[property][type]){
+          if(a[property][`${type}Rank`] > b[property][`${type}Rank`]){
               return 1
           }
-          if(a[property][type] < b[property][type]){
+          if(a[property][`${type}Rank`] < b[property][`${type}Rank`]){
             return -1
           }
           return 0

@@ -13,7 +13,7 @@
 
   <ng-container *ngFor="let column of columns;" [cdkColumnDef]="column.columnDef">
     <mat-header-cell *cdkHeaderCellDef>{{ column.header }}</mat-header-cell>
-    <mat-cell *cdkCellDef="let row">{{ column.cell(row) }}</mat-cell>
+    <mat-cell [class]="column.class(row)" *cdkCellDef="let row">{{ column.cell(row) }}</mat-cell>
   </ng-container>
 
 </table>

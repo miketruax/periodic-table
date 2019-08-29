@@ -6,48 +6,42 @@
 
     <!--TOP MENU -->
 
-    <div class="menu-container float-left">
-      <div class="icon-container float-left" [class.active]="style=='classic'"
-           (click)="setStyle('classic')">
+    <mat-button-toggle-group name="tableStyle" aria-label="Table Style" [(ngModel)]="style">
+      <mat-button-toggle class="icon-container" value="classic">
         <mat-icon>table_chart</mat-icon>
-        <p class="iconDescription">Standard View</p>
-      </div>
-      <div class="icon-container float-left" [class.active]="style=='crustAbundance'"
-           (click)="setStyle('crustAbundance')">
-           <mat-icon>terrain</mat-icon>
-        <p class="iconDescription">Crust Abundance</p>
-      </div>
-      <div class="icon-container float-left" [class.active]="style=='humanAbundance'"
-           (click)="setStyle('humanAbundance')">
-           <mat-icon>person</mat-icon>
-        <p class="iconDescription">Human Abundance</p>
-      </div>
-      <div class="icon-container float-left" [class.active]="style=='universeAbundance'"
-           (click)="setStyle('universeAbundance')">
-           <mat-icon>stars</mat-icon>
-        <p class="iconDescription">Universe Abundance</p>
-      </div>
-      <div class="icon-container float-left" [class.active]="style=='yearDiscovered'"
-           (click)="setStyle('yearDiscovered')">
+        Standard View
+      </mat-button-toggle >
+      <mat-button-toggle  class="icon-container" value="crustAbundance">
+        <mat-icon>terrain</mat-icon>
+        Crust Abundance
+      </mat-button-toggle >
+      <mat-button-toggle  class="icon-container" value="humanAbundance">
+        <mat-icon>person</mat-icon>
+        Human Abundance
+      </mat-button-toggle >
+      <mat-button-toggle  class="icon-container" value="universeAbundance">
+        <mat-icon>stars</mat-icon>
+        Universe Abundance
+      </mat-button-toggle >
+      <mat-button-toggle  class="icon-container" value="yearDiscovered">
         <mat-icon>av_timer</mat-icon>
-        <p class="iconDescription">Discovery Date</p>
-      </div>
-      <hr>
-    </div>
+        Discovery Date
+      </mat-button-toggle >
+    </mat-button-toggle-group>
 
 
     <!--YEAR CONTROLS FOR CHRONOLOGICAL ORDER-->
     <year-controls-component *ngIf="style === 'yearDiscovered'" [elementYears]="elementYears" [year]="year"
-                             (setYear)="setYear($event)"></year-controls-component>
+      (setYear)="setYear($event)"></year-controls-component>
 
     <!--TABLE-->
 
 
-    <div class="table float-left" ngClass="{{style}}">
+    <div class="table " ngClass="{{style}}">
       <div *ngFor="let e of elements; let i = index" id="{{e.basicProperties.symbol}}"
-          (click)="setStyle()" [routerLink]="['/element-info/'+e.basicProperties.name]" 
-           ngClass="{{e.basicProperties.type}} {{e.basicProperties.yearDiscovered > year? 'undiscovered' : 'discovered'}}"
-           class="element">
+        [routerLink]="['/element-info/'+e.basicProperties.name]"
+        ngClass="{{e.basicProperties.type}} {{e.basicProperties.yearDiscovered > year? 'undiscovered' : 'discovered'}}"
+        class="element">
         <div class='element-number text-center'>{{e.basicProperties.atomicNumber}}</div>
         <div class='element-symbol text-center'>{{e.basicProperties.symbol}}</div>
         <div class='element-weight text-center'>{{e.basicProperties.atomicMass | atomicMass}}</div>
@@ -56,9 +50,11 @@
 
     <!--SHOW RANKING BUTTON-->
 
-    <div *ngIf="(!moreInfo) && style !== 'classic'" class="rankingButton text-center" [routerLink]="['/ranking/'+style]">
+    <div *ngIf="(!moreInfo) && style !== 'classic'" class="rankingButton text-center"
+      [routerLink]="['/ranking/'+style]">
       <span octicon='list-ordered' size="20.5"></span>
-      <span class="iconDescription">View List {{style== 'yearDiscovered' ? 'By Discovery Order' : 'Ranked By Mass'}}</span>
+      <span class="iconDescription">View List
+        {{style== 'yearDiscovered' ? 'By Discovery Order' : 'Ranked By Mass'}}</span>
     </div>
 
     <!--FOOTER -->

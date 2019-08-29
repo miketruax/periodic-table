@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from "./materialModule"
+import {FormsModule} from "@angular/forms";
 import { TableComponent } from './components/table/table.component';
 import { ElementInfoComponent } from './components/element-info/element-info.component';
 import { ElementRankingComponent } from './components/element-ranking/element-ranking.component';
@@ -25,7 +26,8 @@ import { SentenceCase } from './shared/pipes/sentenceCase.pipe';
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

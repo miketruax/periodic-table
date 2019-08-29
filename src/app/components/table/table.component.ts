@@ -14,7 +14,6 @@ export class TableComponent implements OnInit {
   elements: Array<PeriodicElement>;
   elementYears: number[] = [];
   year: number = -10000;
-  box: Object = {el: {}, top: '', left: ''};
   transitionStyle: string;
 
 
@@ -27,10 +26,6 @@ export class TableComponent implements OnInit {
     this.elementYears.sort((a,b)=>{
       return a-b;
     });
-  }
-
-  setStyle(s: string) {
-    this.style = s;
   }
 
   setYear(e){
